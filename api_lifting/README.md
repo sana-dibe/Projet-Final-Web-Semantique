@@ -31,13 +31,13 @@ Then, you can test the services using the commands below in a bash.
 CONSTRUCT=construct%20WHERE%20%7B%20%3Fs%20%3Fp%20%3Fo%20%7D%20
 
 curl --header "Accept: text/turtle" \
-  "http://localhost/service/flightlabs/findFlights?query=${CONSTRUCT}&aeroport_iata=AGA"
+  "http://localhost/service/amadeus4dev/cheapestFlights?query=${CONSTRUCT}&departure_iata=MAD&max_Price=1000" 
 
 # URL-encoded query: select * where {?s ?p ?o}
 SELECT='select%20*%20where%20%7B%3Fs%20%3Fp%20%3Fo%7D'
 
 curl --header "Accept: application/sparql-results+json" \
-  "http://localhost/service/flightlabs/findFlights?query=${SELECT}&aeroport_iata=AGA"
+  "http://localhost/service/amadeus4dev/cheapestFlights?query=${CONSTRUCT}&departure_iata=MAD&max_Price=1000" 
 ```
 
 
