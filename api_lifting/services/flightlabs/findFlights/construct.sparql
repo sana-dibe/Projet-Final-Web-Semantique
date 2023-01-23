@@ -1,0 +1,25 @@
+prefix : <http://ns.inria.fr/sparql-micro-service/api#>
+prefix nas: <https://data.nasa.gov/ontologies/atmonto/NAS#> 
+prefix xsd: <http://www.w3.org/2001/XMLSchema#> 
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+prefix atm: <https://data.nasa.gov/ontologies/atmonto/ATM#> 
+
+construct {
+	
+[]  
+    a atm:Flight;
+    nas:iataAirportCode ?departure;
+    nas:iataAirportCode ?arrival;
+    atm:callSign ?icaoFlightNumber;
+    xsd:string ?status 
+  
+}
+ where {
+
+  [ ]  :data [
+	:flight [ :icaoNumber ?icaoFlightNumber ];
+	:departure [ :iataCode ?departure ];
+	:arrival [ :iataCode ?arrival ];
+	:status ?status
+	]
+}

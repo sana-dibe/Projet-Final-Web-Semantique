@@ -1,0 +1,128 @@
+{
+    "success": true,
+    "data": [
+        {
+            "aircraft": {
+                "iataCode": "A319",
+                "icao24": "406133",
+                "icaoCode": "A319",
+                "regNumber": "G-EZFR"
+            },
+            "airline": {
+                "iataCode": "U2",
+                "icaoCode": "EZY"
+            },
+            "arrival": {
+                "iataCode": "AGA",
+                "icaoCode": "GMAD"
+            },
+            "departure": {
+                "iataCode": "LTN",
+                "icaoCode": "EGGW"
+            },
+            "flight": {
+                "iataNumber": "U22213",
+                "icaoNumber": "EZY29LZ",
+                "number": "2213"
+            },
+            "geography": {
+                "altitude": 0,
+                "direction": 118,
+                "latitude": 51.88,
+                "longitude": -0.37
+            },
+            "speed": {
+                "horizontal": 22.224,
+                "isGround": 1,
+                "vspeed": 0
+            },
+            "status": "started",
+            "system": {
+                "squawk": null,
+                "updated": 1670750774
+            }
+        },
+        {
+            "aircraft": {
+                "iataCode": "B738",
+                "icao24": "3964E9",
+                "icaoCode": "B738",
+                "regNumber": "F-GZHJ"
+            },
+            "airline": {
+                "iataCode": "HV",
+                "icaoCode": "TRA"
+            },
+            "arrival": {
+                "iataCode": "AGA",
+                "icaoCode": "GMAD"
+            },
+            "departure": {
+                "iataCode": "ORY",
+                "icaoCode": "LFPO"
+            },
+            "flight": {
+                "iataNumber": "TO3000",
+                "icaoNumber": "TVF78DA",
+                "number": "3000"
+            },
+            "geography": {
+                "altitude": 11277.6,
+                "direction": 208,
+                "latitude": 37.25,
+                "longitude": -4.21
+            },
+            "speed": {
+                "horizontal": 701.908,
+                "isGround": 0,
+                "vspeed": 0
+            },
+            "status": "en-route",
+            "system": {
+                "squawk": null,
+                "updated": 1670751389
+            }
+        },
+        {
+            "aircraft": {
+                "iataCode": "B738",
+                "icao24": "4D226F",
+                "icaoCode": "B738",
+                "regNumber": "9H-QBG"
+            },
+            "airline": {
+                "iataCode": "FR",
+                "icaoCode": "RYR"
+            },
+            "arrival": {
+                "iataCode": "AGA",
+                "icaoCode": "GMAD"
+            },
+            "departure": {
+                "iataCode": "CRL",
+                "icaoCode": "EBCI"
+            },
+            "flight": {
+                "iataNumber": "FR4922",
+                "icaoNumber": "RYR6DL",
+                "number": "4922"
+            },
+            "geography": {
+                "altitude": 10668,
+                "direction": 200,
+                "latitude": 39.66,
+                "longitude": -2.9
+            },
+            "speed": {
+                "horizontal": 722.28,
+                "isGround": 0,
+                "vspeed": 0
+            },
+            "status": "en-route",
+            "system": {
+                "squawk": null,
+                "updated": 1670751390
+            }
+        }
+    ]
+}
