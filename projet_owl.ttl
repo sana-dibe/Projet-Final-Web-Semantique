@@ -8,26 +8,50 @@
     rdfs:label "Site historique" ;
     rdfs:comment "Un lieu historique, tel qu'un château, une forteresse ou un parc archéologique." ;
     owl:equivalentClass [ rdf:type owl:Restriction ;
-                         owl:onProperty :aPourVille ;
-                         owl:someValuesFrom :VilleHistorique
-                       ] ;
+                                    owl:onProperty :aPourVille ;
+                                    owl:someValuesFrom :VilleHistorique
+                        ] ;
     owl:equivalentClass [ rdf:type owl:Restriction ;
-                         owl:onProperty :aPourDateOuverture ;
-                         owl:hasValue "date"
-                       ] ;
-    owl:equivalentClass [ rdf:type owl:Restriction ;                         owl:onProperty :aPourHeuresOuverture ;                         owl:hasValue "time"                       ] ;
-    owl:equivalentClass [ rdf:type owl:Restriction ;                         owl:onProperty :aPourTarifEntree ;                         owl:hasValue "float"                       ] ;
-    owl:equivalentClass [ rdf:type owl:Restriction ;                         owl:onProperty :aPourAvis ;                         owl:hasValue "string"                       ] ;
-    owl:equivalentClass [ rdf:type owl:Restriction ;                         owl:onProperty :aPourEvenementsHistoriques ;                         owl:hasValue :EvenementHistorique                       ] ;
-    owl:equivalentClass [ rdf:type owl:Restriction ;                         owl:onProperty :aPourNom ;                         owl:hasValue "string"                       ] .
+                                    owl:onProperty :aPourDateOuverture ;
+                                    owl:hasValue "date"
+                        ] ;
+    owl:equivalentClass [ rdf:type owl:Restriction ;
+                                    owl:onProperty :aPourHeuresOuverture ;
+                                    owl:hasValue "time"
+                        ] ;
+    owl:equivalentClass [ rdf:type owl:Restriction ;
+                                    owl:onProperty :aPourTarifEntree ;
+                                    owl:hasValue "float"
+                        ] ;
+    owl:equivalentClass [ rdf:type owl:Restriction ;
+                                    owl:onProperty :aPourAvis ;
+                                    owl:hasValue "string"
+                        ] ;
+    owl:equivalentClass [ rdf:type owl:Restriction ;
+                                    owl:onProperty :aPourEvenementsHistoriques ;
+                                    owl:hasValue :EvenementHistorique
+                        ] ;
+    owl:equivalentClass [ rdf:type owl:Restriction ;
+                                    owl:onProperty :aPourNom ;
+                                    owl:hasValue "string"
+                        ] .
 
 :VilleHistorique rdf:type owl:Class ;
     rdfs:subClassOf :Lieu ;
     rdfs:label "Ville historique" ;
     rdfs:comment "Une ville ayant un patrimoine historique important, tel qu'une vieille ville ou un quartier historique." ;
-    owl:equivalentClass [ rdf:type owl:Restriction ;                         owl:onProperty :contient ;                         owl:someValuesFrom :SiteHistorique                       ] ;
-    owl:equivalentClass [ rdf:type owl:Restriction ;                         owl:onProperty :aPourNom ;                         owl:hasValue "string"                       ] ;
-    owl:equivalentClass [ rdf:type owl:Restriction ;                         owl:onProperty :aPourPays ;                         owl:hasValue "string"                       ] .
+    owl:equivalentClass [ rdf:type owl:Restriction ;
+                                    owl:onProperty :contient ;
+                                    owl:someValuesFrom :SiteHistorique
+                        ] ;
+    owl:equivalentClass [ rdf:type owl:Restriction ;
+                                    owl:onProperty :aPourNom ;
+                                    owl:hasValue "string"
+                        ] ;
+    owl:equivalentClass [ rdf:type owl:Restriction ;
+                                    owl:onProperty :aPourPays ;
+                                    owl:hasValue "string"
+                        ] .
 
 :Voyage rdf:type owl:Class ;
     rdfs:label "Voyage" ;
@@ -93,3 +117,38 @@
                          owl:hasValue "string"
                        ] .
 
+:aPourVille rdf:type owl:ObjectProperty ;
+    rdfs:label "has city" ;
+    rdfs:domain :SiteHistorique ;
+    rdfs:range :VilleHistorique .
+
+:contient rdf:type owl:ObjectProperty ;
+    rdfs:label "contains" ;
+    rdfs:domain :VilleHistorique ;
+    rdfs:range :SiteHistorique ;
+    owl:inverseOf :aPourVille .
+
+:aPourDestination rdf:type owl:ObjectProperty ;
+    rdfs:label "has destination" ;
+    rdfs:domain :Voyage ;
+    rdfs:range :SiteHistorique .
+
+:aPourVol rdf:type owl:ObjectProperty ;
+    rdfs:label "has flight" ;
+    rdfs:domain :Voyage ;
+    rdfs:range :Vol .
+
+:vaVers rdf:type owl:ObjectProperty ;
+    rdfs:label "goes to" ;
+    rdfs:domain :Vol ;
+    rdfs:range :VilleHistorique ;
+
+:aPourHebergement rdf:type owl:ObjectProperty ;
+    rdfs:label "has accommodation" ;
+    rdfs:domain :Voyage ;
+    rdfs:range :Hebergement .
+
+:estSitueDans rdf:type owl:ObjectProperty ;
+    rdfs:label "is located in" ;
+    rdfs:domain :Hebergement ;
+    rdfs:range :VilleHistorique .
