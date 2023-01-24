@@ -141,7 +141,7 @@
 :vaVers rdf:type owl:ObjectProperty ;
     rdfs:label "goes to" ;
     rdfs:domain :Vol ;
-    rdfs:range :VilleHistorique ;
+    rdfs:range :VilleHistorique .
 
 :aPourHebergement rdf:type owl:ObjectProperty ;
     rdfs:label "has accommodation" ;
