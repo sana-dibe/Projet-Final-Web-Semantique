@@ -18,9 +18,11 @@
             "dc:description" : "Name of airport. May or may not contain the City name."
         },
         {
+            "aboutUrl": "#Airport-{_row}",
             "name":"City",
             "datatype" : "string",
-            "suppressOutput": true
+            "propertyUrl" : "https://data.nasa.gov/ontologies/atmonto/NAS#/city",
+            "dc:description" : "Name of city served by airport. May be spelled differently from Name."
         },
         {
             "name":"Country",

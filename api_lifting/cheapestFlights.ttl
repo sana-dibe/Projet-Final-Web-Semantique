@@ -5,7 +5,6 @@ _:b1089 ns1:total "77.86" .
 
 _:b1088 ns1:flightDates "https://test.api.amadeus.com/v1/shopping/flight-dates?origin=MAD&destination=FCO&departureDate=2023-01-24,2023-07-22&oneWay=false&duration=1,15&nonStop=false&maxPrice=300&currency=EUR&viewBy=DURATION" ;
 ns1:flightOffers "https://test.api.amadeus.com/v2/shopping/flight-offers?originLocationCode=MAD&destinationLocationCode=FCO&departureDate=2023-02-28&returnDate=2023-03-02&adults=1&nonStop=false&maxPrice=300&currency=EUR" .
-
 _:b1087 ns1:departureDate "2023-02-28" ;
 ns1:destination "FCO" ;
 ns1:links _:b1088 ;

@@ -7,7 +7,7 @@
     rdfs:subClassOf :Lieu ;
     rdfs:label "Site historique" ;
     rdfs:comment "Un lieu historique, tel qu'un château, une forteresse ou un parc archéologique." ;
-    owl:subClassOf [ rdf:type owl:Restriction ;
+    owl:subClass [ rdf:type owl:Restriction ;
                                     owl:onProperty :aPourVille ;
                                     owl:someValuesFrom :VilleHistorique
                         ] ;

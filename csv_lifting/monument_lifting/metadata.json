@@ -1,0 +1,41 @@
+{
+    "@context": "http://www.w3.org/ns/csvw",
+    "url": "monument.csv",
+    "tableSchema": {
+
+      "aboutUrl": "http://example.org/monument/{city}",
+      "columns": [
+        {
+        "titles": "xid",
+        "suppressOutput": true
+        },{
+          "titles" : "name",
+          "propertyUrl" : "schema:"
+        },{
+          "titles" : "city",
+          "propertyUrl" : "schema:address",
+          "valueUrl" : "http://example.org/city/{city}"
+        },{
+          "titles" : "wiki_link",
+          "propertyUrl" : "schema:url",
+          "valueUrl" : "{wiki_link}"
+        },{
+          "titles" : "wikipedia_extracts",
+          "propertyUrl" : "schema:description",
+          "datatype" : "string"
+        },{
+          "titles" : "rating",
+          "propertyUrl" : "schema:ratingValue",
+          "datatype" : "number"
+        },{
+          "titles" : "google_id",
+          "propertyUrl" : "schema:identifier",
+          "datatype" : "string"
+        },{
+          "titles" : "opening_hours",
+          "propertyUrl" : "schema:openingHours",
+          "datatype" : "string"
+        }
+        ]
+}
+}

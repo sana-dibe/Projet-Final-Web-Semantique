@@ -1,0 +1,109 @@
+@base <http://www.historical-trip.org/#>.
+@prefix concept: <http://www.historical-trip.org/concept#>.
+@prefix rdf: <https://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+
+#
+# Skos concepts
+#
+
+concept:SanaDIBE_KeyanFANG
+    rdf:type skos:Concept ;
+    skos:prefLabel "Sana DIBE & Keyan FANG".
+
+concept:HistoricalTripScheme 
+    rdf:type skos:ConceptScheme;
+    dct:title "Historical trip scheme to be used in the Historical trip ontology";
+    dct:creator concept:SanaDIBE_KeyanFANG.
+
+concept:HistoricalTrip
+    rdf:type skos:Concept;
+    skos:prefLabel "Historical Trip"@en, "Voyage historique"@fr;
+    skos:altLabel "Cultural trip"@en, "Voyage culturel"@fr;
+    skos:definition "A historical trip is a journey or excursion that is taken specifically to visit historical sites, landmarks, or locations that have significant cultural or historical importance."@en, "Un voyage historique est un voyage ou une excursion qui est effectué spécifiquement pour visiter des sites historiques, des monuments ou des lieux qui ont une importance culturelle ou historique significative."@fr;
+    skos:inScheme concept:HistoricalTripScheme.
+
+concept:HistoricalCity
+    rdf:type skos:Concept;
+    skos:prefLabel "Historical City"@en, "Ville historique"@fr;
+    skos:altLabel "Historical Town"@en, "Ville historique"@fr;
+    skos:definition "A historical city is a city that has a significant cultural or historical importance."@en, "Une ville historique est une ville qui a une importance culturelle ou historique significative."@fr;
+    skos:inScheme concept:HistoricalTripScheme;
+    skos:broader concept:Country .
+
+concept:HistoricalSite
+    rdf:type skos:Concept;
+    skos:prefLabel "Historical Site"@en, "Site historique"@fr;
+    skos:altLabel "Historical Place"@en, "Lieu historique"@fr;
+    skos:definition "A historical site is a place that has a significant cultural or historical importance."@en, "Un site historique est un lieu qui a une importance culturelle ou historique significative."@fr;
+    skos:inScheme concept:HistoricalTripScheme;
+    skos:narrower concept:ArchaeologicalPlace, concept:BurialPlace, concept:Fortifications, concept:Monument, concept:OtherHistoricalPlace .
+
+concept:ArchaeologicalPlace
+    rdf:type skos:Concept;
+    skos:prefLabel "Archaeological Place"@en, "Lieu archéologique"@fr;
+    skos:altLabel "Archaeological Site"@en, "Site archéologique"@fr;
+    skos:definition "An archaeological place is a place that has a significant cultural or historical importance and that is related to archaeology."@en, "Un lieu archéologique est un lieu qui a une importance culturelle ou historique significative et qui est lié à l'archéologie."@fr;
+    skos:inScheme concept:HistoricalTripScheme;
+    skos:broader concept:HistoricalSite .
+
+concept:BurialPlace
+    rdf:type skos:Concept;
+    skos:prefLabel "Burial Place"@en, "Lieu de sépulture"@fr;
+    skos:altLabel "Burial Site"@en, "Site de sépulture"@fr;
+    skos:definition "A burial place is a place that has a significant cultural or historical importance and that is related to burial."@en, "Un lieu de sépulture est un lieu qui a une importance culturelle ou historique significative et qui est lié à la sépulture."@fr;
+    skos:inScheme concept:HistoricalTripScheme;
+    skos:broader concept:HistoricalSite .
+
+concept:Fortifications
+    rdf:type skos:Concept;
+    skos:prefLabel "Fortifications"@en, "Fortifications"@fr;
+    skos:definition "Fortifications are military constructions or buildings designed for the defense of territories in warfare, and also used to solidify rule in a region during peace time."@en, "Les fortifications sont des constructions ou des bâtiments militaires conçus pour la défense des territoires en temps de guerre, et également utilisés pour solidifier le règne dans une région pendant la paix."@fr;
+    skos:inScheme concept:HistoricalTripScheme;
+    skos:broader concept:HistoricalSite .
+
+concept:Monument
+    rdf:type skos:Concept;
+    skos:prefLabel "Monument"@en, "Monument"@fr;
+    skos:definition "A monument is a structure or building that is designed as a memorial to a person or an event, or is a work of art or architecture."@en, "Un monument est une structure ou un bâtiment qui est conçu comme un mémorial à une personne ou un événement, ou est une œuvre d'art ou d'architecture."@fr;
+    skos:inScheme concept:HistoricalTripScheme;
+    skos:broader concept:HistoricalSite .
+
+concept:OtherHistoricalPlace    
+    rdf:type skos:Concept;
+    skos:prefLabel "Other Historical Place"@en, "Autre lieu historique"@fr;
+    skos:definition "An other historical place is a place that has a significant cultural or historical importance and that is not related to archaeology, burial, fortifications, monument."@en, "Un autre lieu historique est un lieu qui a une importance culturelle ou historique significative et qui n'est pas lié à l'archéologie, la sépulture, les fortifications, le monument."@fr;
+    skos:inScheme concept:HistoricalTripScheme;
+    skos:broader concept:HistoricalSite .
+
+concept:Flight
+    rdf:type skos:Concept;
+    skos:prefLabel "Flight"@en, "Vol"@fr;
+    skos:definition "A flight is a journey by air."@en, "Un vol est un voyage par air."@fr;
+    skos:inScheme concept:HistoricalTripScheme.
+
+concept:Traveler
+    rdf:type skos:Concept;
+    skos:prefLabel "Traveler"@en, "Voyageur"@fr;
+    skos:definition "A traveler is a person who travels."@en, "Un voyageur est une personne qui voyage."@fr;
+    skos:inScheme concept:HistoricalTripScheme.
+
+concept:Airport
+    rdf:type skos:Concept;
+    skos:prefLabel "Airport"@en, "Aéroport"@fr;
+    skos:definition "An airport is a place where aircrafts take off and land."@en, "Un aéroport est un lieu où les avions décollent et atterrissent."@fr;
+    skos:inScheme concept:HistoricalTripScheme.
+
+concept:Accommodation
+    rdf:type skos:Concept;
+    skos:prefLabel "Accommodation"@en, "Hébergement"@fr;
+    skos:definition "An accommodation is a place where a traveler can stay."@en, "Un hébergement est un lieu où un voyageur peut rester."@fr;
+    skos:inScheme concept:HistoricalTripScheme.
+
+concept:Country
+    rdf:type skos:Concept;
+    skos:prefLabel "Country"@en, "Pays"@fr;
+    skos:definition "A country is a political entity that is identified as a distinct national community and occupies a particular territory."@en, "Un pays est une entité politique qui est identifiée comme une communauté nationale distincte et occupe un territoire particulier."@fr;
+    skos:inScheme concept:HistoricalTripScheme;
+    skos:narrower concept:HistoricalCity .

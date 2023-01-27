@@ -34,13 +34,13 @@
 #     skos:related :CompagnieAerienne, :Prix, :Itineraire, :Duree ;
 #     skos:narrower :VolInterieur, :VolInternational .
 
-# :Hebergement rdf:type skos:Concept ;
-#     skos:inScheme :HistoireEtLieuxHistoriques ;
-#     skos:prefLabel "Hébergement" ;
-#     skos:altLabel "Hôtel, chambre d'hôtes, camping" ;
-#     skos:definition "Un lieu où séjourner lors d'un voyage, proche de sites historiques et culturels" ;
-#     skos:related :Prix, :Type, :Localisation, :Capacite ;
-#     skos:narrower :Hotel, :ChambreDHotes, :Camping .
+#:Hebergement rdf:type skos:Concept ;
+#    skos:inScheme :HistoireEtLieuxHistoriques ;
+#    skos:prefLabel "Hébergement" ;
+#    skos:altLabel "Hôtel, chambre d'hôtes, camping" ;
+#    skos:definition "Un lieu où séjourner lors d'un voyage, proche de sites historiques et culturels" ;
+#    skos:related :Prix, :Type, :Localisation, :Capacite ;
+#    skos:narrower :Hotel, :ChambreDHotes, :Camping .
 
 :TarifEntree rdf:type skos:Concept ;
     skos:inScheme :HistoireEtLieuxHistoriques ;
