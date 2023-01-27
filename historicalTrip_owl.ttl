@@ -1,0 +1,295 @@
+@base <http://www.historical-trip.org/#>.
+@prefix class: <http://www.historical-trip.org/class#>.
+@prefix prop: <http://www.historical-trip.org/porp#>.
+@prefix concept: <http://www.historical-trip.org/concept#>.
+@prefix xsd: <https://www.w3.org/TR/2006/NOTE-swbp-xsch-datatypes-20060314/>.
+@prefix owl:   <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <https://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+
+#
+# Classes
+#
+
+class:HistoricalTrip rdf:type owl:Class;
+    rdfs:comment "A trip that has a historical focus, such as visiting monuments or sites of historical significance."@en, "Un voyage ayant un focus historique, tels que la visite de monuments ou de sites d'importance historique."@fr;
+    rdfs:label "Historical Trip"@en,  "Voyage historique"@fr;
+    owl:subClassOf [
+    a owl:Restriction;
+        owl:onProperty prop:hasTraveler;
+        owl:someValuesFrom class:Traveler;
+        owl:minCardinality "1"^^xsd:nonNegativeInteger;
+    ];
+    owl:subClassOf [
+        a owl:Restriction;
+        owl:onProperty prop:hasFlight;
+        owl:someValuesFrom class:Flight;
+        owl:minCardinality "1"^^xsd:nonNegativeInteger;
+    ].
+
+class:HistoricalCity rdf:type owl:Class;
+    rdfs:comment "A city that has significant historical and cultural value."@en, "Une ville qui a une grande valeur historique et culturelle."@fr;
+    rdfs:label "Historical City"@en,  "Ville historique"@fr;
+    owl:subClassOf [
+        a owl:Restriction;
+        owl:onProperty prop:hasHistoricalSite;
+        owl:someValuesFrom class:HistoricalSite;
+        owl:minCardinality "1"^^xsd:nonNegativeInteger;
+    ].
+
+class:HistoricalSite rdf:type owl:Class;
+    rdfs:comment "A historical site, such as a monument, a building, and a landmark."@en, "Un site historique, tel qu'un monument, un bâtiment ou un lieu remarquable."@fr;
+    rdfs:label "Historical Site"@en, "Site historique"@fr.
+
+class:Flight rdf:type owl:Class;
+    rdfs:comment "A commercial flight that is taken as part of a historical trip."@en, "Un vol commercial effectué dans le cadre d'un voyage historique."@fr;
+    rdfs:label "Flight"@en,  "Vol"@fr;
+    owl:subClassOf [
+        a owl:Restriction;
+        owl:onProperty prop:hasDepartureAirport;
+        owl:someValuesFrom class:Airport;
+        owl:minCardinality "1"^^xsd:nonNegativeInteger;
+        owl:maxCardinality "1"^^xsd:nonNegativeInteger;
+    ];
+    owl:subClassOf [
+        a owl:Restriction;
+        owl:onProperty prop:hasArrivalAirport;
+        owl:someValuesFrom class:Airport;
+        owl:minCardinality "1"^^xsd:nonNegativeInteger;
+        owl:maxCardinality "1"^^xsd:nonNegativeInteger;
+    ].
+
+class:Traveler rdf:type owl:Class;
+    rdfs:comment "An individual who is taking a trip to see historical places."@en, "Une personne qui part en voyage pour voir des lieux historiques."@fr;
+    rdfs:label "Traveler"@en,  "Voyageur"@fr.
+
+class:ArchaeologicalPlace rdf:type owl:Class;
+    rdfs:comment "A location where evidence of past human activity has been discovered and preserved. This can include artifacts, structures, and other remains that provide insight into how people lived, worked, and interacted with their environment in the past."@en, "Un endroit où des preuves d'activités humaines passées ont été découvertes et préservées. Cela peut inclure des artefacts, des structures et d'autres vestiges qui donnent un aperçu de la façon dont les gens vivaient, travaillaient et interagissaient avec leur environnement dans le passé."@fr;
+    rdfs:label "Archaeological Place"@en,  "Lieu archéologique"@fr;
+    owl:subClassOf class:HistoricalSite.
+
+class:BurialPlace rdf:type owl:Class;
+    rdfs:comment "A location where human remains have been interred, such as a cemetery or tomb, crypt, war grave ..."@en, "Un lieu où des restes humains ont été enterrés, comme un cimetière ou une tombe, une crypte, une sépulture de guerre ..."@fr;
+    rdfs:label "Burial Place"@en,  "Lieu de sépulture"@fr;
+    owl:subClassOf class:HistoricalSite.
+
+class:Fortifications rdf:type owl:Class;
+    rdfs:comment "A defensive structure such as castles, fortified towers, and defensive walls."@en, "Une structure défensive telle que des châteaux, des tours fortifiées et des murs défensifs."@fr;
+    rdfs:label "Fortifications"@en, "Fortifications"@fr;
+    owl:subClassOf class:HistoricalSite.
+
+class:Monument rdf:type owl:Class;
+    rdfs:comment "A structure or object that has been erected to commemorate a person or event."@en, "Une structure ou un objet qui a été érigé pour commémorer une personne ou un événement."@fr;
+    rdfs:label "Monument"@en,  "Monument"@fr;
+    owl:subClassOf class:HistoricalSite.
+
+class:OtherHistoricalPlace rdf:type owl:Class;
+    rdfs:comment "A historical site not previously mentioned, such as fishing villages, battlefields, and historic settlements."@en, "Un site historique non mentionné précédemment, tel que des villages de pêcheurs, des champs de bataille et des établissements historiques."@fr;
+    rdfs:label "Other historical place"@en,  "Autre lieu historique"@fr;
+    owl:subClassOf class:HistoricalSite.
+
+class:Airport rdf:type owl:Class;
+    rdfs:comment "A place where aircrafts take off and land."@en, "Un endroit où les avions décollent et atterrissent."@fr;
+    rdfs:label "Airport"@en,  "Aéroport"@fr.
+
+class:Accommodation rdf:type owl:Class;
+    rdfs:comment "A place where travelers can stay during a historical trip, such as hotels, inns, or hostels."@en, "Un endroit où les voyageurs peuvent séjourner pendant un voyage historique, comme des hôtels, des auberges ou des auberges."@fr;
+    rdfs:label "Accommodation"@en,  "Hébergement"@fr.
+
+#
+# Properties
+#
+
+# For historical city
+prop:hasHistoricalSite rdf:type owl:ObjectProperty;
+    rdfs:comment "The historical site of a certain city."@en,"Le site historique d'une certaine ville."@fr;
+    rdfs:label "has historical site"@en,  "a un site historique"@fr;
+    rdfs:domain class:HistoricalCity;
+    rdfs:range class:HistoricalSite.
+
+prop:belongTo rdf:type owl:ObjectProperty;
+    rdfs:comment "The country to which it belongs."@en,"Le pays auquel elle appartient."@fr;
+    rdfs:label "belong to"@en,  "appartient à"@fr;
+    rdfs:domain class:HistoricalCity;
+    rdfs:range dbo:country.
+
+# For historical site
+prop:hasOpeningDays rdf:type owl:ObjectProperty;
+    rdfs:comment "The days when the historical site is open."@en,"Les jours où le site historique est ouvert."@fr;
+    rdfs:label "has opening days"@en, "a des jours d'ouverture"@fr;
+    rdfs:domain class:HistoricalSite;
+    rdfs:range xsd:string.
+
+prop:hasOpeningHours rdf:type owl:ObjectProperty;
+    rdfs:comment "The hours when the historical site is open."@en,"Les heures où le site historique est ouvert."@fr;
+    rdfs:label "has opening hours"@en, "a des heures d'ouverture"@fr;
+    rdfs:domain class:HistoricalSite;
+    rdfs:range xsd:string.
+
+prop:hasEntranceFee rdf:type owl:ObjectProperty;
+    rdfs:comment "The entrance fee for the historical site."@en,"Le tarif d'entrée pour le site historique."@fr;
+    rdfs:label "has entrance fee"@en, "a un tarif d'entrée"@fr;
+    rdfs:domain class:HistoricalSite;
+    rdfs:range xsd:float.
+
+prop:hasRating rdf:type owl:ObjectProperty;
+    rdfs:comment "The rating for the historical site."@en,"La note pour le site historique."@fr;
+    rdfs:label "has rating"@en, "a une note"@fr;
+    rdfs:domain class:HistoricalSite;
+    rdfs:range xsd:float.
+
+prop:hasName rdf:type owl:ObjectProperty;
+    rdfs:comment "The name of the historical site."@en, "Le nom du site historique."@fr;
+    rdfs:label "has name"@en, "a un nom"@fr;
+    rdfs:domain class:HistoricalSite;
+    rdfs:range xsd:string.
+
+
+# For flight
+prop:hasDepartureDate rdf:type owl:ObjectProperty;
+    rdfs:comment "The departure date of the flight."@en, "La date de départ du vol."@fr;
+    rdfs:label "has departure date"@en, "a une date de départ"@fr;
+    rdfs:domain class:Flight;
+    rdfs:range xsd:date.
+
+prop:hasArrivalDate rdf:type owl:ObjectProperty;
+    rdfs:comment "The arrival date of the flight."@en, "La date d'arrivée du vol."@fr;
+    rdfs:label "has arrival date"@en, "a une date d'arrivée"@fr;
+    rdfs:domain class:Flight;
+    rdfs:range xsd:date.
+
+prop:hasDepartureAirport rdf:type owl:ObjectProperty;
+    rdfs:comment "The departure airport of the flight."@en, "L'aéroport de départ du vol."@fr;
+    rdfs:label "has departure airport"@en, "a un aéroport de départ"@fr;
+    rdfs:domain class:Flight;
+    rdfs:range class:Airport.
+
+prop:hasArrivalAirport rdf:type owl:ObjectProperty;
+    rdfs:comment "The arrival airport of the flight."@en, "L'aéroport d'arrivée du vol."@fr;
+    rdfs:label "has arrival airport"@en, "a un aéroport d'arrivée"@fr;
+    rdfs:domain class:Flight;
+    rdfs:range class:Airport.
+
+prop:hasPrice rdf:type owl:ObjectProperty;
+    rdfs:comment "The total price of the flight (go + return)."@en, "Le prix total du vol (aller + retour)."@fr;
+    rdfs:label "has price"@en, "a un prix"@fr;
+    rdfs:domain class:Flight;
+    rdfs:range xsd:float.
+
+# For Traveler
+prop:travelerName rdf:type owl:ObjectProperty;
+    rdfs:comment "The name of the traveler."@en, "Le nom du voyageur."@fr;
+    rdfs:label "has name"@en, "a un nom"@fr;
+    rdfs:domain class:Traveler;
+    rdfs:range xsd:string.
+
+prop:travelerAge rdf:type owl:ObjectProperty;
+    rdfs:comment "The age of the traveler."@en, "L'âge du voyageur."@fr;
+    rdfs:label "has age"@en, "a un âge"@fr;
+    rdfs:domain class:Traveler;
+    rdfs:range xsd:integer.
+
+prop:travelerNationality rdf:type owl:ObjectProperty;
+    rdfs:comment "The nationality of the traveler"@en, "La nationalité du voyageur."@fr;
+    rdfs:label "has nationality"@en, "a une nationalité"@fr;
+    rdfs:domain class:Traveler;
+    rdfs:range xsd:string.
+
+
+# For Airport (We are interested in historical cities for our application)
+prop:hasCity rdf:type owl:ObjectProperty;
+    rdfs:comment "The city where the airport is located."@en, "La ville où l'aéroport est situé."@fr;
+    rdfs:label "has city"@en, "a une ville"@fr;
+    rdfs:domain class:Airport;
+    rdfs:range class:HistoricalCity.
+
+prop:airportName rdf:type owl:ObjectProperty;
+    rdfs:comment "The name of the airport."@en, "Le nom de l'aéroport."@fr;
+    rdfs:label "has name"@en, "a un nom"@fr;
+    rdfs:domain class:Airport;
+    rdfs:range xsd:string.
+
+prop:hasIATA rdf:type owl:ObjectProperty;
+    rdfs:comment "The IATA code of the airport."@en, "Le code IATA de l'aéroport."@fr;
+    rdfs:label "has IATA code"@en, "a un code IATA"@fr;
+    rdfs:domain class:Airport;
+    rdfs:range xsd:string.
+
+prop:hasICAO rdf:type owl:ObjectProperty;
+    rdfs:comment "The ICAO code of the airport."@en, "Le code ICAO de l'aéroport."@fr;
+    rdfs:label "has ICAO code"@en, "a un code ICAO"@fr;
+    rdfs:domain class:Airport;
+    rdfs:range xsd:string.
+
+prop:hasLatitude rdf:type owl:ObjectProperty;
+    rdfs:comment "The latitude of the airport."@en, "La latitude de l'aéroport."@fr;
+    rdfs:label "has latitude"@en, "a une latitude"@fr;
+    rdfs:domain class:Airport;
+    rdfs:range xsd:float.
+
+prop:hasLongitude rdf:type owl:ObjectProperty;
+    rdfs:comment "The longitude of the airport."@en, "La longitude de l'aéroport."@fr;
+    rdfs:label "has longitude"@en, "a une longitude"@fr;
+    rdfs:domain class:Airport;
+    rdfs:range xsd:float.
+
+prop:hasTimezone rdf:type owl:ObjectProperty;
+    rdfs:comment "The timezone of the airport."@en, "Le fuseau horaire de l'aéroport."@fr;
+    rdfs:label "has timezone"@en, "a un fuseau horaire"@fr;
+    rdfs:domain class:Airport;
+    rdfs:range xsd:string.
+
+# For historical trip
+prop:hasFlight rdf:type owl:ObjectProperty;
+    rdfs:comment "The flight of the historical trip."@en, "Le vol du voyage historique."@fr;
+    rdfs:label "has flight"@en, "a un vol"@fr;
+    rdfs:domain class:HistoricalTrip;
+    rdfs:range class:Flight.
+
+prop:hasAccomodation rdf:type owl:ObjectProperty;
+    rdfs:comment "The accomodation of the historical trip."@en, "L'hébergement du voyage historique."@fr;
+    rdfs:label "has accomodation"@en, "a un hébergement"@fr;
+    rdfs:domain class:HistoricalTrip;
+    rdfs:range class:Accomodation.
+
+prop:hasTraveler rdf:type owl:ObjectProperty;
+    rdfs:comment "The traveler of the historical trip."@en, "Le voyageur du voyage historique."@fr;
+    rdfs:label "has traveler"@en, "a un voyageur"@fr;
+    rdfs:domain class:HistoricalTrip;
+    rdfs:range class:Traveler.
+
+
+# For accommodation (for perspectives (not used for the moment))
+prop:accomodationName rdf:type owl:ObjectProperty;
+    rdfs:comment "The name of the accomodation."@en, "Le nom de l'hébergement."@fr;
+    rdfs:label "has name"@en, "a un nom"@fr;
+    rdfs:domain class:Accomodation;
+    rdfs:range xsd:string.
+
+prop:accomodationAddress rdf:type owl:ObjectProperty;
+    rdfs:comment "The address of the accomodation."@en, "L'adresse de l'hébergement."@fr;
+    rdfs:label "has address"@en, "a une adresse"@fr;
+    rdfs:domain class:Accomodation;
+    rdfs:range xsd:string.
+
+prop:accomodationPrice rdf:type owl:ObjectProperty;
+    rdfs:comment "The price of the accomodation."@en, "Le prix de l'hébergement."@fr;
+    rdfs:label "has price"@en, "a un prix"@fr;
+    rdfs:domain class:Accomodation;
+    rdfs:range xsd:float.
+
+prop:accomodationRating rdf:type owl:ObjectProperty;
+    rdfs:comment "The rating of the accomodation."@en, "La note de l'hébergement."@fr;
+    rdfs:label "has rating"@en, "a une note"@fr;
+    rdfs:domain class:Accomodation;
+    rdfs:range xsd:float.
+
+prop:availability rdf:type owl:DatatypeProperty;
+    rdfs:comment "The availability of the accomodation."@en, "La disponibilité de l'hébergement."@fr;
+    rdfs:label "has availability"@en, "a une disponibilité"@fr;
+    rdfs:domain class:Accomodation;
+    rdfs:range xsd:boolean.
+
