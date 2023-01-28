@@ -8,6 +8,8 @@
 @prefix dbo: <http://dbpedia.org/ontology/>.
 @prefix skos: <http://www.w3.org/2004/02/skos/core#>.
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wiki: <https://www.wikidata.org/wiki/> .
+
 
 
 #
@@ -133,13 +135,13 @@ prop:hasEntranceFee rdf:type owl:ObjectProperty;
     rdfs:comment "The entrance fee for the historical site."@en,"Le tarif d'entrée pour le site historique."@fr;
     rdfs:label "has entrance fee"@en, "a un tarif d'entrée"@fr;
     rdfs:domain class:HistoricalSite;
-    rdfs:range xsd:float.
+    rdfs:range xsd:decimal.
 
 prop:hasRating rdf:type owl:ObjectProperty;
     rdfs:comment "The rating for the historical site."@en,"La note pour le site historique."@fr;
     rdfs:label "has rating"@en, "a une note"@fr;
     rdfs:domain class:HistoricalSite;
-    rdfs:range xsd:float.
+    rdfs:range xsd:decimal.
 
 prop:hasName rdf:type owl:ObjectProperty;
     rdfs:comment "The name of the historical site."@en, "Le nom du site historique."@fr;
@@ -177,7 +179,7 @@ prop:hasPrice rdf:type owl:ObjectProperty;
     rdfs:comment "The total price of the flight (go + return)."@en, "Le prix total du vol (aller + retour)."@fr;
     rdfs:label "has price"@en, "a un prix"@fr;
     rdfs:domain class:Flight;
-    rdfs:range xsd:float.
+    rdfs:range xsd:decimal.
 
 # For Traveler
 prop:travelerName rdf:type owl:ObjectProperty;
@@ -228,13 +230,13 @@ prop:hasLatitude rdf:type owl:ObjectProperty;
     rdfs:comment "The latitude of the airport."@en, "La latitude de l'aéroport."@fr;
     rdfs:label "has latitude"@en, "a une latitude"@fr;
     rdfs:domain class:Airport;
-    rdfs:range xsd:float.
+    rdfs:range xsd:decimal.
 
 prop:hasLongitude rdf:type owl:ObjectProperty;
     rdfs:comment "The longitude of the airport."@en, "La longitude de l'aéroport."@fr;
     rdfs:label "has longitude"@en, "a une longitude"@fr;
     rdfs:domain class:Airport;
-    rdfs:range xsd:float.
+    rdfs:range xsd:decimal.
 
 prop:hasTimezone rdf:type owl:ObjectProperty;
     rdfs:comment "The timezone of the airport."@en, "Le fuseau horaire de l'aéroport."@fr;
@@ -279,13 +281,13 @@ prop:accomodationPrice rdf:type owl:ObjectProperty;
     rdfs:comment "The price of the accomodation."@en, "Le prix de l'hébergement."@fr;
     rdfs:label "has price"@en, "a un prix"@fr;
     rdfs:domain class:Accomodation;
-    rdfs:range xsd:float.
+    rdfs:range xsd:decimal.
 
 prop:accomodationRating rdf:type owl:ObjectProperty;
     rdfs:comment "The rating of the accomodation."@en, "La note de l'hébergement."@fr;
     rdfs:label "has rating"@en, "a une note"@fr;
     rdfs:domain class:Accomodation;
-    rdfs:range xsd:float.
+    rdfs:range xsd:decimal.
 
 prop:availability rdf:type owl:DatatypeProperty;
     rdfs:comment "The availability of the accomodation."@en, "La disponibilité de l'hébergement."@fr;

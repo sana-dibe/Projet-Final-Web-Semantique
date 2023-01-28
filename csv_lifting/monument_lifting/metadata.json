@@ -1,39 +1,46 @@
 {
     "@context": "http://www.w3.org/ns/csvw",
     "url": "monument.csv",
-    "tableSchema": {
+    "aboutUrl": "http://www.historical-trip.org/class#/{xid}",
 
-      "aboutUrl": "http://example.org/monument/{city}",
+    "tableSchema": {
+      "primaryKey" : "xid",
       "columns": [
         {
-        "titles": "xid",
-        "suppressOutput": true
+        "name": "xid",
+        "datatype" : "string"
         },{
-          "titles" : "name",
-          "propertyUrl" : "schema:"
+          "name" : "name",
+          "datatype" : "string",
+          "propertyUrl" : "http://www.historical-trip.org/porp#/hasName"
         },{
-          "titles" : "city",
-          "propertyUrl" : "schema:address",
-          "valueUrl" : "http://example.org/city/{city}"
+          "name" : "city",
+          "propertyUrl" :  "http://www.historical-trip.org/class#/{city}",
+          "datatype" : "string"
         },{
-          "titles" : "wiki_link",
+          "name" : "wiki_link",
           "propertyUrl" : "schema:url",
           "valueUrl" : "{wiki_link}"
         },{
-          "titles" : "wikipedia_extracts",
+          "name" : "wikipedia_extracts",
           "propertyUrl" : "schema:description",
           "datatype" : "string"
         },{
-          "titles" : "rating",
-          "propertyUrl" : "schema:ratingValue",
-          "datatype" : "number"
+          "name" : "rating",
+          "propertyUrl" : "http://www.historical-trip.org/porp#hasRating",
+          "datatype" : "decimal"
         },{
-          "titles" : "google_id",
+          "name" : "google_id",
           "propertyUrl" : "schema:identifier",
           "datatype" : "string"
         },{
-          "titles" : "opening_hours",
-          "propertyUrl" : "schema:openingHours",
+          "name" : "opening_hours",
+          "propertyUrl" : "http://www.historical-trip.org/porp#hasOpeningHours",
+          "datatype" : "string"
+        },
+        {
+          "name" : "wikidata",
+          "propertyUrl" : "https://www.wikidata.org/wiki/",
           "datatype" : "string"
         }
         ]
