@@ -1,0 +1,136 @@
+@prefix ex: <http://www.historical-trip.org/>.
+@prefix class: <http://www.historical-trip.org/class#>.
+@prefix prop: <http://www.historical-trip.org/porp#>.
+@prefix xsd: <https://www.w3.org/TR/2006/NOTE-swbp-xsch-datatypes-20060314/>.
+@prefix rdf: <https://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix resource: <http://www.historical-trip.org/class/resource#>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+
+ex:HistoricalTripProperties a sh:NodeShape;
+    sh:targetClass class:HistoricalTrip;
+    # Must have at least one hasTraveler property
+    sh:property [
+        sh:path prop:hasTraveler;
+        sh:minCount 1;
+        sh:maxCount 1;
+        sh:datatype class:Traveler;
+        sh:nodeKind sh:IRI;
+        sh:in class:Traveler;
+        sh:constraint [
+            sh:node sh:NotBlankNode;
+            sh:message "Must have at least one traveler";
+            sh:severity sh:Warning;
+        ];
+    ];
+    # Must have a hasFlight property
+    sh:property [
+        sh:path prop:hasFlight;
+        sh:minCount 1;
+        sh:maxCount 1;
+        sh:datatype class:Flight;
+        sh:nodeKind sh:IRI;
+        sh:in class:Flight;
+        sh:constraint [
+            sh:node sh:NotBlankNode;
+            sh:message "Must have at least one flight";
+            sh:severity sh:Warning;
+        ];
+    ].
+
+    # Here we can add a constraint for accommodation (for future perspectives)
+    
+
+ex:TravelerProperties a sh:NodeShape ;
+    sh:targetClass class:Traveler ;
+    # Must have a name property of type xsd:string
+    # and length greater than 3 characters and less than 20 characters
+    sh:property [ sh:path prop:travelerName ;
+                  sh:datatype xsd:string ;
+                  sh:minCount 1 ;
+                  sh:maxCount 1 ;
+                  sh:minLength 3 ;
+                  sh:maxLength 20 ] ;
+    # Must have an age property of type xsd:integer (positive integer)
+    sh:property [ sh:path prop:travelerAge ;
+                  sh:datatype xsd:integer ;
+                  sh:minCount 1 ;
+                  sh:maxCount 1 ;
+                  sh:minInclusive 0 ;
+                  sh:maxInclusive 200 ] .
+    # We can add a nationality constraint for perspectives to know if a visa is required for a traveler
+ 
+
+ex:HistoricalCityProperties a sh:NodeShape;
+    sh:targetClass class:HistoricalCity ;
+    # Must have a belongTo property
+    sh:property [
+            sh:path prop:belongTo;
+            sh:datatype dbo:Country;
+            sh:minCount 1;
+            sh:maxCount 1;
+            sh:constraint [
+            sh:nodeKind sh:IRI;
+            sh:in (dbo:Country) ; 
+     ];
+    ].
+
+
+ex:HistoricalSiteProperties a sh:NodeShape ;
+    sh:targetClass class:HistoricalSite ;
+    # Must have a name property of type xsd:string
+    # and length greater than 3 characters and less than 100 characters
+        sh:property [ 
+            sh:path prop:hasName ;
+            sh:datatype xsd:string ;
+            sh:minCount 1 ;
+            sh:maxCount 1 ;
+            sh:minLength 3 ;
+            sh:maxLength 100 ;
+        ] .
+
+ex:FlightProperties a sh:NodeShape;
+    sh:targetClass class:Flight;
+    # Must have at least one price property
+    sh:property [
+        sh:path prop:hasPrice;
+        sh:minCount 1;
+        sh:maxCount 1;
+        sh:datatype xsd:float;
+        # Price must be greater than 0 and less than 100000
+        sh:constraint [
+            sh:node sh:NotBlankNode;
+            sh:message "Price must be greater than 0 and less than 100000";
+            sh:severity sh:Warning;
+            sh:minExclusive "0";
+            sh:maxExclusive "100000";
+        ];
+    ];
+    sh:property [
+        sh:path prop:hasDepartureDate ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:datatype xsd:date ;
+    ] ;
+    sh:property [
+        sh:path prop:hasArrivalDate ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:datatype xsd:date ;
+    ] .
+
+   
+
+ex:AirportProperties a sh:NodeShape ;
+    sh:targetClass class:Airport ;
+    # Ensure that the IATA code of an airport is a string of exactly 3 characters
+    sh:property [
+        sh:path prop:hasIATA ;
+        sh:datatype xsd:string ;
+        sh:minLength 3 ;
+        sh:maxLength 3 ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+    ] .
+
