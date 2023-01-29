@@ -40,16 +40,3 @@ curl --header "Accept: application/sparql-results+json" \
   "http://localhost/service/amadeus4dev/cheapestFlights?query=${CONSTRUCT}&departure_iata=MAD&max_Price=1000" 
 ```
 
-
-## Produced graph example
-
-```turtle
-
-```
-
-        
-## Usage example
-
-```sparql
-
-```
