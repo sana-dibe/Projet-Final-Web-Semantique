@@ -1,224 +1,119 @@
 @prefix ns1: <http://ns.inria.fr/sparql-micro-service/api#> .
+@prefix class: <http://www.historical-trip.org/class#> .
+@prefix prop: <http://www.historical-trip.org/porp#> .
 
 
-_:b1089 ns1:total "77.86" .
+<http://www.historical-trip.org/class#https://test.api.amadeus.com/v1/shopping/flight-dates?origin=MAD&destination=FCO&departureDate=2023-01-24,2023-07-22&oneWay=false&duration=1,15&nonStop=false&maxPrice=300&currency=EUR&viewBy=DURATION> a <http://www.historical-trip.org/class#Flight>;
+    <http://www.historical-trip.org/porp#hasDepartureDate> "2023-02-28"^^xsd:date;
+    <http://www.historical-trip.org/porp#hasArrivalDate> "2023-03-02"^^xsd:date;
+    <http://www.historical-trip.org/porp#hasDepartureAirport> <http://www.historical-trip.org/class#MAD> ;
+    <http://www.historical-trip.org/porp#hasArrivalAirport> <http://www.historical-trip.org/class#FCO>;
+    <http://www.historical-trip.org/porp#hasPrice> 77.86.
 
-_:b1088 ns1:flightDates "https://test.api.amadeus.com/v1/shopping/flight-dates?origin=MAD&destination=FCO&departureDate=2023-01-24,2023-07-22&oneWay=false&duration=1,15&nonStop=false&maxPrice=300&currency=EUR&viewBy=DURATION" ;
-ns1:flightOffers "https://test.api.amadeus.com/v2/shopping/flight-offers?originLocationCode=MAD&destinationLocationCode=FCO&departureDate=2023-02-28&returnDate=2023-03-02&adults=1&nonStop=false&maxPrice=300&currency=EUR" .
-_:b1087 ns1:departureDate "2023-02-28" ;
-ns1:destination "FCO" ;
-ns1:links _:b1088 ;
-ns1:origin "MAD" ;
-ns1:price _:b1089 ;
-ns1:returnDate "2023-03-02" ;
-ns1:type "flight-destination" .
+<http://www.historical-trip.org/class#https://test.api.amadeus.com/v1/shopping/flight-dates?origin=MAD&destination=MXP&departureDate=2023-01-24,2023-07-22&oneWay=false&duration=1,15&nonStop=false&maxPrice=300&currency=EUR&viewBy=DURATION> a <http://www.historical-trip.org/class#Flight>;
+    <http://www.historical-trip.org/porp#hasDepartureDate> "2023-02-02"^^xsd:date;
+    <http://www.historical-trip.org/porp#hasArrivalDate> "2023-02-13"^^xsd:date;
+    <http://www.historical-trip.org/porp#hasDepartureAirport> <http://www.historical-trip.org/class#MAD> ;
+    <http://www.historical-trip.org/porp#hasArrivalAirport> <http://www.historical-trip.org/class#MXP>;
+    <http://www.historical-trip.org/porp#hasPrice> 83.85.
 
-_:b1086 ns1:total "83.85" .
+<http://www.historical-trip.org/class#https://test.api.amadeus.com/v1/shopping/flight-dates?origin=MAD&destination=AMS&departureDate=2023-01-24,2023-07-22&oneWay=false&duration=1,15&nonStop=false&maxPrice=300&currency=EUR&viewBy=DURATION> a <http://www.historical-trip.org/class#Flight>;
+    <http://www.historical-trip.org/porp#hasDepartureDate> "2023-05-16"^^xsd:date;
+    <http://www.historical-trip.org/porp#hasArrivalDate> "2023-05-24"^^xsd:date;
+    <http://www.historical-trip.org/porp#hasDepartureAirport> <http://www.historical-trip.org/class#MAD> ;
+    <http://www.historical-trip.org/porp#hasArrivalAirport> <http://www.historical-trip.org/class#AMS>;
+    <http://www.historical-trip.org/porp#hasPrice> 94.43.
 
-_:b1085 ns1:flightDates "https://test.api.amadeus.com/v1/shopping/flight-dates?origin=MAD&destination=MXP&departureDate=2023-01-24,2023-07-22&oneWay=false&duration=1,15&nonStop=false&maxPrice=300&currency=EUR&viewBy=DURATION" ;
-ns1:flightOffers "https://test.api.amadeus.com/v2/shopping/flight-offers?originLocationCode=MAD&destinationLocationCode=MXP&departureDate=2023-02-02&returnDate=2023-02-13&adults=1&nonStop=false&maxPrice=300&currency=EUR" .
+<http://www.historical-trip.org/class#https://test.api.amadeus.com/v1/shopping/flight-dates?origin=MAD&destination=OPO&departureDate=2023-01-24,2023-07-22&oneWay=false&duration=1,15&nonStop=false&maxPrice=300&currency=EUR&viewBy=DURATION> a <http://www.historical-trip.org/class#Flight>;
+    <http://www.historical-trip.org/porp#hasDepartureDate> "2023-01-30"^^xsd:date;
+    <http://www.historical-trip.org/porp#hasArrivalDate> "2023-02-01"^^xsd:date;
+    <http://www.historical-trip.org/porp#hasDepartureAirport> <http://www.historical-trip.org/class#MAD> ;
+    <http://www.historical-trip.org/porp#hasArrivalAirport> <http://www.historical-trip.org/class#OPO>;
+    <http://www.historical-trip.org/porp#hasPrice> 41.81.
 
-_:b1084 ns1:departureDate "2023-02-02" ;
-ns1:destination "MXP" ;
-ns1:links _:b1085 ;
-ns1:origin "MAD" ;
-ns1:price _:b1086 ;
-ns1:returnDate "2023-02-13" ;
-ns1:type "flight-destination" .
 
-_:b1083 ns1:total "94.43" .
+<http://www.historical-trip.org/class#https://test.api.amadeus.com/v1/shopping/flight-dates?origin=MAD&destination=PMI&departureDate=2023-01-24,2023-07-22&oneWay=false&duration=1,15&nonStop=false&maxPrice=300&currency=EUR&viewBy=DURATION> a <http://www.historical-trip.org/class#Flight>;
+    <http://www.historical-trip.org/porp#hasDepartureDate> "2023-01-30"^^xsd:date;
+    <http://www.historical-trip.org/porp#hasArrivalDate> "2023-01-31"^^xsd:date;
+    <http://www.historical-trip.org/porp#hasDepartureAirport> <http://www.historical-trip.org/class#MAD> ;
+    <http://www.historical-trip.org/porp#hasArrivalAirport> <http://www.historical-trip.org/class#PMI>;
+    <http://www.historical-trip.org/porp#hasPrice> 48.78.
 
-_:b1082 ns1:flightDates "https://test.api.amadeus.com/v1/shopping/flight-dates?origin=MAD&destination=AMS&departureDate=2023-01-24,2023-07-22&oneWay=false&duration=1,15&nonStop=false&maxPrice=300&currency=EUR&viewBy=DURATION" ;
-ns1:flightOffers "https://test.api.amadeus.com/v2/shopping/flight-offers?originLocationCode=MAD&destinationLocationCode=AMS&departureDate=2023-05-16&returnDate=2023-05-24&adults=1&nonStop=false&maxPrice=300&currency=EUR" .
+<http://www.historical-trip.org/class#https://test.api.amadeus.com/v1/shopping/flight-dates?origin=MAD&destination=BCN&departureDate=2023-01-24,2023-07-22&oneWay=false&duration=1,15&nonStop=false&maxPrice=300&currency=EUR&viewBy=DURATION> a <http://www.historical-trip.org/class#Flight>;
+    <http://www.historical-trip.org/porp#hasDepartureDate> "2023-01-31"^^xsd:date;
+    <http://www.historical-trip.org/porp#hasArrivalDate> "2023-02-01"^^xsd:date;
+    <http://www.historical-trip.org/porp#hasDepartureAirport> <http://www.historical-trip.org/class#MAD> ;
+    <http://www.historical-trip.org/porp#hasArrivalAirport> <http://www.historical-trip.org/class#BCN>;
+    <http://www.historical-trip.org/porp#hasPrice> 49.38.
 
-_:b1081 ns1:departureDate "2023-05-16" ;
-ns1:destination "AMS" ;
-ns1:links _:b1082 ;
-ns1:origin "MAD" ;
-ns1:price _:b1083 ;
-ns1:returnDate "2023-05-24" ;
-ns1:type "flight-destination" .
+<http://www.historical-trip.org/class#https://test.api.amadeus.com/v1/shopping/flight-dates?origin=MAD&destination=LIS&departureDate=2023-01-24,2023-07-22&oneWay=false&duration=1,15&nonStop=false&maxPrice=300&currency=EUR&viewBy=DURATION> a <http://www.historical-trip.org/class#Flight>;
+    <http://www.historical-trip.org/porp#hasDepartureDate> "2023-01-29"^^xsd:date;
+    <http://www.historical-trip.org/porp#hasArrivalDate> "2023-01-31"^^xsd:date;
+    <http://www.historical-trip.org/porp#hasDepartureAirport> <http://www.historical-trip.org/class#MAD> ;
+    <http://www.historical-trip.org/porp#hasArrivalAirport> <http://www.historical-trip.org/class#LIS>;
+    <http://www.historical-trip.org/porp#hasPrice> 57.58.
 
-_:b1080 ns1:detailedName "AIRPORT" ;
-ns1:subType "AIRPORT" .
+<http://www.historical-trip.org/class#https://test.api.amadeus.com/v1/shopping/flight-dates?origin=MAD&destination=RAK&departureDate=2023-01-24,2023-07-22&oneWay=false&duration=1,15&nonStop=false&maxPrice=300&currency=EUR&viewBy=DURATION> a <http://www.historical-trip.org/class#Flight>;
+    <http://www.historical-trip.org/porp#hasDepartureDate> "2023-01-29"^^xsd:date;
+    <http://www.historical-trip.org/porp#hasArrivalDate> "2023-02-03"^^xsd:date;
+    <http://www.historical-trip.org/porp#hasDepartureAirport> <http://www.historical-trip.org/class#MAD> ;
+    <http://www.historical-trip.org/porp#hasArrivalAirport> <http://www.historical-trip.org/class#RAK>;
+    <http://www.historical-trip.org/porp#hasPrice> 57.86.
 
-_:b1111 ns1:data _:b1081 ;
-ns1:data _:b1084 ;
-ns1:data _:b1087 ;
-ns1:data _:b1091 ;
-ns1:data _:b1095 ;
-ns1:data _:b1099 ;
-ns1:data _:b1103 ;
-ns1:data _:b1106 ;
-ns1:data _:b1108 ;
-ns1:data _:b1109 ;
-ns1:data _:b1110 ;
-ns1:dictionaries _:b1075 ;
-ns1:meta _:b1073 .
+<http://www.historical-trip.org/class#https://test.api.amadeus.com/v1/shopping/flight-dates?origin=MAD&destination=LPA&departureDate=2023-01-24,2023-07-22&oneWay=false&duration=1,15&nonStop=false&maxPrice=300&currency=EUR&viewBy=DURATION> a <http://www.historical-trip.org/class#Flight>;
+    <http://www.historical-trip.org/porp#hasDepartureDate> "2023-01-24"^^xsd:date;
+    <http://www.historical-trip.org/porp#hasArrivalDate> "2023-01-25"^^xsd:date;
+    <http://www.historical-trip.org/porp#hasDepartureAirport> <http://www.historical-trip.org/class#MAD> ;
+    <http://www.historical-trip.org/porp#hasArrivalAirport> <http://www.historical-trip.org/class#LPA>;
+    <http://www.historical-trip.org/porp#hasPrice> 68.16.
 
-_:b1110 ns1:departureDate "2023-01-30" ;
-ns1:destination "OPO" ;
-ns1:links _:b1071 ;
-ns1:origin "MAD" ;
-ns1:price _:b1069 ;
-ns1:returnDate "2023-02-01" ;
-ns1:type "flight-destination" .
+<http://www.historical-trip.org/class#https://test.api.amadeus.com/v1/shopping/flight-dates?origin=MAD&destination=LGW&departureDate=2023-01-24,2023-07-22&oneWay=false&duration=1,15&nonStop=false&maxPrice=300&currency=EUR&viewBy=DURATION> a <http://www.historical-trip.org/class#Flight>;
+    <http://www.historical-trip.org/porp#hasDepartureDate> "2023-02-28"^^xsd:date;
+    <http://www.historical-trip.org/porp#hasArrivalDate> "2023-03-07"^^xsd:date;
+    <http://www.historical-trip.org/porp#hasDepartureAirport> <http://www.historical-trip.org/class#MAD> ;
+    <http://www.historical-trip.org/porp#hasArrivalAirport> <http://www.historical-trip.org/class#LGW>;
+    <http://www.historical-trip.org/porp#hasPrice> 69.80.
 
-_:b1079 ns1:detailedName "GRAN CANARIA" ;
-ns1:subType "AIRPORT" .
+<http://www.historical-trip.org/class#https://test.api.amadeus.com/v1/shopping/flight-dates?origin=MAD&destination=ORY&departureDate=2023-01-24,2023-07-22&oneWay=false&duration=1,15&nonStop=false&maxPrice=300&currency=EUR&viewBy=DURATION> a <http://www.historical-trip.org/class#Flight>;
+    <http://www.historical-trip.org/porp#hasDepartureDate> "2023-02-21"^^xsd:date;
+    <http://www.historical-trip.org/porp#hasArrivalDate> "2023-03-04"^^xsd:date;
+    <http://www.historical-trip.org/porp#hasDepartureAirport> <http://www.historical-trip.org/class#MAD> ;
+    <http://www.historical-trip.org/porp#hasArrivalAirport> <http://www.historical-trip.org/class#ORY>;
+    <http://www.historical-trip.org/porp#hasPrice> 77.55.
 
-_:b1078 ns1:detailedName "ADOLFO SUAREZ BARAJAS" ;
-ns1:subType "AIRPORT" .
 
-_:b1077 ns1:AMS _:b1102 ;
-ns1:BCN _:b1098 ;
-ns1:FCO _:b1094 ;
-ns1:LGW _:b1090 ;
-ns1:LIS _:b1080 ;
-ns1:LPA _:b1079 ;
-ns1:MAD _:b1078 ;
-ns1:MXP _:b1074 ;
-ns1:OPO _:b1072 ;
-ns1:ORY _:b1070 ;
-ns1:PMI _:b1068 ;
-ns1:RAK _:b1066 .
+<http://www.historical-trip.org/class#MAD> a <http://www.historical-trip.org/class#Airport>;
+    <http://www.historical-trip.org/porp#hasIataCode> "MAD".
 
-_:b1076 ns1:EUR "EURO" .
+<http://www.historical-trip.org/class#FCO> a <http://www.historical-trip.org/class#Airport>;
+    <http://www.historical-trip.org/porp#hasIataCode> "FCO".
 
-_:b1075 ns1:currencies _:b1076 ;
-ns1:locations _:b1077 .
+<http://www.historical-trip.org/class#MXP> a <http://www.historical-trip.org/class#Airport>;
+    <http://www.historical-trip.org/porp#hasIataCode> "MXP".
 
-_:b1074 ns1:detailedName "MALPENSA" ;
-ns1:subType "AIRPORT" .
+<http://www.historical-trip.org/class#AMS> a <http://www.historical-trip.org/class#Airport>;
+    <http://www.historical-trip.org/porp#hasIataCode> "AMS".
 
-_:b1073 ns1:currency "EUR" ;
-ns1:defaults _:b1064 ;
-ns1:links _:b1062 .
+<http://www.historical-trip.org/class#OPO> a <http://www.historical-trip.org/class#Airport>;
+    <http://www.historical-trip.org/porp#hasIataCode> "OPO".
 
-_:b1072 ns1:detailedName "FRANCISCO SA CARNEIRO" ;
-ns1:subType "AIRPORT" .
+<http://www.historical-trip.org/class#PMI> a <http://www.historical-trip.org/class#Airport>;
+    <http://www.historical-trip.org/porp#hasIataCode> "PMI".
 
-_:b1071 ns1:flightDates "https://test.api.amadeus.com/v1/shopping/flight-dates?origin=MAD&destination=OPO&departureDate=2023-01-24,2023-07-22&oneWay=false&duration=1,15&nonStop=false&maxPrice=300&currency=EUR&viewBy=DURATION" ;
-ns1:flightOffers "https://test.api.amadeus.com/v2/shopping/flight-offers?originLocationCode=MAD&destinationLocationCode=OPO&departureDate=2023-01-30&returnDate=2023-02-01&adults=1&nonStop=false&maxPrice=300&currency=EUR" .
+<http://www.historical-trip.org/class#BCN> a <http://www.historical-trip.org/class#Airport>;
+    <http://www.historical-trip.org/porp#hasIataCode> "BCN".
 
-_:b1070 ns1:detailedName "ORLY" ;
-ns1:subType "AIRPORT" .
+<http://www.historical-trip.org/class#LIS> a <http://www.historical-trip.org/class#Airport>;
+    <http://www.historical-trip.org/porp#hasIataCode> "LIS".
 
-_:b1109 ns1:departureDate "2023-01-30" ;
-ns1:destination "PMI" ;
-ns1:links _:b1067 ;
-ns1:origin "MAD" ;
-ns1:price _:b1065 ;
-ns1:returnDate "2023-01-31" ;
-ns1:type "flight-destination" .
+<http://www.historical-trip.org/class#RAK> a <http://www.historical-trip.org/class#Airport>;
+    <http://www.historical-trip.org/porp#hasIataCode> "RAK".
 
-_:b1108 ns1:departureDate "2023-01-31" ;
-ns1:destination "BCN" ;
-ns1:links _:b1063 ;
-ns1:origin "MAD" ;
-ns1:price _:b1061 ;
-ns1:returnDate "2023-02-01" ;
-ns1:type "flight-destination" .
+<http://www.historical-trip.org/class#LPA> a <http://www.historical-trip.org/class#Airport>;
+    <http://www.historical-trip.org/porp#hasIataCode> "LPA".
 
-_:b1107 ns1:total "57.58" .
+<http://www.historical-trip.org/class#LGW> a <http://www.historical-trip.org/class#Airport>;
+    <http://www.historical-trip.org/porp#hasIataCode> "LGW".
 
-_:b1106 ns1:departureDate "2023-01-29" ;
-ns1:destination "LIS" ;
-ns1:links _:b1060 ;
-ns1:origin "MAD" ;
-ns1:price _:b1107 ;
-ns1:returnDate "2023-01-31" ;
-ns1:type "flight-destination" .
-
-_:b1105 ns1:total "57.86" .
-
-_:b1104 ns1:flightDates "https://test.api.amadeus.com/v1/shopping/flight-dates?origin=MAD&destination=RAK&departureDate=2023-01-24,2023-07-22&oneWay=false&duration=1,15&nonStop=false&maxPrice=300&currency=EUR&viewBy=DURATION" ;
-ns1:flightOffers "https://test.api.amadeus.com/v2/shopping/flight-offers?originLocationCode=MAD&destinationLocationCode=RAK&departureDate=2023-01-29&returnDate=2023-02-03&adults=1&nonStop=false&maxPrice=300&currency=EUR" .
-
-_:b1103 ns1:departureDate "2023-01-29" ;
-ns1:destination "RAK" ;
-ns1:links _:b1104 ;
-ns1:origin "MAD" ;
-ns1:price _:b1105 ;
-ns1:returnDate "2023-02-03" ;
-ns1:type "flight-destination" .
-
-_:b1102 ns1:detailedName "SCHIPHOL AIRPORT" ;
-ns1:subType "AIRPORT" .
-
-_:b1101 ns1:total "68.16" .
-
-_:b1100 ns1:flightDates "https://test.api.amadeus.com/v1/shopping/flight-dates?origin=MAD&destination=LPA&departureDate=2023-01-24,2023-07-22&oneWay=false&duration=1,15&nonStop=false&maxPrice=300&currency=EUR&viewBy=DURATION" ;
-ns1:flightOffers "https://test.api.amadeus.com/v2/shopping/flight-offers?originLocationCode=MAD&destinationLocationCode=LPA&departureDate=2023-01-24&returnDate=2023-01-25&adults=1&nonStop=false&maxPrice=300&currency=EUR" .
-
-_:b1069 ns1:total "41.81" .
-
-_:b1068 ns1:detailedName "PALMA DE MALLORCA" ;
-ns1:subType "AIRPORT" .
-
-_:b1067 ns1:flightDates "https://test.api.amadeus.com/v1/shopping/flight-dates?origin=MAD&destination=PMI&departureDate=2023-01-24,2023-07-22&oneWay=false&duration=1,15&nonStop=false&maxPrice=300&currency=EUR&viewBy=DURATION" ;
-ns1:flightOffers "https://test.api.amadeus.com/v2/shopping/flight-offers?originLocationCode=MAD&destinationLocationCode=PMI&departureDate=2023-01-30&returnDate=2023-01-31&adults=1&nonStop=false&maxPrice=300&currency=EUR" .
-
-_:b1099 ns1:departureDate "2023-01-24" ;
-ns1:destination "LPA" ;
-ns1:links _:b1100 ;
-ns1:origin "MAD" ;
-ns1:price _:b1101 ;
-ns1:returnDate "2023-01-25" ;
-ns1:type "flight-destination" .
-
-_:b1066 ns1:detailedName "MENARA" ;
-ns1:subType "AIRPORT" .
-
-_:b1098 ns1:detailedName "AIRPORT" ;
-ns1:subType "AIRPORT" .
-
-_:b1065 ns1:total "48.78" .
-
-_:b1097 ns1:total "69.80" .
-
-_:b1096 ns1:flightDates "https://test.api.amadeus.com/v1/shopping/flight-dates?origin=MAD&destination=LGW&departureDate=2023-01-24,2023-07-22&oneWay=false&duration=1,15&nonStop=false&maxPrice=300&currency=EUR&viewBy=DURATION" ;
-ns1:flightOffers "https://test.api.amadeus.com/v2/shopping/flight-offers?originLocationCode=MAD&destinationLocationCode=LGW&departureDate=2023-02-28&returnDate=2023-03-07&adults=1&nonStop=false&maxPrice=300&currency=EUR" .
-
-_:b1064 ns1:departureDate "2023-01-24,2023-07-22" ;
-ns1:duration "1,15" ;
-ns1:nonStop false ;
-ns1:oneWay false ;
-ns1:viewBy "DESTINATION" .
-
-_:b1063 ns1:flightDates "https://test.api.amadeus.com/v1/shopping/flight-dates?origin=MAD&destination=BCN&departureDate=2023-01-24,2023-07-22&oneWay=false&duration=1,15&nonStop=false&maxPrice=300&currency=EUR&viewBy=DURATION" ;
-ns1:flightOffers "https://test.api.amadeus.com/v2/shopping/flight-offers?originLocationCode=MAD&destinationLocationCode=BCN&departureDate=2023-01-31&returnDate=2023-02-01&adults=1&nonStop=false&maxPrice=300&currency=EUR" .
-
-_:b1095 ns1:departureDate "2023-02-28" ;
-ns1:destination "LGW" ;
-ns1:links _:b1096 ;
-ns1:origin "MAD" ;
-ns1:price _:b1097 ;
-ns1:returnDate "2023-03-07" ;
-ns1:type "flight-destination" .
-
-_:b1062 ns1:self "https://test.api.amadeus.com/v1/shopping/flight-destinations?origin=MAD&departureDate=2023-01-24,2023-07-22&oneWay=false&duration=1,15&nonStop=false&maxPrice=300&viewBy=DESTINATION" .
-
-_:b1094 ns1:detailedName "FIUMICINO" ;
-ns1:subType "AIRPORT" .
-
-_:b1061 ns1:total "49.38" .
-
-_:b1093 ns1:total "77.55" .
-
-_:b1092 ns1:flightDates "https://test.api.amadeus.com/v1/shopping/flight-dates?origin=MAD&destination=ORY&departureDate=2023-01-24,2023-07-22&oneWay=false&duration=1,15&nonStop=false&maxPrice=300&currency=EUR&viewBy=DURATION" ;
-ns1:flightOffers "https://test.api.amadeus.com/v2/shopping/flight-offers?originLocationCode=MAD&destinationLocationCode=ORY&departureDate=2023-02-21&returnDate=2023-03-04&adults=1&nonStop=false&maxPrice=300&currency=EUR" .
-
-_:b1060 ns1:flightDates "https://test.api.amadeus.com/v1/shopping/flight-dates?origin=MAD&destination=LIS&departureDate=2023-01-24,2023-07-22&oneWay=false&duration=1,15&nonStop=false&maxPrice=300&currency=EUR&viewBy=DURATION" ;
-ns1:flightOffers "https://test.api.amadeus.com/v2/shopping/flight-offers?originLocationCode=MAD&destinationLocationCode=LIS&departureDate=2023-01-29&returnDate=2023-01-31&adults=1&nonStop=false&maxPrice=300&currency=EUR" .
-
-_:b1091 ns1:departureDate "2023-02-21" ;
-ns1:destination "ORY" ;
-ns1:links _:b1092 ;
-ns1:origin "MAD" ;
-ns1:price _:b1093 ;
-ns1:returnDate "2023-03-04" ;
-ns1:type "flight-destination" .
-
-_:b1090 ns1:detailedName "GATWICK" ;
-ns1:subType "AIRPORT" .
+<http://www.historical-trip.org/class#ORY> a <http://www.historical-trip.org/class#Airport>;
+    <http://www.historical-trip.org/porp#hasIataCode> "ORY".

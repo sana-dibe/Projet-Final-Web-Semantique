@@ -1,0 +1,34 @@
+@prefix class: <http://www.historical-trip.org/class#>
+@prefix prop: <http://www.historical-trip.org/porp#>
+@prefix schema: <http://schema.org/>
+
+construct {
+
+    ?flighturi a class:Flight;
+        prop:hasDepartureDate ?departureDate;
+        prop:hasArrivalDate ?returnDate;
+        prop:hasDepartureAirport ?originuri;
+        prop:hasArrivalAirport ?destinationuri;
+        prop:hasPrice ?price .
+    ?originuri a class:Airport;
+        prop:hasIataCode ?origin.
+    ?destinationuri a class:Airport;
+        prop:hasIataCode ?destination.
+}
+ where {
+    ?flight
+    api:flightDates ?id;
+    api:data [ 
+        api:departureDate ?departureDate;
+        api:arrivalDate ?returnDate;
+        api:origin ?origin;
+        api:destination ?destination;
+        api:price [ api:total ?price ]
+    ].
+
+  
+  bind (IRI(concat("http://www.historical-trip.org/class#", ?id)) AS ?flighturi)
+  bind (IRI(concat("http://www.historical-trip.org/class#", ?destination)) AS ?destinationuri)
+  bind (IRI(concat("http://www.historical-trip.org/class#", ?origin)) AS ?originuri)
+
+}

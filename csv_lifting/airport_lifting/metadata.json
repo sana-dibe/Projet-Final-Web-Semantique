@@ -1,7 +1,7 @@
 {
     "@context": ["http://www.w3.org/ns/csvw",{"@language":"en"}],
     "url": "data/airports.dat",
-    "aboutUrl": "http://www.historical-trip.org/class#/{IATA}",
+    "aboutUrl": "http://www.historical-trip.org/class#{IATA}",
     "tableSchema": {
         "primaryKey" : "IATA",
         "columns": [{
@@ -15,13 +15,13 @@
         {
             "name":"AirportName",
             "datatype" : "string",
-            "propertyUrl" : "http://www.historical-trip.org/porp#/airportName",
+            "propertyUrl" : "http://www.historical-trip.org/porp#airportName",
             "dc:description" : "Name of airport. May or may not contain the City name."
         },
         {
             "name":"City",
             "datatype" : "string",
-            "propertyUrl" : "http://www.historical-trip.org/porp#/hasCity",
+            "propertyUrl" : "http://www.historical-trip.org/porp#hasCity",
             "dc:description" : "Name of city served by airport. May be spelled differently from Name."
         },
         {
@@ -32,25 +32,25 @@
         {
             "name":"IATA",
             "datatype" : "string",
-            "propertyUrl" : "http://www.historical-trip.org/porp#/hasIATA",
+            "propertyUrl" : "http://www.historical-trip.org/porp#hasIATA",
             "dc:description" : "3-letter IATA code. Null if not assigned/unknown."
         },
         {
             "name":"ICAO",
             "datatype" : "string",
-            "propertyUrl" : "http://www.historical-trip.org/porp#/hasICAO",
+            "propertyUrl" : "http://www.historical-trip.org/porp#hasICAO",
             "dc:description" : "4-letter ICAO code, Null if not assigned."
         },
         {
             "name":"Latitude",
             "datatype":"decimal",
-            "propertyUrl" : "http://www.historical-trip.org/porp#/hasLatitude", 
+            "propertyUrl" : "http://www.historical-trip.org/porp#hasLatitude", 
             "dc:description" : "Decimal degrees, usually to six significant digits. Negative is South, positive is North."
         },
         {
             "name":"Longitude",
             "datatype": "decimal",
-            "propertyUrl" : "http://www.historical-trip.org/porp#/hasLongitude",
+            "propertyUrl" : "http://www.historical-trip.org/porp#hasLongitude",
             "dc:description" : "Decimal degrees, usually to six significant digits. Negative is West, positive is East."
         },
         {
@@ -60,7 +60,7 @@
         },
         {
             "name" : "Time_zone_hours",
-            "propertyUrl" : "https://data.nasa.gov/ontologies/atmonto/NAS#/hoursOffsetFromUTC",
+            "propertyUrl" : "https://data.nasa.gov/ontologies/atmonto/NAS#hoursOffsetFromUTC",
             "dc:description" : "Hours offset from UTC. Fractional hours are expressed as decimals, eg. India is 5.5.",
             "suppressOutput": true
         },
@@ -70,7 +70,7 @@
         },
         {
             "name" : "Time_zone_string",
-            "propertyUrl" : "http://www.historical-trip.org/porp#/hasTimezone",
+            "propertyUrl" : "http://www.historical-trip.org/porp#hasTimezone",
             "dc:description" : "Timezone in tz (Olson) format, eg. America/Los_Angeles."
         },
         {
@@ -82,16 +82,14 @@
             "suppressOutput": true
         },{
             "virtual": true,
-            "propertyUrl": "schema:hasMap",
-            "valueUrl": "https://www.google.com/maps/@{Latitude},{Longitude},7z",
-            "dc:description" : "map pin in google map.",
-            "suppressOutput": true
+            "propertyUrl": "rdf:type",
+            "valueUrl": "http://www.historical-trip.org/class#Airport"
         },
         {   
             "name" : "Airport",
             "virtual": true,
             "propertyUrl": "rdf:type",
-            "valueUrl": "https://data.nasa.gov/ontologies/atmonto/NAS#/Airport",
+            "valueUrl": "https://data.nasa.gov/ontologies/atmonto/NAS#Airport",
             "suppressOutput": true
         }
         ]

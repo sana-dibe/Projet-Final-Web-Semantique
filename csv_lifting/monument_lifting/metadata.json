@@ -1,21 +1,22 @@
 {
     "@context": "http://www.w3.org/ns/csvw",
     "url": "monument.csv",
-    "aboutUrl": "http://www.historical-trip.org/class#/{xid}",
+    "aboutUrl": "http://www.historical-trip.org/class#{xid}",
 
     "tableSchema": {
       "primaryKey" : "xid",
       "columns": [
         {
         "name": "xid",
+        "propertyUrl" : "schema:identifier",
         "datatype" : "string"
         },{
           "name" : "name",
           "datatype" : "string",
-          "propertyUrl" : "http://www.historical-trip.org/porp#/hasName"
+          "propertyUrl" : "http://www.historical-trip.org/porp#hasName"
         },{
           "name" : "city",
-          "propertyUrl" :  "http://www.historical-trip.org/class#/{city}",
+          "propertyUrl" :  "http://www.historical-trip.org/class#{city}",
           "datatype" : "string"
         },{
           "name" : "wiki_link",
@@ -32,7 +33,8 @@
         },{
           "name" : "google_id",
           "propertyUrl" : "schema:identifier",
-          "datatype" : "string"
+          "datatype" : "string",
+          "suppressOutput": true
         },{
           "name" : "opening_hours",
           "propertyUrl" : "http://www.historical-trip.org/porp#hasOpeningHours",
@@ -42,7 +44,12 @@
           "name" : "wikidata",
           "propertyUrl" : "https://www.wikidata.org/wiki/",
           "datatype" : "string"
-        }
+        },
+        {
+          "virtual": true,
+          "propertyUrl": "rdf:type",
+          "valueUrl": "http://www.historical-trip.org/class#HistoricalSite"
+      }
         ]
 }
 }
