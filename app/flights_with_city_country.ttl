@@ -4,7 +4,6 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 
-
 <http://www.historical-trip.org/class#https://test.api.amadeus.com/v1/shopping/flight-dates?origin=MAD&destination=FCO&departureDate=2023-01-24,2023-07-22&oneWay=false&duration=1,15&nonStop=false&maxPrice=300&currency=EUR&viewBy=DURATION> a <http://www.historical-trip.org/class#Flight>;
     <http://www.historical-trip.org/porp#hasDepartureDate> "2023-02-28"^^xsd:date;
     <http://www.historical-trip.org/porp#hasArrivalDate> "2023-03-02"^^xsd:date;
@@ -85,37 +84,109 @@
 
 
 <http://www.historical-trip.org/class#MAD> a <http://www.historical-trip.org/class#Airport>;
-    <http://www.historical-trip.org/porp#hasIATA> "MAD".
+    <http://www.historical-trip.org/porp#airportName> "Adolfo Suárez Madrid–Barajas Airport";
+    <http://www.historical-trip.org/porp#hasCity> "Madrid";
+    <http://www.historical-trip.org/porp#hasIATA> "MAD";
+    <http://www.historical-trip.org/porp#hasICAO> "LEMD" ;
+    <http://www.historical-trip.org/porp#hasLatitude> 40.471926 ;
+    <http://www.historical-trip.org/porp#hasLongitude> -3.56264;
+    <http://www.historical-trip.org/porp#hasTimezone> "Europe/Madrid" .
 
 <http://www.historical-trip.org/class#FCO> a <http://www.historical-trip.org/class#Airport>;
-    <http://www.historical-trip.org/porp#hasIATA> "FCO".
+    <http://www.historical-trip.org/porp#airportName> "Leonardo da Vinci–Fiumicino Airport";
+    <http://www.historical-trip.org/porp#hasCity> "Rome";
+    <http://www.historical-trip.org/porp#hasIATA> "FCO";
+    <http://www.historical-trip.org/porp#hasICAO> "LIRF";
+    <http://www.historical-trip.org/porp#hasLatitude>  41.8002778 ;
+    <http://www.historical-trip.org/porp#hasLongitude> 12.2388889 ;
+    <http://www.historical-trip.org/porp#hasTimezone>  "Europe/Rome" .
 
 <http://www.historical-trip.org/class#MXP> a <http://www.historical-trip.org/class#Airport>;
-    <http://www.historical-trip.org/porp#hasIATA> "MXP".
+    <http://www.historical-trip.org/porp#airportName>  "Malpensa International Airport" ;
+    <http://www.historical-trip.org/porp#hasCity> "Milano";
+    <http://www.historical-trip.org/porp#hasIATA> "MXP";
+    <http://www.historical-trip.org/porp#hasICAO> "LIMC";
+    <http://www.historical-trip.org/porp#hasLatitude>  45.6306  ;
+    <http://www.historical-trip.org/porp#hasLongitude> 8.72811 ;
+    <http://www.historical-trip.org/porp#hasTimezone>  "Europe/Rome" .
 
 <http://www.historical-trip.org/class#AMS> a <http://www.historical-trip.org/class#Airport>;
-    <http://www.historical-trip.org/porp#hasIATA> "AMS".
+    <http://www.historical-trip.org/porp#airportName>  "Amsterdam Airport Schiphol" ;
+    <http://www.historical-trip.org/porp#hasCity> "Amsterdam";
+    <http://www.historical-trip.org/porp#hasIATA> "AMS";
+    <http://www.historical-trip.org/porp#hasICAO> "EHAM";
+    <http://www.historical-trip.org/porp#hasLatitude>  52.308601  ;
+    <http://www.historical-trip.org/porp#hasLongitude> 4.76389 ;
+    <http://www.historical-trip.org/porp#hasTimezone>  "Europe/Amsterdam" . 
 
 <http://www.historical-trip.org/class#OPO> a <http://www.historical-trip.org/class#Airport>;
-    <http://www.historical-trip.org/porp#hasIATA> "OPO".
+    <http://www.historical-trip.org/porp#airportName>  "Francisco de Sá Carneiro Airport" ;
+    <http://www.historical-trip.org/porp#hasCity> "Porto";
+    <http://www.historical-trip.org/porp#hasIATA> "OPO";
+    <http://www.historical-trip.org/porp#hasICAO> "LPPR";
+    <http://www.historical-trip.org/porp#hasLatitude>  41.2481002808  ;
+    <http://www.historical-trip.org/porp#hasLongitude> -8.68138980865 ;
+    <http://www.historical-trip.org/porp#hasTimezone> "Europe/Lisbon" . 
 
 <http://www.historical-trip.org/class#PMI> a <http://www.historical-trip.org/class#Airport>;
-    <http://www.historical-trip.org/porp#hasIATA> "PMI".
+    <http://www.historical-trip.org/porp#airportName>  "Palma De Mallorca Airport" ;
+    <http://www.historical-trip.org/porp#hasCity> "Palma de Mallorca";
+    <http://www.historical-trip.org/porp#hasIATA> "PMI";
+    <http://www.historical-trip.org/porp#hasICAO> "LEPA";
+    <http://www.historical-trip.org/porp#hasLatitude>  39.551700592  ;
+    <http://www.historical-trip.org/porp#hasLongitude> 2.73881006241 ;
+    <http://www.historical-trip.org/porp#hasTimezone>  "Europe/Madrid"  . 
 
 <http://www.historical-trip.org/class#BCN> a <http://www.historical-trip.org/class#Airport>;
-    <http://www.historical-trip.org/porp#hasIATA> "BCN".
+    <http://www.historical-trip.org/porp#airportName>  "Barcelona International Airport" ;
+    <http://www.historical-trip.org/porp#hasCity> "Barcelona";
+    <http://www.historical-trip.org/porp#hasIATA> "BCN";
+    <http://www.historical-trip.org/porp#hasICAO> "LEBL";
+    <http://www.historical-trip.org/porp#hasLatitude>  41.2971  ;
+    <http://www.historical-trip.org/porp#hasLongitude> 2.07846  ;
+    <http://www.historical-trip.org/porp#hasTimezone>  "Europe/Madrid" . 
 
 <http://www.historical-trip.org/class#LIS> a <http://www.historical-trip.org/class#Airport>;
-    <http://www.historical-trip.org/porp#hasIATA> "LIS".
+    <http://www.historical-trip.org/porp#airportName>  "Humberto Delgado Airport (Lisbon Portela Airport)" ;
+    <http://www.historical-trip.org/porp#hasCity> "Amsterdam";
+    <http://www.historical-trip.org/porp#hasIATA> "LIS";
+    <http://www.historical-trip.org/porp#hasICAO> "LPPT";
+    <http://www.historical-trip.org/porp#hasLatitude>  38.7813  ;
+    <http://www.historical-trip.org/porp#hasLongitude> -9.13592 ;
+    <http://www.historical-trip.org/porp#hasTimezone>  "Europe/Lisbon" . 
 
 <http://www.historical-trip.org/class#RAK> a <http://www.historical-trip.org/class#Airport>;
-    <http://www.historical-trip.org/porp#hasIATA> "RAK".
+    <http://www.historical-trip.org/porp#airportName>  "Menara Airport" ;
+    <http://www.historical-trip.org/porp#hasCity> "Marrakech";
+    <http://www.historical-trip.org/porp#hasIATA> "RAK";
+    <http://www.historical-trip.org/porp#hasICAO> "GMMX";
+    <http://www.historical-trip.org/porp#hasLatitude>  31.606899261499997  ;
+    <http://www.historical-trip.org/porp#hasLongitude> -8.03629970551 ;
+    <http://www.historical-trip.org/porp#hasTimezone>  "Africa/Casablanca" . 
 
 <http://www.historical-trip.org/class#LPA> a <http://www.historical-trip.org/class#Airport>;
-    <http://www.historical-trip.org/porp#hasIATA> "LPA".
+    <http://www.historical-trip.org/porp#airportName>  "Gran Canaria Airport" ;
+    <http://www.historical-trip.org/porp#hasCity> "Gran Canaria";
+    <http://www.historical-trip.org/porp#hasIATA> "LPA";
+    <http://www.historical-trip.org/porp#hasICAO> "GCLP";
+    <http://www.historical-trip.org/porp#hasLatitude>  27.931900024414062  ;
+    <http://www.historical-trip.org/porp#hasLongitude> -15.38659954071045 ;
+    <http://www.historical-trip.org/porp#hasTimezone>  "Atlantic/Canary" . 
 
 <http://www.historical-trip.org/class#LGW> a <http://www.historical-trip.org/class#Airport>;
-    <http://www.historical-trip.org/porp#hasIATA> "LGW".
+    <http://www.historical-trip.org/porp#airportName>  "London Gatwick Airport" ;
+    <http://www.historical-trip.org/porp#hasCity> "London";
+    <http://www.historical-trip.org/porp#hasIATA> "LGW";
+    <http://www.historical-trip.org/porp#hasICAO> "EGKK";
+    <http://www.historical-trip.org/porp#hasLatitude>  51.148102  ;
+    <http://www.historical-trip.org/porp#hasLongitude> -0.190278 ;
+    <http://www.historical-trip.org/porp#hasTimezone>  "Europe/London" . 
 
 <http://www.historical-trip.org/class#ORY> a <http://www.historical-trip.org/class#Airport>;
-    <http://www.historical-trip.org/porp#hasIATA> "ORY".
+    <http://www.historical-trip.org/porp#airportName>  "Paris-Orly Airport" ;
+    <http://www.historical-trip.org/porp#hasCity> "Paris";
+    <http://www.historical-trip.org/porp#hasIATA> "ORY";
+    <http://www.historical-trip.org/porp#hasICAO> "LFPO";
+    <http://www.historical-trip.org/porp#hasLatitude>  48.7233333  ;
+    <http://www.historical-trip.org/porp#hasLongitude> 2.3794444 ;
+    <http://www.historical-trip.org/porp#hasTimezone>  "Europe/Amsterdam" . 

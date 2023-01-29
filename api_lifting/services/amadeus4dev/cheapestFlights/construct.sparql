@@ -11,9 +11,9 @@ construct {
         prop:hasArrivalAirport ?destinationuri;
         prop:hasPrice ?price .
     ?originuri a class:Airport;
-        prop:hasIataCode ?origin.
+        prop:hasIATA ?origin.
     ?destinationuri a class:Airport;
-        prop:hasIataCode ?destination.
+        prop:hasIATA ?destination.
 }
  where {
     ?flight
