@@ -1,0 +1,1091 @@
+@prefix ns1: <http://www.w3.org/ns/csvw#> .
+@prefix ns2: <http://schema.org/> .
+@prefix ns3: <http://www.historical-trip.org/porp#> .
+@prefix ns4: <http://www.historical-trip.org/class#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ns4:Mémorial_de_la_Shoah a ns4:HistoricalSite ;
+    ns4:hasPerson ns4:François_Hollande,
+        ns4:Léon_Poliakov .
+
+ns4:Mémorial_des_Martyrs_de_la_Déportation a ns4:HistoricalSite ;
+    ns4:hasPerson ns4:Charles_de_Gaulle .
+
+ns4:Charles_de_Gaulle a ns4:Person ;
+    ns4:hasAbstract "Charles de Gaulle",
+        "Charles de Gaulle (/ʃaʁl də ɡol/ ), communément appelé le général de Gaulle ou parfois simplement le Général, né le 22 novembre 1890 à Lille et mort le 9 novembre 1970 à Colombey-les-Deux-Églises, est un militaire, résistant, homme d'État et écrivain français. Il est notamment chef de la France libre puis dirigeant du Comité français de libération nationale pendant la Seconde Guerre mondiale, président du Gouvernement provisoire de la République française de 1944 à 1946, président du Conseil des ministres de 1958 à 1959, instigateur de la Cinquième République, fondée en 1958, et président de la République de 1959 à 1969, étant le premier à occuper la magistrature suprême sous ce régime. Élevé dans une culture de grandeur nationale, Charles de Gaulle choisit une carrière d'officier. Au cours de la Première Guerre mondiale, il est blessé et fait prisonnier. Par la suite, il sert et publie dans l'entourage de Philippe Pétain, prônant auprès de personnalités politiques l'usage des divisions de blindés dans la guerre contemporaine. En mai 1940, alors colonel, il est placé à la tête d'une division blindée et mène plusieurs contre-attaques pendant la bataille de France ; il est dans la foulée promu général de brigade à titre temporaire. Pendant l'exode qui suit, il est sous-secrétaire d'État à la Guerre et à la Défense nationale dans le gouvernement Reynaud. Rejetant l'armistice demandé par Pétain à l'Allemagne nazie, il lance de Londres, à la BBC, l'« appel du 18 Juin », qui incite le peuple français à résister et à rejoindre les Forces françaises libres. Condamné à mort par contumace et déclaré déchu de la nationalité française par le régime de Vichy, il entend incarner la légitimité de la France et être reconnu en tant que puissance par les Alliés. Ne contrôlant que quelques colonies, mais reconnu par la Résistance, il entretient des relations froides avec Franklin Roosevelt, mais bénéficie généralement de l'appui de Winston Churchill. En 1943, il fusionne la France libre au sein du Comité français de libération nationale, dont il finit par prendre la direction. Il dirige le pays à partir de la Libération ; favorable à un pouvoir exécutif fort, il s'oppose aux projets parlementaires et démissionne en 1946. Il fonde l'année suivante le Rassemblement du peuple français (RPF), mais son refus de tout compromis avec le « régime des partis » l'écarte de toute responsabilité. Il revient au pouvoir après la crise de mai 1958, dans le cadre de la guerre d'Algérie. Investi président du Conseil, il fait approuver la Cinquième République par un référendum. Élu président de la République par un collège élargi de grands électeurs, il prône une « politique de grandeur » de la France. Il affermit les institutions, la monnaie (nouveau franc) et donne un rôle de troisième voie économique à un État planificateur et modernisateur de l'industrie. Il renonce par étapes à l'Algérie française malgré l'opposition des pieds-noirs et des militaires, qui avaient favorisé son retour. Il poursuit la décolonisation de l'Afrique subsaharienne et y maintient l'influence française. En rupture avec le fédéralisme européen et le partage de Yalta, de Gaulle défend l'« indépendance nationale » : il préconise une « Europe des nations » impliquant la réconciliation franco-allemande et qui irait « de l'Atlantique à l'Oural », réalise la force de dissuasion nucléaire française, retire la France du commandement militaire de l'OTAN, oppose un veto à l'entrée du Royaume-Uni dans la Communauté européenne, soutient le « Québec libre », condamne la guerre du Viêt Nam et reconnaît la Chine communiste. Sa vision du pouvoir, à savoir un chef directement approuvé par la Nation, l'oppose aux partis communiste, socialiste et centristes pro-européens. Ces formations critiquent un style de gouvernance trop personnel, voire un « coup d'État permanent », selon la formule du socialiste François Mitterrand, contre lequel de Gaulle est réélu en 1965 au suffrage universel direct — un mode de scrutin qu’il a fait adopter par référendum en 1962 à la suite de l’attentat du Petit-Clamart le visant. Il surmonte la crise de Mai 68 après avoir semblé se retirer, convoquant des élections législatives qui envoient une écrasante majorité gaulliste à l'Assemblée nationale. Mais en 1969, il engage son mandat sur un référendum (sur la réforme du Sénat et la régionalisation) et démissionne après la victoire du « non ». Il se retire dans sa propriété de Colombey-les-Deux-Églises, où il meurt dix-huit mois plus tard. Considéré comme l'un des dirigeants français les plus influents de l'histoire, Charles de Gaulle est aussi un écrivain de renom. Il laisse notamment des Mémoires de guerre, où il affirme s'être toujours « fait une certaine idée de la France », jugeant que « la France ne peut être la France sans la grandeur ». Si sa présidence ne fut pas exempte de contestations, il apparaît, plus d'un demi-siècle après sa mort, comme une figure morale toujours omniprésente dans la vie politique de la Cinquième République, la quasi-totalité de la classe politique lui rendant hommage et revendiquant à divers degrés son héritage, au-delà de la seule droite gaulliste." .
+
+ns4:François_Hollande a ns4:Person ;
+    ns4:hasAbstract "François Hollande",
+        "François Hollande [fʁɑ̃swa ʔɔlɑ̃d] , né le 12 août 1954 à Rouen, est un haut fonctionnaire et homme d'État français. Il est président de la République française du 15 mai 2012 au 14 mai 2017. Magistrat à la Cour des comptes et brièvement avocat, il est élu pour la première fois député en 1988. Il exerce la fonction de premier secrétaire du Parti socialiste (PS) de 1997 à 2008, pendant la troisième cohabitation puis dans l'opposition. Au niveau local, il est maire de Tulle de 2001 à 2008 et président du conseil général de Corrèze de 2008 à 2012. Désigné candidat du PS à l'élection présidentielle de 2012 à l'issue d'une primaire à gauche, il est élu chef de l'État face au président sortant, Nicolas Sarkozy, avec 51,6 % des suffrages exprimés au second tour. Sa présidence est marquée par une augmentation de la fiscalité puis par un virage social-libéral (le « pacte de responsabilité »), par la loi sur le mariage homosexuel, par la tenue de la Conférence de Paris sur le climat, par des interventions militaires (au Mali, en Centrafrique et au Moyen-Orient), par la crise migratoire en Europe et par l'institution d'un état d'urgence à la suite de plusieurs attentats islamistes en France. Confronté à de très faibles intentions de vote et à un risque d'échec à une primaire à gauche, il renonce à se porter candidat à un second mandat, ce qui constitue une première sous la Cinquième République. Il se tient en retrait lors de l'élection de 2017, n'apportant pas son soutien au candidat du Parti socialiste, Benoît Hamon. Après sa présidence, il ne siège pas au Conseil constitutionnel — dont il est membre de droit et à vie — et n'occupe pas de mandat ou fonction de premier plan, mais reste présent dans le débat public et la vie politique." .
+
+ns4:Léon_Poliakov a ns4:Person ;
+    ns4:hasAbstract "Léon Poliakov",
+        "Léon Poliakov (en russe : Лев Влади́мирович Поляко́в), né le 25 novembre 1910 à Saint-Pétersbourg et mort à Orsay le 8 décembre 1997, est un historien français. Il est un pionnier de l'histoire de la Shoah et un spécialiste de l'étude de l'antisémitisme." .
+
+ns4:N1070716586 a ns4:HistoricalSite ;
+    ns2:description "{'title': 'ru:Памятник Репину (Москва)', 'text': 'Памятник Репину — памятник Илье Ефимовичу Репину на Болотной площади в Москве. Расположен недалеко от одноимённой набережной и Лужкова моста; ближайшая станция метро — «Третьяковская».Памятник работы известного скульптора Матвея Генриховича Манизера был открыт 29 сентября 1958 года.Место для памятника художнику-живописцу было обусловлено близостью Третьяковской галереи, в которой хранятся многие полотна Репина. С 1962 по 1994 годы Болотная площадь, на которой расположен данный памятник, носила имя И. Репина.По сообщениям пресс-службы префектуры ЦАО, ко Дню города 2014 около памятника появится мини-сквер.', 'html': '<p><b>Памятник Репину</b> — памятник <b>Илье Ефимовичу Репину</b> на Болотной площади в Москве. Расположен недалеко от одноимённой набережной и Лужкова моста; ближайшая станция метро — «Третьяковская».</p><p>Памятник работы известного скульптора Матвея Генриховича Манизера был открыт 29 сентября 1958 года.</p><p>Место для памятника художнику-живописцу было обусловлено близостью Третьяковской галереи, в которой хранятся многие полотна Репина. С 1962 по 1994 годы Болотная площадь, на которой расположен данный памятник, носила имя И.&nbsp;Репина.</p><p>По сообщениям пресс-службы префектуры ЦАО, ко Дню города 2014 около памятника появится мини-сквер.</p>'}" ;
+    ns2:identifier "N1070716586" ;
+    ns2:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/https%3A%2F%2Fru.wikipedia.org%2Fwiki%2F%25D0%259F%25D0%25B0%25D0%25BC%25D1%258F%25D1%2582%25D0%25BD%25D0%25B8%25D0%25BA%2520%25D0%25A0%25D0%25B5%25D0%25BF%25D0%25B8%25D0%25BD%25D1%2583%2520%2528%25D0%259C%25D0%25BE%25D1%2581%25D0%25BA%25D0%25B2%25D0%25B0%2529> ;
+    ns4:Moscow "Moscow" ;
+    ns3:hasName "Monument to Ilya Repin" ;
+    ns3:hasOpeningHours "['Monday: Open 24 hours', 'Tuesday: Open 24 hours', 'Wednesday: Open 24 hours', 'Thursday: Open 24 hours', 'Friday: Open 24 hours', 'Saturday: Open 24 hours', 'Sunday: Open 24 hours']" ;
+    ns3:hasRating 4.8 ;
+    <https://www.wikidata.org/wiki/> "Q18510163" .
+
+ns4:N1336891668 a ns4:HistoricalSite ;
+    ns2:description "{'title': 'en:Santa Rosa, Florence', 'text': 'Santa Rosa Church is a sanctuary church located in Florence in the region of Tuscany, Italy.', 'html': '<p><b>Santa Rosa Church</b> is a sanctuary church located in Florence in the region of Tuscany, Italy.</p>'}" ;
+    ns2:identifier "N1336891668" ;
+    ns2:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FSanta%2520Rosa%252C%2520Florence> ;
+    ns4:Florence "Florence" ;
+    ns3:hasName "Porta di Santa Rosa" ;
+    ns3:hasOpeningHours "['Monday: Open 24 hours', 'Tuesday: Open 24 hours', 'Wednesday: Open 24 hours', 'Thursday: Open 24 hours', 'Friday: Open 24 hours', 'Saturday: Open 24 hours', 'Sunday: Open 24 hours']" ;
+    ns3:hasRating 4.4 ;
+    <https://www.wikidata.org/wiki/> "Q3979970" .
+
+ns4:N1571931922 a ns4:HistoricalSite ;
+    ns2:description "{'title': 'en:Edith Cavell Memorial', 'text': \"The Edith Cavell Memorial is an outdoor memorial to Edith Cavell by Sir George Frampton, in London, United Kingdom. The memorial is sited in St Martin's Place, beside the A400, just outside the northeast corner of Trafalgar Square, north of St Martin-in-the-Fields, east of the National Gallery and the National Portrait Gallery, and south of the London Coliseum. The site is adjacent to the first headquarters of the British Red Cross, originally located at 7 St Martin's Place.\", 'html': \"<p>The <b>Edith Cavell Memorial</b> is an outdoor memorial to Edith Cavell by Sir George Frampton, in London, United Kingdom. The memorial is sited in St Martin's Place, beside the A400, just outside the northeast corner of Trafalgar Square, north of St Martin-in-the-Fields, east of the National Gallery and the National Portrait Gallery, and south of the London Coliseum. The site is adjacent to the first headquarters of the British Red Cross, originally located at 7 St Martin's Place.</p>\"}" ;
+    ns2:identifier "N1571931922" ;
+    ns2:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FEdith%2520Cavell%2520Memorial> ;
+    ns4:London "London" ;
+    ns3:hasName "Edith Cavell Memorial" ;
+    ns3:hasOpeningHours "['Monday: 9:00\\u202fAM\\u2009–\\u20095:00\\u202fPM', 'Tuesday: 9:00\\u202fAM\\u2009–\\u20095:00\\u202fPM', 'Wednesday: 9:00\\u202fAM\\u2009–\\u20095:00\\u202fPM', 'Thursday: 9:00\\u202fAM\\u2009–\\u20095:00\\u202fPM', 'Friday: 9:00\\u202fAM\\u2009–\\u20095:00\\u202fPM', 'Saturday: Closed', 'Sunday: Closed']" ;
+    ns3:hasRating 4.6 ;
+    <https://www.wikidata.org/wiki/> "Q18159833" .
+
+ns4:N1713288174 a ns4:HistoricalSite ;
+    ns2:description "{'title': 'it:Monumento a Garibaldi (Firenze)', 'text': 'Il Monumento a Giuseppe Garibaldi �� una scultura celebrativa di Firenze, situata sul lungarno Amerigo Vespucci nello slargo tra villa Favard e il palazzo Calcagnini Arese. In bronzo, fusa nel 1890 dallo scultore Cesare Zocchi, posta su un alto piedistallo in pietra.', 'html': '<p>Il <b>Monumento a Giuseppe Garibaldi</b> �� una scultura celebrativa di Firenze, situata sul lungarno Amerigo Vespucci nello slargo tra villa Favard e il palazzo Calcagnini Arese. In bronzo, fusa nel 1890 dallo scultore Cesare Zocchi, posta su un alto piedistallo in pietra.</p>'}" ;
+    ns2:identifier "N1713288174" ;
+    ns2:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/https%3A%2F%2Fit.wikipedia.org%2Fwiki%2FMonumento%2520a%2520Garibaldi%2520%2528Firenze%2529> ;
+    ns4:Florence "Florence" ;
+    ns3:hasName "Monumento a Garibaldi" ;
+    ns3:hasOpeningHours "['Monday: Closed', 'Tuesday: Closed', 'Wednesday: Closed', 'Thursday: Closed', 'Friday: Closed', 'Saturday: Closed', 'Sunday: 2:00\\u2009�C\\u200911:00\\u202fPM']" ;
+    ns3:hasRating 4.4 ;
+    <https://www.wikidata.org/wiki/> "Q3862614" .
+
+ns4:N1867328561 a ns4:HistoricalSite ;
+    ns2:description "{'title': 'en:Old Town, Edinburgh', 'text': 'The Old Town (Scots: Auld Toun) is the name popularly given to the oldest part of Scotland\\'s capital city of Edinburgh. The area has preserved much of its medieval street plan and many Reformation-era buildings. Together with the 18th/19th-century New Town, it forms part of a protected UNESCO World Heritage Site.The \"Royal Mile\" is a name coined in the early 20th century for the main street of the Old Town which runs on a downwards slope from Edinburgh Castle to Holyrood Palace and the ruined Holyrood Abbey. Narrow closes (alleyways), often no more than a few feet wide, lead steeply downhill to both north and south of the main spine which runs west to east.', 'html': '<p>The <b>Old Town</b> (Scots: <i lang=\"sco\">Auld Toun</i>) is the name popularly given to the oldest part of Scotland\\'s capital city of Edinburgh. The area has preserved much of its medieval street plan and many Reformation-era buildings. Together with the 18th/19th-century New Town, it forms part of a protected UNESCO World Heritage Site.</p><p>The \"Royal Mile\" is a name coined in the early 20th century for the main street of the Old Town which runs on a downwards slope from Edinburgh Castle to Holyrood Palace and the ruined Holyrood Abbey. Narrow <i>closes</i> (alleyways), often no more than a few feet wide, lead steeply downhill to both north and south of the main spine which runs west to east.</p>'}" ;
+    ns2:identifier "N1867328561" ;
+    ns2:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FOld%2520Town%252C%2520Edinburgh> ;
+    ns4:Edinburgh "Edinburgh" ;
+    ns3:hasName "Old Town" ;
+    ns3:hasOpeningHours "['Monday: Open 24 hours', 'Tuesday: Open 24 hours', 'Wednesday: Open 24 hours', 'Thursday: Open 24 hours', 'Friday: Open 24 hours', 'Saturday: Open 24 hours', 'Sunday: Open 24 hours']" ;
+    ns3:hasRating 4.5 ;
+    <https://www.wikidata.org/wiki/> "Q591133" .
+
+ns4:N2135983920 a ns4:HistoricalSite ;
+    ns2:description "{'title': 'en:Marco Zero (São Paulo)', 'text': 'Marco Zero (Zero Milestone) is a geographic monument in downtown São Paulo. In 1934, the marble milestone was installed in front of the São Paulo Cathedral on the Praça da Sé to symbolize the center of the city. The sculpture is a both a tourist attraction and a central point of reference for street numbers in the city. Marco Zero has been registered for historic preservation since 2007.', 'html': '<p><i><b>Marco Zero</b></i> (Zero Milestone) is a geographic monument in downtown São Paulo. In 1934, the marble milestone was installed in front of the São Paulo Cathedral on the Praça da Sé to symbolize the center of the city. The sculpture is a both a tourist attraction and a central point of reference for street numbers in the city. Marco Zero has been registered for historic preservation since 2007.</p>'}" ;
+    ns2:identifier "N2135983920" ;
+    ns2:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FMarco%2520Zero%2520%2528S%25C3%25A3o%2520Paulo%2529> ;
+    ns4:Sao%20Paulo "Sao Paulo" ;
+    ns3:hasName "Number zero survey marker of the city of São Paulo" ;
+    ns3:hasOpeningHours "['Monday: Open 24 hours', 'Tuesday: Open 24 hours', 'Wednesday: Open 24 hours', 'Thursday: Open 24 hours', 'Friday: Open 24 hours', 'Saturday: Open 24 hours', 'Sunday: Open 24 hours']" ;
+    ns3:hasRating 4.1 ;
+    <https://www.wikidata.org/wiki/> "Q10325364" .
+
+ns4:N2330685582 a ns4:HistoricalSite ;
+    ns2:description "{'title': 'ru:Кадашёвская слобода', 'text': 'Кадашёвская слобода́, Кадаши́ — историческая местность в московском районе Якиманка, впервые упомянутая как село Кадашово в духовной грамоте Ивана III (1504 год) и достигшая расцвета в середине XVII века, при Алексее Михайловиче. Крупнейшая из слобод Замоскворечья, в XVII веке Кадашёвская слобода занимала территорию между Якиманкой, Ордынкой, Николаевской улицей, Полянским рынком и старицей реки Москвы. На территории бывшей слободы, в Лаврушинском переулке, находится Государственная Третьяковская галерея; c 2004 года действует музей «Кадашёвская слобода» при храме Воскресения Христова.', 'html': '<p><b>Кадашёвская слобода́</b>, <b>Кадаши́</b>&nbsp;— историческая местность в московском районе Якиманка, впервые упомянутая как <b>село Кадашово</b> в духовной грамоте Ивана III (1504 год) и достигшая расцвета в середине XVII века, при Алексее Михайловиче. Крупнейшая из слобод Замоскворечья, в XVII веке Кадашёвская слобода занимала территорию между Якиманкой, Ордынкой, Николаевской улицей, Полянским рынком и старицей реки Москвы. На территории бывшей слободы, в Лаврушинском переулке, находится Государственная Третьяковская галерея; c 2004 года действует музей «Кадашёвская слобода» при храме Воскресения Христова.</p>'}" ;
+    ns2:identifier "N2330685582" ;
+    ns2:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/https%3A%2F%2Fru.wikipedia.org%2Fwiki%2F%25D0%259A%25D0%25B0%25D0%25B4%25D0%25B0%25D1%2588%25D1%2591%25D0%25B2%25D1%2581%25D0%25BA%25D0%25B0%25D1%258F%2520%25D1%2581%25D0%25BB%25D0%25BE%25D0%25B1%25D0%25BE%25D0%25B4%25D0%25B0> ;
+    ns4:Moscow "Moscow" ;
+    ns3:hasName "Kadashevskaya sloboda" ;
+    ns3:hasOpeningHours "['Monday: 10:00\\u202fAM\\u2009–\\u20096:00\\u202fPM', 'Tuesday: 10:00\\u202fAM\\u2009–\\u20096:00\\u202fPM', 'Wednesday: 10:00\\u202fAM\\u2009–\\u20096:00\\u202fPM', 'Thursday: 9:00\\u202fAM\\u2009–\\u20099:00\\u202fPM', 'Friday: 10:00\\u202fAM\\u2009–\\u20096:00\\u202fPM', 'Saturday: 10:00\\u202fAM\\u2009–\\u20096:00\\u202fPM', 'Sunday: 10:00\\u202fAM\\u2009–\\u20096:00\\u202fPM']" ;
+    ns3:hasRating 4.9 ;
+    <https://www.wikidata.org/wiki/> "Q4207194" .
+
+ns4:N2466426304 a ns4:HistoricalSite ;
+    ns2:description "{'title': 'en:Statue of David Livingstone, Edinburgh', 'text': \"The statue of David Livingstone in East Princes Street Gardens, Edinburgh, is a 1876 work by Amelia Robertson Hill.The bronze sculpture depicts David Livingstone wearing a cloak and haversack. He is holding a Bible and has a pistol and compass at his waist. The lion skin represents the time when he survived being attacked by a lion. The statue is next to the Scott Monument.The statue was sculpted by Amelia Robertson Hill between 1875�C1876 following Livingstone's death in 1873. It was unveiled on 15 August 1876. On 14 December 1970, the sculpture became a listed building and on 19 December 2002 the sculpture's listed status changed from B to A.List of public art in Edinburgh 1876 in art\", 'html': \"<p>The <b>statue of David Livingstone</b> in East Princes Street Gardens, Edinburgh, is a 1876 work by Amelia Robertson Hill.</p><p>The bronze sculpture depicts David Livingstone wearing a cloak and haversack. He is holding a Bible and has a pistol and compass at his waist. The lion skin represents the time when he survived being attacked by a lion. The statue is next to the Scott Monument.</p><p>The statue was sculpted by Amelia Robertson Hill between 1875�C1876 following Livingstone's death in 1873. It was unveiled on 15 August 1876. On 14 December 1970, the sculpture became a listed building and on 19 December 2002 the sculpture's listed status changed from B to A.</p><ul><li>List of public art in Edinburgh</li> \\n<li>1876 in art</li></ul>\"}" ;
+    ns2:identifier "N2466426304" ;
+    ns2:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FStatue%2520of%2520David%2520Livingstone%252C%2520Edinburgh> ;
+    ns4:Edinburgh "Edinburgh" ;
+    ns3:hasName "David Livingstone Memorial" ;
+    ns3:hasOpeningHours "['Monday: Closed', 'Tuesday: 10:00\\u202fAM\\u2009�C\\u20096:00\\u202fPM', 'Wednesday: 10:00\\u202fAM\\u2009�C\\u20096:00\\u202fPM', 'Thursday: 10:00\\u202fAM\\u2009�C\\u20096:00\\u202fPM', 'Friday: 10:00\\u202fAM\\u2009�C\\u20096:00\\u202fPM', 'Saturday: 10:00\\u202fAM\\u2009�C\\u20096:00\\u202fPM', 'Sunday: Closed']" ;
+    ns3:hasRating 4.2 ;
+    <https://www.wikidata.org/wiki/> "Q17570753" .
+
+ns4:N253043145 a ns4:HistoricalSite ;
+    ns2:description "{'title': 'ru:Памятник Гоголю (Гоголевский бульвар)', 'text': 'Па́мятник Го́голю на Гоголевском бульваре — скульптурный монумент, в Москве на Гоголевском бульваре.Установлен в честь Н. В. Гоголя в 1952 году, в год столетия со дня смерти писателя, на месте старого памятника (1909), который был перемещён в парк дома-музея Гоголя на Никитском бульваре д. 7. Скульптор Н. Томский, архитектор Л. Голубовский.', 'html': '<p><b>Па́мятник Го́голю на Гоголевском бульваре</b>&nbsp;— скульптурный монумент, в Москве на Гоголевском бульваре.</p><p>Установлен в честь Н.&nbsp;В.&nbsp;Гоголя в 1952&nbsp;году, в год столетия со дня смерти писателя, на месте старого памятника (1909), который был перемещён в парк дома-музея Гоголя на Никитском бульваре д. 7. Скульптор Н. Томский, архитектор Л. Голубовский.</p>'}" ;
+    ns2:identifier "N253043145" ;
+    ns2:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/https%3A%2F%2Fru.wikipedia.org%2Fwiki%2F%25D0%259F%25D0%25B0%25D0%25BC%25D1%258F%25D1%2582%25D0%25BD%25D0%25B8%25D0%25BA%2520%25D0%2593%25D0%25BE%25D0%25B3%25D0%25BE%25D0%25BB%25D1%258E%2520%2528%25D0%2593%25D0%25BE%25D0%25B3%25D0%25BE%25D0%25BB%25D0%25B5%25D0%25B2%25D1%2581%25D0%25BA%25D0%25B8%25D0%25B9%2520%25D0%25B1%25D1%2583%25D0%25BB%25D1%258C%25D0%25B2%25D0%25B0%25D1%2580%2529> ;
+    ns4:Moscow "Moscow" ;
+    ns3:hasName "Monument to Gogol (Gogol Boulevard)" ;
+    ns3:hasOpeningHours "['Monday: Open 24 hours', 'Tuesday: Open 24 hours', 'Wednesday: Open 24 hours', 'Thursday: Open 24 hours', 'Friday: Open 24 hours', 'Saturday: Open 24 hours', 'Sunday: Open 24 hours']" ;
+    ns3:hasRating 4.8 ;
+    <https://www.wikidata.org/wiki/> "Q59637828" .
+
+ns4:N25507033 a ns4:HistoricalSite ;
+    ns2:description "{'title': 'en:Royal Air Force Memorial', 'text': \"The Royal Air Force Memorial is a military memorial on the Victoria Embankment in central London, dedicated to the memory of the casualties of the Royal Air Force in World War I (and, by extension, all subsequent conflicts). Unveiled in 1923, it became a Grade II listed structure in 1958, and was upgraded to Grade II* in 2018. It is considered to be the official memorial of the RAF and related services.It is sited at Whitehall Steps, near Cleopatra's Needle, between the north-bank ends of Charing Cross Bridge and Westminster Bridge, and directly to the east of the main Ministry of Defence building on Whitehall. The Fleet Air Arm Memorial and the Battle of Britain Monument are nearby.\", 'html': \"<p>The <b>Royal Air Force Memorial</b> is a military memorial on the Victoria Embankment in central London, dedicated to the memory of the casualties of the Royal Air Force in World War I (and, by extension, all subsequent conflicts). Unveiled in 1923, it became a Grade II listed structure in 1958, and was upgraded to Grade II* in 2018. It is considered to be the official memorial of the RAF and related services.</p><p>It is sited at Whitehall Steps, near Cleopatra's Needle, between the north-bank ends of Charing Cross Bridge and Westminster Bridge, and directly to the east of the main Ministry of Defence building on Whitehall. The Fleet Air Arm Memorial and the Battle of Britain Monument are nearby.</p>\"}" ;
+    ns2:identifier "N25507033" ;
+    ns2:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FRoyal%2520Air%2520Force%2520Memorial> ;
+    ns4:London "London" ;
+    ns3:hasName "Royal Air Force Memorial" ;
+    ns3:hasOpeningHours "['Monday: Open 24 hours', 'Tuesday: Open 24 hours', 'Wednesday: Open 24 hours', 'Thursday: Open 24 hours', 'Friday: Open 24 hours', 'Saturday: Open 24 hours', 'Sunday: Open 24 hours']" ;
+    ns3:hasRating 4.6 ;
+    <https://www.wikidata.org/wiki/> "Q7373614" .
+
+ns4:N2667068593 a ns4:HistoricalSite ;
+    ns2:description "{'title': 'en:Fontaine du Palmier', 'text': \"The Fontaine du Palmier (1806-1808) or Fontaine de la Victoire is a monumental fountain located in the Place du Châtelet, between the Théâtre du Châtelet and the Théâtre de la Ville, in the First Arrondissement of Paris. It was designed to provide fresh drinking water to the population of the neighborhood and to commemorate the victories of Napoleon Bonaparte. It is the largest fountain built during Napoleon's reign still in existence. The closest métro station is Châtelet\", 'html': \"<p>The <b>Fontaine du Palmier</b> (1806-1808) or <b>Fontaine de la Victoire</b> is a monumental fountain located in the Place du Châtelet, between the Théâtre du Châtelet and the Théâtre de la Ville, in the First Arrondissement of Paris. It was designed to provide fresh drinking water to the population of the neighborhood and to commemorate the victories of Napoleon Bonaparte. It is the largest fountain built during Napoleon's reign still in existence. The closest métro station is Châtelet</p>\"}" ;
+    ns2:identifier "N2667068593" ;
+    ns2:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFontaine%2520du%2520Palmier> ;
+    ns4:Paris "Paris" ;
+    ns3:hasName "Fontaine du Palmier" ;
+    ns3:hasOpeningHours "['Monday: Open 24 hours', 'Tuesday: Open 24 hours', 'Wednesday: Open 24 hours', 'Thursday: Open 24 hours', 'Friday: Open 24 hours', 'Saturday: Open 24 hours', 'Sunday: Open 24 hours']" ;
+    ns3:hasRating 4.2 ;
+    <https://www.wikidata.org/wiki/> "Q3076281" .
+
+ns4:N2724212840 a ns4:HistoricalSite ;
+    ns2:description "{'title': 'it:Mura di Firenze', 'text': \"Le mura di Firenze sono le antiche cerchie difensive della citt��. Create con la citt�� stessa, si sono contati fino a sei tracciati diversi, l'ultimo dei quali risale alla met�� del Cinquecento. Le mura della parte a nord dell'Arno della citt�� furono abbattute nel corso dell'Ottocento per creare i viali di Circonvallazione, lasciando soltanto le principali porte di accesso, mentre le parti a sud, zona Oltrarno, sono ancora visibili e ben conservate.\", 'html': \"<p>Le <b>mura di Firenze</b> sono le antiche cerchie difensive della citt��. Create con la citt�� stessa, si sono contati fino a sei tracciati diversi, l'ultimo dei quali risale alla met�� del Cinquecento. Le mura della parte a nord dell'Arno della citt�� furono abbattute nel corso dell'Ottocento per creare i viali di Circonvallazione, lasciando soltanto le principali porte di accesso, mentre le parti a sud, zona Oltrarno, sono ancora visibili e ben conservate.</p>\"}" ;
+    ns2:identifier "N2724212840" ;
+    ns2:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/https%3A%2F%2Fit.wikipedia.org%2Fwiki%2FMura%2520di%2520Firenze> ;
+    ns4:Florence "Florence" ;
+    ns3:hasName "Eataly Firenze" ;
+    ns3:hasOpeningHours "['Monday: 9:30\\u202fAM\\u2009�C\\u200910:00\\u202fPM', 'Tuesday: 9:30\\u202fAM\\u2009�C\\u200910:00\\u202fPM', 'Wednesday: 9:30\\u202fAM\\u2009�C\\u200910:00\\u202fPM', 'Thursday: 9:30\\u202fAM\\u2009�C\\u200910:00\\u202fPM', 'Friday: 9:30\\u202fAM\\u2009�C\\u200910:00\\u202fPM', 'Saturday: 9:30\\u202fAM\\u2009�C\\u200910:00\\u202fPM', 'Sunday: 9:30\\u202fAM\\u2009�C\\u200910:00\\u202fPM']" ;
+    ns3:hasRating 4.1 ;
+    <https://www.wikidata.org/wiki/> "Q1080815" .
+
+ns4:N3013204189 a ns4:HistoricalSite ;
+    ns2:description "{'title': 'en:Scior Carera', 'text': 'Scior Carera (IPA: [??u?r ka?re?ra]; Milanese for \\'\"Mister Carera\"\\') and Omm de preja (IPA: [??m de ?pr?ja]; \"stone man\") are traditional, popular names used to refer to an ancient Roman sculpture located in Milan, Italy, at No. 13 of Corso Vittorio Emanuele (next to the Duomo). Before being located where it is now (on the facade of a modern building) in the mid 20th century, the sculpture has been in different places around the city, most notably in Via San Pietro dall\\'Orto.', 'html': '<p><b>Scior Carera</b> (<small>IPA:&nbsp;</small><span title=\"Representation in the International Phonetic Alphabet (IPA)\">[??u?r ka?re?ra]</span>; Milanese for \\'\"Mister Carera\"\\') and <b>Omm de preja</b> (<small>IPA:&nbsp;</small><span title=\"Representation in the International Phonetic Alphabet (IPA)\">[??m de ?pr?ja]</span>; \"stone man\") are traditional, popular names used to refer to an ancient Roman sculpture located in Milan, Italy, at No. 13 of Corso Vittorio Emanuele (next to the Duomo). Before being located where it is now (on the facade of a modern building) in the mid 20th century, the sculpture has been in different places around the city, most notably in Via San Pietro dall\\'Orto.</p>'}" ;
+    ns2:identifier "N3013204189" ;
+    ns2:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FScior%2520Carera> ;
+    ns4:Milano "Milano" ;
+    ns3:hasName "Uomo di pietra" ;
+    ns3:hasOpeningHours "['Monday: Closed', 'Tuesday: 8:30\\u202fAM\\u2009�C\\u200912:00\\u202fPM, 2:30\\u2009�C\\u20097:00\\u202fPM', 'Wednesday: 8:30\\u202fAM\\u2009�C\\u200912:00\\u202fPM, 2:30\\u2009�C\\u20097:00\\u202fPM', 'Thursday: 8:30\\u202fAM\\u2009�C\\u200912:00\\u202fPM, 2:30\\u2009�C\\u20097:00\\u202fPM', 'Friday: 8:30\\u202fAM\\u2009�C\\u200912:00\\u202fPM, 2:30\\u2009�C\\u20097:00\\u202fPM', 'Saturday: 8:30\\u202fAM\\u2009�C\\u20097:00\\u202fPM', 'Sunday: Closed']" ;
+    ns3:hasRating 4.5 ;
+    <https://www.wikidata.org/wiki/> "Q1094212" .
+
+ns4:N3123913412 a ns4:HistoricalSite ;
+    ns2:description "{'title': 'it:Colonne di Firenze', 'text': \"A Firenze esistono alcune colonne erette nel corso dei secoli come decorazione urbana e testimonianza di varie vicissitudini. Non sono molte come per esempio a Roma, ma ognuna �� legata a un particolare avvenimento, reale o leggendario, della storia cittadina.Chiamata anche colonna della Dovizia, la colonna dell'Abbondanza si trova in piazza della Repubblica. Nella Florentia romana in questo punto, nel foro, si incontravano il cardo e il decumano, quindi qui era l'ombelico della citt��. Sicuramente in questo punto esisteva una colonna di epoca romana, probabilmente sormontata da una statua dell'epoca, della quale si persero comunque le tracce.\", 'html': \"<p>A Firenze esistono alcune <b>colonne</b> erette nel corso dei secoli come decorazione urbana e testimonianza di varie vicissitudini. Non sono molte come per esempio a Roma, ma ognuna �� legata a un particolare avvenimento, reale o leggendario, della storia cittadina.</p><p>Chiamata anche colonna della Dovizia, la colonna dell'Abbondanza si trova in piazza della Repubblica. Nella Florentia romana in questo punto, nel foro, si incontravano il cardo e il decumano, quindi qui era l'<i>ombelico</i> della citt��. Sicuramente in questo punto esisteva una colonna di epoca romana, probabilmente sormontata da una statua dell'epoca, della quale si persero comunque le tracce.</p>\"}" ;
+    ns2:identifier "N3123913412" ;
+    ns2:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/https%3A%2F%2Fit.wikipedia.org%2Fwiki%2FColonne%2520di%2520Firenze> ;
+    ns4:Florence "Florence" ;
+    ns3:hasName "Croce al Trebbio" ;
+    ns3:hasOpeningHours "['Monday: Open 24 hours', 'Tuesday: Open 24 hours', 'Wednesday: Open 24 hours', 'Thursday: Open 24 hours', 'Friday: Open 24 hours', 'Saturday: Open 24 hours', 'Sunday: Open 24 hours']" ;
+    ns3:hasRating 4.4 ;
+    <https://www.wikidata.org/wiki/> "Q1110938" .
+
+ns4:N346352061 a ns4:HistoricalSite ;
+    ns2:description "{'title': 'en:Royal Artillery Boer War Memorial', 'text': \"The Royal Artillery Boer War Memorial is located on the south side of The Mall in Central London, close to the junction with Horse Guards Road at the northeast corner of St James's Park. Unveiled in 1910, it marks the deaths of the 1,083 soldiers of the Royal Artillery who died in the Second Boer War from 1899 to 1902 It has been a listed building since 1970.\", 'html': \"<p>The <b>Royal Artillery Boer War Memorial</b> is located on the south side of The Mall in Central London, close to the junction with Horse Guards Road at the northeast corner of St James's Park. Unveiled in 1910, it marks the deaths of the 1,083 soldiers of the Royal Artillery who died in the Second Boer War from 1899 to 1902 It has been a listed building since 1970.</p>\"}" ;
+    ns2:identifier "N346352061" ;
+    ns2:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FRoyal%2520Artillery%2520Boer%2520War%2520Memorial> ;
+    ns4:London "London" ;
+    ns3:hasName "The Royal Artillery Boer War Memorial" ;
+    ns3:hasOpeningHours "['Monday: Open 24 hours', 'Tuesday: Open 24 hours', 'Wednesday: Open 24 hours', 'Thursday: Open 24 hours', 'Friday: Open 24 hours', 'Saturday: Open 24 hours', 'Sunday: Open 24 hours']" ;
+    ns3:hasRating 4.4 ;
+    <https://www.wikidata.org/wiki/> "Q26271644" .
+
+ns4:N347144620 a ns4:HistoricalSite ;
+    ns2:description "{'title': 'en:Statue of Robert Peel, Parliament Square', 'text': 'The statue of Robert Peel in Parliament Square, London, is a bronze sculpture of Sir Robert Peel, a former Prime Minister of the United Kingdom. It was sculpted by Matthew Noble and was one of the first three statues to be placed in the square.The statue of Sir Robert Peel by sculptor Matthew Noble stands in Parliament Square facing Great George Street in the south-west corner of the square. It is a bronze statue on a granite plinth, and is Grade II listed.', 'html': '<p>The <b>statue of Robert Peel</b> in Parliament Square, London, is a bronze sculpture of Sir Robert Peel, a former Prime Minister of the United Kingdom. It was sculpted by Matthew Noble and was one of the first three statues to be placed in the square.</p><p>The statue of Sir Robert Peel by sculptor Matthew Noble stands in Parliament Square facing Great George Street in the south-west corner of the square. It is a bronze statue on a granite plinth, and is Grade II listed.</p>'}" ;
+    ns2:identifier "N347144620" ;
+    ns2:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FStatue%2520of%2520Robert%2520Peel%252C%2520Parliament%2520Square> ;
+    ns4:London "London" ;
+    ns3:hasName "Sir Robert Peel" ;
+    ns3:hasOpeningHours "['Monday: Open 24 hours', 'Tuesday: Open 24 hours', 'Wednesday: Open 24 hours', 'Thursday: Open 24 hours', 'Friday: Open 24 hours', 'Saturday: Open 24 hours', 'Sunday: Open 24 hours']" ;
+    ns3:hasRating 3.5 ;
+    <https://www.wikidata.org/wiki/> "Q19277831" .
+
+ns4:N3611368951 a ns4:HistoricalSite ;
+    ns2:description "{'title': 'fr:Enceinte de Philippe Auguste', 'text': \"L’enceinte de Philippe Auguste est un système de fortification urbaine construit à Paris, à partir de la fin du XIIe siècle. Cette deuxième enceinte médiévale est la plus ancienne dont on connaisse le tracé avec précision,,.Très partiellement intégrée dans les constructions ultérieures, cette enceinte a laissé plus de vestiges que les fortifications suivantes, notamment l'enceinte de Charles V et l'enceinte des Fossés Jaunes remplacés par les grands boulevards après 1670, le mur des Fermiers Généraux et l'enceinte de Thiers également à l'origine de ceintures de boulevards au XIXe siècle et au XXe siècle.Son empreinte sur le plan de Paris, moins visible, n'en est pas moins importante :\", 'html': '<p><br> L’<b>enceinte de Philippe Auguste</b> est un système de fortification urbaine construit à Paris, à partir de la fin du <abbr class=\"abbr\" title=\"12ᵉ siècle\"><span>XII</span><sup style=\"font-size:72%\">e</sup></abbr>&nbsp;siècle. Cette deuxième enceinte médiévale est la plus ancienne dont on connaisse le tracé avec précision<sup class=\"reference cite_virgule\">,</sup><sup class=\"reference cite_virgule\">,</sup>.</p><p>Très partiellement intégrée dans les constructions ultérieures, cette enceinte a laissé plus de vestiges que les fortifications suivantes, notamment l\\'enceinte de Charles V et l\\'enceinte des Fossés Jaunes remplacés par les grands boulevards après 1670, le mur des Fermiers Généraux et l\\'enceinte de Thiers également à l\\'origine de ceintures de boulevards au <abbr class=\"abbr\" title=\"19ᵉ siècle\"><span>XIX</span><sup style=\"font-size:72%\">e</sup></abbr>&nbsp;siècle et au <abbr class=\"abbr\" title=\"20ᵉ siècle\"><span>XX</span><sup style=\"font-size:72%\">e</sup></abbr>&nbsp;siècle.</p><p>Son empreinte sur le plan de Paris, moins visible, n\\'en est pas moins importante&nbsp;:</p>'}" ;
+    ns2:identifier "N3611368951" ;
+    ns2:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/https%3A%2F%2Ffr.wikipedia.org%2Fwiki%2FEnceinte%2520de%2520Philippe%2520Auguste> ;
+    ns4:Paris "Paris" ;
+    ns3:hasName "Enceinte de Philippe-Auguste" ;
+    ns3:hasOpeningHours "['Monday: Open 24 hours', 'Tuesday: Open 24 hours', 'Wednesday: Open 24 hours', 'Thursday: Open 24 hours', 'Friday: Open 24 hours', 'Saturday: Open 24 hours', 'Sunday: Open 24 hours']" ;
+    ns3:hasRating 4.2 ;
+    <https://www.wikidata.org/wiki/> "Q22924491" .
+
+ns4:N4170002491 a ns4:HistoricalSite ;
+    ns2:description "{'title': 'it:Monumento a Carlo Porta (Verziere)', 'text': \"Il Monumento a Carlo Porta �� una statua bronzea dedicata a Carlo Porta e sita al Verziere, antico mercato della verdura di Milano, replica del monumento distrutto dai bombardamenti del 1943, realizzata in bronzo dallo scultore modenese Ivo Soli, docente all'Accademia di Brera.Nel 2001 �� stata provvisoriamente tolta dalla propria sede per sottoporla a lavori di restauro.Wikimedia Commons contiene immagini o altri file su Monumento a Carlo Porta\", 'html': \"<p>Il <b>Monumento a Carlo Porta</b> �� una statua bronzea dedicata a Carlo Porta e sita al Verziere, antico mercato della verdura di Milano, replica del monumento distrutto dai bombardamenti del 1943, realizzata in bronzo dallo scultore modenese Ivo Soli, docente all'Accademia di Brera.</p><p>Nel 2001 �� stata provvisoriamente tolta dalla propria sede per sottoporla a lavori di restauro.</p><ul><li> <span>Wikimedia Commons</span> contiene immagini o altri file su <b><span>Monumento a Carlo Porta</span></b></li></ul>\"}" ;
+    ns2:identifier "N4170002491" ;
+    ns2:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/https%3A%2F%2Fit.wikipedia.org%2Fwiki%2FMonumento%2520a%2520Carlo%2520Porta%2520%2528Verziere%2529> ;
+    ns4:Milano "Milano" ;
+    ns3:hasName "Carlo Porta" ;
+    ns3:hasOpeningHours "['Monday: 8:00\\u202fAM\\u2009�C\\u20095:00\\u202fPM', 'Tuesday: 8:00\\u202fAM\\u2009�C\\u20095:00\\u202fPM', 'Wednesday: 8:00\\u202fAM\\u2009�C\\u20095:00\\u202fPM', 'Thursday: 8:00\\u202fAM\\u2009�C\\u20095:00\\u202fPM', 'Friday: 8:00\\u202fAM\\u2009�C\\u20095:00\\u202fPM', 'Saturday: Closed', 'Sunday: Closed']" ;
+    ns3:hasRating 4.0 ;
+    <https://www.wikidata.org/wiki/> "Q73982391" .
+
+ns4:N4209403195 a ns4:HistoricalSite ;
+    ns2:description "{'title': 'it:Foro romano di Milano', 'text': \"Il foro romano di Milano era il foro, ovvero la piazza principale, della citt�� romana di Mediolanum (la moderna Milano). Realizzato nella prima met�� del I secolo da Augusto, si estendeva per circa 160 metri in lunghezza e 55 in larghezza. Si trovava esattamente all'incrocio tra il decumano (identificato con le attuali corso di Porta Romana, via del Bollo, via Santa Maria Fulcorina e via Santa Maria della Porta) ed il cardo massimo (identificato con le attuali via Manzoni, via Santa Margherita e via Nerino). Come nei fori delle altre citt�� romane, anche nel foro romano di Milano era presenti importanti edifici pubblici come il Capitolium, la basilica, la curia, il macellum e le tabernae. Nei suoi pressi era presente la Zecca di Mediolanum.\", 'html': \"<p>Il <b>foro romano di Milano</b> era il foro, ovvero la piazza principale, della citt�� romana di <i>Mediolanum</i> (la moderna Milano). Realizzato nella prima met�� del I secolo da Augusto, si estendeva per circa 160 metri in lunghezza e 55 in larghezza. Si trovava esattamente all'incrocio tra il <i>decumano</i> (identificato con le attuali corso di Porta Romana, via del Bollo, via Santa Maria Fulcorina e via Santa Maria della Porta) ed il <i>cardo massimo</i> (identificato con le attuali via Manzoni, via Santa Margherita e via Nerino). Come nei fori delle altre citt�� romane, anche nel foro romano di Milano era presenti importanti edifici pubblici come il <i>Capitolium</i>, la <i>basilica</i>, la <i>curia</i>, il <i>macellum</i> e le <i>tabernae</i>. Nei suoi pressi era presente la Zecca di <i>Mediolanum</i>.</p>\"}" ;
+    ns2:identifier "N4209403195" ;
+    ns2:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/https%3A%2F%2Fit.wikipedia.org%2Fwiki%2FForo%2520romano%2520di%2520Milano> ;
+    ns4:Milano "Milano" ;
+    ns3:hasName "Foro Romano" ;
+    ns3:hasOpeningHours "['Monday: 9:00\\u202fAM\\u2009�C\\u20094:30\\u202fPM', 'Tuesday: 9:00\\u202fAM\\u2009�C\\u20094:30\\u202fPM', 'Wednesday: 9:00\\u202fAM\\u2009�C\\u20094:30\\u202fPM', 'Thursday: 9:00\\u202fAM\\u2009�C\\u20094:30\\u202fPM', 'Friday: 9:00\\u202fAM\\u2009�C\\u20094:30\\u202fPM', 'Saturday: 9:00\\u202fAM\\u2009�C\\u20094:30\\u202fPM', 'Sunday: 9:00\\u202fAM\\u2009�C\\u20094:30\\u202fPM']" ;
+    ns3:hasRating 4.7 ;
+    <https://www.wikidata.org/wiki/> "Q3748448" .
+
+ns4:N438108545 a ns4:HistoricalSite ;
+    ns2:description "{'title': 'it:Fontana del Piermarini', 'text': \"La fontana del Piermarini �� una fontana in stile neoclassico, opera dell'architetto Giuseppe Piermarini, collocata a Milano presso l'omonima piazza (alla quale la stessa opera d�� il nome). Inaugurata il 15 agosto 1782, �� considerata la prima fontana costruita nella citt�� meneghina.\", 'html': \"<p>La <i><b>fontana del Piermarini</b></i> �� una fontana in stile neoclassico, opera dell'architetto Giuseppe Piermarini, collocata a Milano presso l'omonima piazza (alla quale la stessa opera d�� il nome). Inaugurata il 15 agosto 1782, �� considerata la prima fontana costruita nella citt�� meneghina.</p>\"}" ;
+    ns2:identifier "N438108545" ;
+    ns2:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/https%3A%2F%2Fit.wikipedia.org%2Fwiki%2FFontana%2520del%2520Piermarini> ;
+    ns4:Milano "Milano" ;
+    ns3:hasName "Fontana del Piermarini" ;
+    ns3:hasOpeningHours "['Monday: Open 24 hours', 'Tuesday: Open 24 hours', 'Wednesday: Open 24 hours', 'Thursday: Open 24 hours', 'Friday: Open 24 hours', 'Saturday: Open 24 hours', 'Sunday: Open 24 hours']" ;
+    ns3:hasRating 4.5 ;
+    <https://www.wikidata.org/wiki/> "Q32009493" .
+
+ns4:N4690414591 a ns4:HistoricalSite ;
+    ns2:description "{'title': 'pt:Obelisco do Piques', 'text': 'O Obelisco do Piques é um monumento localizado no Largo da Memória, zona central da cidade de São Paulo.É o monumento mais antigo da cidade, erguido em 1814 por “Vicentinho”, vulgo Vicente Gomes Pereira, um mestre de obras português. No mesmo ano foi construído o Chafariz do Piques, localizado ao fundo do mesmo.A obra foi construída sob a orientação do marechal Daniel Pedro Müller, engenheiro militar, e inicialmente ficava dentro da água que ali formava uma bacia. Foi encomendada pelo Conde de Palma em homenagem ao governador Bernardo José de Lorena. O marechal também conduziu a construção do chafariz do Pique e da antiga ponte do Carmo.', 'html': '<p>O <b>Obelisco do Piques</b> é um monumento localizado no Largo da Memória, zona central da cidade de São Paulo.</p><p>É o monumento mais antigo da cidade, erguido em 1814 por “<i>Vicentinho</i>”, vulgo Vicente Gomes Pereira, um mestre de obras português. No mesmo ano foi construído o <i>Chafariz do Piques</i>, localizado ao fundo do mesmo.</p><p>A obra foi construída sob a orientação do marechal Daniel Pedro Müller, engenheiro militar, e inicialmente ficava dentro da água que ali formava uma bacia. Foi encomendada pelo Conde de Palma em homenagem ao governador Bernardo José de Lorena. O marechal também conduziu a construção do chafariz do Pique e da antiga ponte do Carmo.</p>'}" ;
+    ns2:identifier "N4690414591" ;
+    ns2:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/https%3A%2F%2Fpt.wikipedia.org%2Fwiki%2FObelisco%2520do%2520Piques> ;
+    ns4:Sao%20Paulo "Sao Paulo" ;
+    ns3:hasName "Obelisco do Piques" ;
+    ns3:hasOpeningHours "['Monday: Open 24 hours', 'Tuesday: Open 24 hours', 'Wednesday: Open 24 hours', 'Thursday: Open 24 hours', 'Friday: Open 24 hours', 'Saturday: Open 24 hours', 'Sunday: Open 24 hours']" ;
+    ns3:hasRating 3.5 ;
+    <https://www.wikidata.org/wiki/> "Q10340005" .
+
+ns4:N4715083290 a ns4:HistoricalSite ;
+    ns2:description "{'title': 'en:Monument to Carlo Goldoni', 'text': \"The Monument to Carlo Goldoni is a white marble outdoor statue inaugurated in 1873 to commemorate the Venetian dramatist. The monument is located in a piazza of the same name, formerly called Piazza delle Travi, in front of Ponte alla Carraia, in the quartiere of Santa Maria Novella of Florence, region of Tuscany, Italy. The name of the piazza, which had reflected a postern leading to a port in the Arno River for wood barges, was renamed in 1907 on the 200th anniversary of Goldoni's birth.The statue was commissioned in 1858 by the Societ�� Filodrammatica cittadina (Societ�� dei Permanenti Concordi) from the sculptor Ulisse Cambi. The base was constructed by Mariano Falcinil.\", 'html': \"<p>The <b>Monument to Carlo Goldoni</b> is a white marble outdoor statue inaugurated in 1873 to commemorate the Venetian dramatist. The monument is located in a piazza of the same name, formerly called <i>Piazza delle Travi</i>, in front of Ponte alla Carraia, in the quartiere of Santa Maria Novella of Florence, region of Tuscany, Italy. The name of the piazza, which had reflected a postern leading to a port in the Arno River for wood barges, was renamed in 1907 on the 200th anniversary of Goldoni's birth.</p><p>The statue was commissioned in 1858 by the <i>Societ�� Filodrammatica cittadina</i> (<i>Societ�� dei Permanenti Concordi</i>) from the sculptor Ulisse Cambi. The base was constructed by Mariano Falcinil.</p>\"}" ;
+    ns2:identifier "N4715083290" ;
+    ns2:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FMonument%2520to%2520Carlo%2520Goldoni> ;
+    ns4:Florence "Florence" ;
+    ns3:hasName "Carlo Goldoni" ;
+    ns3:hasOpeningHours "['Monday: 10:00\\u202fAM\\u2009�C\\u20094:00\\u202fPM', 'Tuesday: 10:00\\u202fAM\\u2009�C\\u20094:00\\u202fPM', 'Wednesday: Closed', 'Thursday: 10:00\\u202fAM\\u2009�C\\u20094:00\\u202fPM', 'Friday: 10:00\\u202fAM\\u2009�C\\u20094:00\\u202fPM', 'Saturday: 10:00\\u202fAM\\u2009�C\\u20094:00\\u202fPM', 'Sunday: 10:00\\u202fAM\\u2009�C\\u20094:00\\u202fPM']" ;
+    ns3:hasRating 3.8 ;
+    <https://www.wikidata.org/wiki/> "Q25054009" .
+
+ns4:N4743239056 a ns4:HistoricalSite ;
+    ns2:description "{'title': 'en:Lady Henry Somerset Memorial', 'text': \"The Lady Henry Somerset Memorial, also known as the Lady Henry Somerset's Children's Fountain, is a Grade II-listed memorial to Lady Henry Somerset, in the Victoria Embankment Gardens in Westminster, London. It was listed on 24 February 1958.List of public art in the City of WestminsterMedia related to Lady Henry Somerset Memorial Fountain at Wikimedia Commons Lady Henry Somerset - Victoria Embankment Gardens, London, UK at Waymarking\", 'html': \"<p>The <b>Lady Henry Somerset Memorial</b>, also known as the <b>Lady Henry Somerset's Children's Fountain</b>, is a Grade II-listed memorial to Lady Henry Somerset, in the Victoria Embankment Gardens in Westminster, London. It was listed on 24 February 1958.</p><ul><li>List of public art in the City of Westminster</li></ul><ul><li> Media related to Lady Henry Somerset Memorial Fountain at Wikimedia Commons</li> \\n<li>Lady Henry Somerset - Victoria Embankment Gardens, London, UK at Waymarking</li></ul>\"}" ;
+    ns2:identifier "N4743239056" ;
+    ns2:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FLady%2520Henry%2520Somerset%2520Memorial> ;
+    ns4:London "London" ;
+    ns3:hasName "Lady Henry Somerset Memorial" ;
+    ns3:hasOpeningHours "['Monday: Open 24 hours', 'Tuesday: Open 24 hours', 'Wednesday: Open 24 hours', 'Thursday: Open 24 hours', 'Friday: Open 24 hours', 'Saturday: Open 24 hours', 'Sunday: Open 24 hours']" ;
+    ns3:hasRating 4.0 ;
+    <https://www.wikidata.org/wiki/> "Q18761863" .
+
+ns4:N4951005935 a ns4:HistoricalSite ;
+    ns2:description "{'title': 'it:Monumento a Cesare Beccaria (1871)', 'text': \"Il monumento a Cesare Beccaria �� una scultura in bronzo posta in piazza Cesare Beccaria a Milano.La realizzazione di un monumento nazionale dedicato a Cesare Beccaria (dopo il monumento del 1837 posto nel palazzo di Brera) fu proposta nel 1865 in occasione del voto in parlamento per l'abolizione della pena di morte; si aggiungeva anche il centenario, appena trascorso, della pubblicazione del volume Dei delitti e delle pene (1764).Il 1o gennaio 1868 venne presentato il programma del concorso artistico per la presentazione dei bozzetti; tra i 12 partecipanti fu approvato quello intitolato Essere o non essere, questo �� il problema di Giuseppe Grandi.\", 'html': \"<p>Il <b>monumento a Cesare Beccaria</b> �� una scultura in bronzo posta in piazza Cesare Beccaria a Milano.</p><p>La realizzazione di un monumento nazionale dedicato a Cesare Beccaria (dopo il monumento del 1837 posto nel palazzo di Brera) fu proposta nel 1865 in occasione del voto in parlamento per l'abolizione della pena di morte; si aggiungeva anche il centenario, appena trascorso, della pubblicazione del volume <i>Dei delitti e delle pene</i> (1764).</p><p>Il 1o gennaio 1868 venne presentato il programma del concorso artistico per la presentazione dei bozzetti; tra i 12 partecipanti fu approvato quello intitolato <i>Essere o non essere, questo �� il problema</i> di Giuseppe Grandi.</p>\"}" ;
+    ns2:identifier "N4951005935" ;
+    ns2:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/https%3A%2F%2Fit.wikipedia.org%2Fwiki%2FMonumento%2520a%2520Cesare%2520Beccaria%2520%25281871%2529> ;
+    ns4:Milano "Milano" ;
+    ns3:hasName "Statua a Cesare Beccaria" ;
+    ns3:hasOpeningHours "['Monday: Open 24 hours', 'Tuesday: Open 24 hours', 'Wednesday: Open 24 hours', 'Thursday: Open 24 hours', 'Friday: Open 24 hours', 'Saturday: Open 24 hours', 'Sunday: Open 24 hours']" ;
+    ns3:hasRating 4.3 ;
+    <https://www.wikidata.org/wiki/> "Q32107918" .
+
+ns4:N5002102711 a ns4:HistoricalSite ;
+    ns2:description "{'title': 'en:Scottish National War Memorial', 'text': 'The Scottish National War Memorial is located in Edinburgh Castle and commemorates Scottish service personnel and civilians, and those serving with Scottish regiments, who died in the two world wars and subsequent conflicts. Its chief architect was Robert Lorimer, commissioned in 1919, and the monument was formally opened in 1927. It is housed in a redeveloped barrack block in Crown Square, at the heart of the castle, and incorporates numerous monuments.', 'html': '<p>The <b>Scottish National War Memorial</b> is located in Edinburgh Castle and commemorates Scottish service personnel and civilians, and those serving with Scottish regiments, who died in the two world wars and subsequent conflicts. Its chief architect was Robert Lorimer, commissioned in 1919, and the monument was formally opened in 1927. It is housed in a redeveloped barrack block in Crown Square, at the heart of the castle, and incorporates numerous monuments.</p>'}" ;
+    ns2:identifier "N5002102711" ;
+    ns2:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FScottish%2520National%2520War%2520Memorial> ;
+    ns4:Edinburgh "Edinburgh" ;
+    ns3:hasName "Scottish National War Memorial" ;
+    ns3:hasOpeningHours "['Monday: 9:30\\u202fAM\\u2009�C\\u20095:00\\u202fPM', 'Tuesday: 9:30\\u202fAM\\u2009�C\\u20095:00\\u202fPM', 'Wednesday: 9:30\\u202fAM\\u2009�C\\u20095:00\\u202fPM', 'Thursday: 9:30\\u202fAM\\u2009�C\\u20095:00\\u202fPM', 'Friday: 9:30\\u202fAM\\u2009�C\\u20095:00\\u202fPM', 'Saturday: 9:30\\u202fAM\\u2009�C\\u20095:00\\u202fPM', 'Sunday: 9:30\\u202fAM\\u2009�C\\u20095:00\\u202fPM']" ;
+    ns3:hasRating 4.5 ;
+    <https://www.wikidata.org/wiki/> "Q7437874" .
+
+ns4:N5072791242 a ns4:HistoricalSite ;
+    ns2:description "{'title': 'en:Royal Naval Division War Memorial', 'text': \"The Royal Naval Division Memorial is a First World War memorial located on Horse Guards Parade in central London, and dedicated to members of the 63rd (Royal Naval) Division (RND) killed in that conflict. Sir Edwin Lutyens designed the memorial, which was unveiled on 25 April 1925—ten years to the day after the Gallipoli landings, in which the division suffered heavy casualties. Shortly after the war, former members of the division established a committee, chaired by one of their leading officers, Brigadier-General Arthur Asquith, to raise funds for a memorial. Progress was initially slow. The committee planned to incorporate its memorial into a larger monument proposed by the Royal Navy for Trafalgar Square. When the navy abandoned that project, the RND's committee decided to proceed independently. They engaged Lutyens, who, after negotiation with the Office of Works, produced a design for a fountain connected to the balustrade of the Admiralty Extension building.\", 'html': \"<p>The <b>Royal Naval Division Memorial</b> is a First World War memorial located on Horse Guards Parade in central London, and dedicated to members of the 63rd (Royal Naval) Division (RND) killed in that conflict. Sir Edwin Lutyens designed the memorial, which was unveiled on 25<span>&nbsp;</span>April 1925—ten years to the day after the Gallipoli landings, in which the division suffered heavy casualties. Shortly after the war, former members of the division established a committee, chaired by one of their leading officers, Brigadier-General Arthur Asquith, to raise funds for a memorial. Progress was initially slow. The committee planned to incorporate its memorial into a larger monument proposed by the Royal Navy for Trafalgar Square. When the navy abandoned that project, the RND's committee decided to proceed independently. They engaged Lutyens, who, after negotiation with the Office of Works, produced a design for a fountain connected to the balustrade of the Admiralty Extension building.</p>\"}" ;
+    ns2:identifier "N5072791242" ;
+    ns2:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FRoyal%2520Naval%2520Division%2520War%2520Memorial> ;
+    ns4:London "London" ;
+    ns3:hasName "Royal Naval Division Memorial" ;
+    ns3:hasOpeningHours "['Monday: 8:00\\u202fAM\\u2009–\\u20098:00\\u202fPM', 'Tuesday: 8:00\\u202fAM\\u2009–\\u20098:00\\u202fPM', 'Wednesday: 8:00\\u202fAM\\u2009–\\u20098:00\\u202fPM', 'Thursday: 8:00\\u202fAM\\u2009–\\u20098:00\\u202fPM', 'Friday: 8:00\\u202fAM\\u2009–\\u20098:00\\u202fPM', 'Saturday: 8:00\\u202fAM\\u2009–\\u20098:00\\u202fPM', 'Sunday: Closed']" ;
+    ns3:hasRating 4.2 ;
+    <https://www.wikidata.org/wiki/> "Q18161521" .
+
+ns4:N5072880573 a ns4:HistoricalSite ;
+    ns2:description "{'title': 'en:Equestrian statue of the Earl Roberts, London', 'text': 'The equestrian statue of the Earl Roberts is an outdoor sculpture of Frederick Roberts, 1st Earl Roberts by Harry Bates, installed at Horse Guards Parade in London, United Kingdom.Media related to Equestrian statue of the Earl Roberts in Horse Guards Parade, London at Wikimedia Commons Statue: Roberts statue at London Remembers', 'html': '<p>The <b>equestrian statue of the Earl Roberts</b> is an outdoor sculpture of Frederick Roberts, 1st Earl Roberts by Harry Bates, installed at Horse Guards Parade in London, United Kingdom.</p><ul><li> Media related to Equestrian statue of the Earl Roberts in Horse Guards Parade, London at Wikimedia Commons</li> \\n<li>Statue: Roberts statue at London Remembers</li></ul>'}" ;
+    ns2:identifier "N5072880573" ;
+    ns2:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FEquestrian%2520statue%2520of%2520the%2520Earl%2520Roberts%252C%2520London> ;
+    ns4:London "London" ;
+    ns3:hasName "Equestrian statue of the Earl Roberts" ;
+    ns3:hasOpeningHours "['Monday: Open 24 hours', 'Tuesday: Open 24 hours', 'Wednesday: Open 24 hours', 'Thursday: Open 24 hours', 'Friday: Open 24 hours', 'Saturday: Open 24 hours', 'Sunday: Open 24 hours']" ;
+    ns3:hasRating 4.5 ;
+    <https://www.wikidata.org/wiki/> "Q21286417" .
+
+ns4:N5072911672 a ns4:HistoricalSite ;
+    ns2:description "{'title': 'en:Cádiz Memorial', 'text': 'The Cádiz Memorial, also known as the \"Prince Regent\\'s Bomb\", is an early 19th-century French mortar mounted on a brass monster, located in Horse Guards Parade in Westminster, London. It was first \"exposed to public view\" on 12 August 1816 and has been classified as a Grade II listed building since 1 December 1987. The monument was a feature of many satirical verses and cartoons in the early 19th century, mainly because the word \"bomb\" – pronounced \"bum\" – gave it an immediate association with the notoriously profligate Prince Regent\\'s sizeable backside.', 'html': '<p>The <b>Cádiz Memorial</b>, also known as the \"<b>Prince Regent\\'s Bomb</b>\", is an early 19th-century French mortar mounted on a brass monster, located in Horse Guards Parade in Westminster, London. It was first \"exposed to public view\" on 12 August 1816 and has been classified as a Grade II listed building since 1 December 1987. The monument was a feature of many satirical verses and cartoons in the early 19th century, mainly because the word \"bomb\" – pronounced \"bum\" – gave it an immediate association with the notoriously profligate Prince Regent\\'s sizeable backside.</p>'}" ;
+    ns2:identifier "N5072911672" ;
+    ns2:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FC%25C3%25A1diz%2520Memorial> ;
+    ns4:London "London" ;
+    ns3:hasName "Cádiz Memorial" ;
+    ns3:hasOpeningHours "['Monday: 12:00\\u202fAM\\u2009–\\u200912:00\\u202fPM', 'Tuesday: 12:00\\u202fAM\\u2009–\\u200912:00\\u202fPM', 'Wednesday: 12:00\\u202fAM\\u2009–\\u200912:00\\u202fPM', 'Thursday: 12:00\\u202fAM\\u2009–\\u200912:00\\u202fPM', 'Friday: 12:00\\u202fAM\\u2009–\\u200912:00\\u202fPM', 'Saturday: 12:00\\u202fAM\\u2009–\\u200912:00\\u202fPM', 'Sunday: 12:00\\u202fAM\\u2009–\\u200912:00\\u202fPM']" ;
+    ns3:hasRating 4.4 ;
+    <https://www.wikidata.org/wiki/> "Q17986192" .
+
+ns4:N5072928687 a ns4:HistoricalSite ;
+    ns2:description "{'title': 'en:Statue of the Earl Kitchener, London', 'text': 'The statue of the Earl Kitchener is an outdoor bronze statue by John Tweed depicting Herbert Kitchener, 1st Earl Kitchener, installed in 1926 and located on the south side of Horse Guards Parade in London, United Kingdom. The sculpture stands on a Portland stone plinth. It contains the following inscription: KITCHENER/ 1850–1916/ ERECTED BY PARLIAMENT.The statue was cast by A. B. Burton at his Thames Ditton Foundry.Media related to Statue of Herbert Kitchener, 1st Earl Kitchener, London at Wikimedia Commons Statue of Lord Kitchener of Khartoum, The Courtauld Institute of Art Upcoming, @ Kitchener Statue on Horse Guards Parade (2014), The Kitchener Scholars Association', 'html': '<p>The <b>statue of the Earl Kitchener</b> is an outdoor bronze statue by John Tweed depicting Herbert Kitchener, 1st Earl Kitchener, installed in 1926 and located on the south side of Horse Guards Parade in London, United Kingdom. The sculpture stands on a Portland stone plinth. It contains the following inscription: <small>KITCHENER/ 1850–1916/ ERECTED BY PARLIAMENT</small>.</p><p>The statue was cast by A. B. Burton at his Thames Ditton Foundry.</p><ul><li> Media related to Statue of Herbert Kitchener, 1st Earl Kitchener, London at Wikimedia Commons</li> \\n<li>Statue of Lord Kitchener of Khartoum, The Courtauld Institute of Art</li> \\n<li>Upcoming, @ Kitchener Statue on Horse Guards Parade (2014), The Kitchener Scholars Association</li></ul>'}" ;
+    ns2:identifier "N5072928687" ;
+    ns2:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FStatue%2520of%2520the%2520Earl%2520Kitchener%252C%2520London> ;
+    ns4:London "London" ;
+    ns3:hasName "Statue of Herbert Kitchener" ;
+    ns3:hasOpeningHours "['Monday: Open 24 hours', 'Tuesday: Open 24 hours', 'Wednesday: Open 24 hours', 'Thursday: Open 24 hours', 'Friday: Open 24 hours', 'Saturday: Open 24 hours', 'Sunday: Open 24 hours']" ;
+    ns3:hasRating 4.2 ;
+    <https://www.wikidata.org/wiki/> "Q18162040" .
+
+ns4:N5099319932 a ns4:HistoricalSite ;
+    ns2:description "{'title': 'it:Monumento a Giovanni delle Bande Nere', 'text': 'Il monumento a Giovanni delle Bande Nere si trova in piazza San Lorenzo a Firenze.', 'html': '<p>Il <b>monumento a Giovanni delle Bande Nere</b> si trova in piazza San Lorenzo a Firenze.</p>'}" ;
+    ns2:identifier "N5099319932" ;
+    ns2:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/https%3A%2F%2Fit.wikipedia.org%2Fwiki%2FMonumento%2520a%2520Giovanni%2520delle%2520Bande%2520Nere> ;
+    ns4:Florence "Florence" ;
+    ns3:hasName "Monumento a Giovanni delle Bande Nere" ;
+    ns3:hasOpeningHours "['Monday: Open 24 hours', 'Tuesday: Open 24 hours', 'Wednesday: Open 24 hours', 'Thursday: Open 24 hours', 'Friday: Open 24 hours', 'Saturday: Open 24 hours', 'Sunday: Open 24 hours']" ;
+    ns3:hasRating 4.3 ;
+    <https://www.wikidata.org/wiki/> "Q3862616" .
+
+ns4:N5633810233 a ns4:HistoricalSite ;
+    ns2:description "{'title': 'de:J??disches Gymnasium Moses Mendelssohn', 'text': 'Das J??dische Gymnasium Moses Mendelssohn (umgangssprachlich auch als JGMM bezeichnet), vormals Knabenschule der j??dischen Gemeinde, sp?ter Mittelschule der J??dischen Gemeinde, ist heute eine staatlich anerkannte Privatschule der J??dischen Gemeinde zu Berlin. Als konfessionsgebundene Schule nimmt sie sowohl j??dische als auch nichtj??dische Sch??ler auf. Das Schulgeb?ude befindet sich in der Gro?en Hamburger Stra?e in Berlin-Mitte. Bis Sommer 2012 trug die Schule den Namen J??dische Oberschule (umgangssprachlich auch als JOS bezeichnet).', 'html': '<p>Das <b>J??dische Gymnasium Moses Mendelssohn</b> (umgangssprachlich auch als <i>JGMM</i> bezeichnet), vormals <i>Knabenschule der j??dischen Gemeinde</i>, sp?ter <i>Mittelschule der J??dischen Gemeinde</i>, ist heute eine staatlich anerkannte Privatschule der J??dischen Gemeinde zu Berlin. Als konfessionsgebundene Schule nimmt sie sowohl j??dische als auch nichtj??dische Sch??ler auf. Das Schulgeb?ude befindet sich in der Gro?en Hamburger Stra?e in Berlin-Mitte. Bis Sommer 2012 trug die Schule den Namen <i>J??dische Oberschule</i> (umgangssprachlich auch als <i>JOS</i> bezeichnet).</p>'}" ;
+    ns2:identifier "N5633810233" ;
+    ns2:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/https%3A%2F%2Fde.wikipedia.org%2Fwiki%2FJ%25C3%25BCdisches%2520Gymnasium%2520Moses%2520Mendelssohn> ;
+    ns4:Berlin "Berlin" ;
+    ns3:hasName "Moses Mendelssohn" ;
+    ns3:hasOpeningHours "['Monday: 9:00\\u202fAM\\u2009?C\\u20094:00\\u202fPM', 'Tuesday: 9:00\\u202fAM\\u2009?C\\u20094:00\\u202fPM', 'Wednesday: 9:00\\u202fAM\\u2009?C\\u20094:00\\u202fPM', 'Thursday: 9:00\\u202fAM\\u2009?C\\u20094:00\\u202fPM', 'Friday: 9:00\\u202fAM\\u2009?C\\u20092:00\\u202fPM', 'Saturday: Closed', 'Sunday: Closed']" ;
+    ns3:hasRating 5.0 ;
+    <https://www.wikidata.org/wiki/> "Q1278109" .
+
+ns4:N611066173 a ns4:HistoricalSite ;
+    ns2:description "{'title': 'it:Monumento a Giuseppe Missori', 'text': 'Il monumento a Giuseppe Missori �� una scultura in bronzo posta in Piazza Missori a Milano.La statua di Giuseppe Missori fu realizzata da Riccardo Ripamonti (1849-1930). Il bronzo per la sua realizzazione, proveniente da vecchi cannoni, ?fu dato gratuitamente dal governo?.La targa sul fronte del monumento riportava il riferimento a un episodio della Battaglia di Milazzo tratto dalle memorie di Giuseppe Garibaldi: ?Giuseppe Missori / XX luglio 1860 / ... Il colonnello Missori, colla solita sua bravura, mi sbarazz�� / col suo revolver del mio antagonista / di cavalleria nemica. / Garibaldi - Memorie autografe.?Il monumento fu inaugurato il 7 maggio 1916.', 'html': '<p>Il <b>monumento a Giuseppe Missori</b> �� una scultura in bronzo posta in Piazza Missori a Milano.</p><p>La statua di Giuseppe Missori fu realizzata da Riccardo Ripamonti (1849-1930). Il bronzo per la sua realizzazione, proveniente da vecchi cannoni, ?fu dato gratuitamente dal governo?.</p><p>La targa sul fronte del monumento riportava il riferimento a un episodio della Battaglia di Milazzo tratto dalle memorie di Giuseppe Garibaldi: ?Giuseppe Missori / XX luglio 1860 / ... Il colonnello Missori, colla solita sua bravura, mi sbarazz�� / col suo revolver del mio antagonista / di cavalleria nemica. / Garibaldi - Memorie autografe.?</p><p>Il monumento fu inaugurato il 7 maggio 1916.</p>'}" ;
+    ns2:identifier "N611066173" ;
+    ns2:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/https%3A%2F%2Fit.wikipedia.org%2Fwiki%2FMonumento%2520a%2520Giuseppe%2520Missori> ;
+    ns4:Milano "Milano" ;
+    ns3:hasName "Monumento a Giuseppe Missori" ;
+    ns3:hasOpeningHours "['Monday: Open 24 hours', 'Tuesday: Open 24 hours', 'Wednesday: Open 24 hours', 'Thursday: Open 24 hours', 'Friday: Open 24 hours', 'Saturday: Open 24 hours', 'Sunday: Open 24 hours']" ;
+    ns3:hasRating 4.4 ;
+    <https://www.wikidata.org/wiki/> "Q21141701" .
+
+ns4:N6123946495 a ns4:HistoricalSite ;
+    ns2:description "{'title': 'ru:Памятник Гоголю (Никитский бульвар)', 'text': 'Па́мятник Го́голю на Никитском бульваре — скульптурный монумент, в Москве на Никитском бульваре . Установлен в честь Н. В. Гоголя, в год празднования столетия со дня рождения писателя в 1909 году. Скульптор Николай Андреев, архитектор Фёдор Шехтель.Работу Николая Андреева нередко называют эстетически совершенной, шедевром, признают одной из лучших скульптур на улицах столицы. Его памятник Гоголю характеризуют как одну из вершин творчества, программное произведение скульптора, обладающее «огромной художественной и общественной значимостью».', 'html': '<p><b>Па́мятник Го́голю на Никитском бульваре</b>&nbsp;— скульптурный монумент, в Москве на Никитском бульваре . Установлен в честь Н.&nbsp;В.&nbsp;Гоголя, в год празднования столетия со дня рождения писателя в 1909&nbsp;году. Скульптор Николай Андреев, архитектор Фёдор Шехтель.</p><p>Работу Николая Андреева нередко называют эстетически совершенной, шедевром, признают одной из лучших скульптур на улицах столицы. Его памятник Гоголю характеризуют как одну из вершин творчества, программное произведение скульптора, обладающее «огромной художественной и общественной значимостью».</p>'}" ;
+    ns2:identifier "N6123946495" ;
+    ns2:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/https%3A%2F%2Fru.wikipedia.org%2Fwiki%2F%25D0%259F%25D0%25B0%25D0%25BC%25D1%258F%25D1%2582%25D0%25BD%25D0%25B8%25D0%25BA%2520%25D0%2593%25D0%25BE%25D0%25B3%25D0%25BE%25D0%25BB%25D1%258E%2520%2528%25D0%259D%25D0%25B8%25D0%25BA%25D0%25B8%25D1%2582%25D1%2581%25D0%25BA%25D0%25B8%25D0%25B9%2520%25D0%25B1%25D1%2583%25D0%25BB%25D1%258C%25D0%25B2%25D0%25B0%25D1%2580%2529> ;
+    ns4:Moscow "Moscow" ;
+    ns3:hasName "Monument to Gogol (Nikitsky Boulevard)" ;
+    ns3:hasOpeningHours "['Monday: Open 24 hours', 'Tuesday: Open 24 hours', 'Wednesday: Open 24 hours', 'Thursday: Open 24 hours', 'Friday: Open 24 hours', 'Saturday: Open 24 hours', 'Sunday: Open 24 hours']" ;
+    ns3:hasRating 4.8 ;
+    <https://www.wikidata.org/wiki/> "Q59635546" .
+
+ns4:N639130340 a ns4:HistoricalSite ;
+    ns2:description "{'title': 'en:Troitskaya Tower', 'text': 'The Troitskaya Tower (Russian: Троицкая башня, literally Trinity Tower) is a tower with a through-passage in the center of the northwestern wall of the Moscow Kremlin, which overlooks the Alexander Garden.', 'html': '<p>The <b>Troitskaya Tower</b> (Russian: <span lang=\"ru\">Троицкая башня</span>, literally <i>Trinity Tower</i>) is a tower with a through-passage in the center of the northwestern wall of the Moscow Kremlin, which overlooks the Alexander Garden.</p>'}" ;
+    ns2:identifier "N639130340" ;
+    ns2:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FTroitskaya%2520Tower> ;
+    ns4:Moscow "Moscow" ;
+    ns3:hasName "Trinity Gate" ;
+    ns3:hasOpeningHours "['Monday: 10:00\\u202fAM\\u2009–\\u20095:30\\u202fPM', 'Tuesday: 10:00\\u202fAM\\u2009–\\u20095:30\\u202fPM', 'Wednesday: 10:00\\u202fAM\\u2009–\\u20095:30\\u202fPM', 'Thursday: 10:00\\u202fAM\\u2009–\\u20095:30\\u202fPM', 'Friday: 10:00\\u202fAM\\u2009–\\u20095:30\\u202fPM', 'Saturday: Closed', 'Sunday: Closed']" ;
+    ns3:hasRating 2.7 ;
+    <https://www.wikidata.org/wiki/> "Q2373544" .
+
+ns4:N8784458609 a ns4:HistoricalSite ;
+    ns2:description "{'title': \"fr:Hôtel d'Ourscamp\", 'text': \"L'hôtel d'Ourscamp, dit aussi maison de Marsande, ou maison de l'Ours, est un bâtiment historique situé aux nos 44 et 46, rue François-Miron dans le 4e arrondissement de Paris, en France.C’est en 1248 que les moines cisterciens de l’abbaye Notre-Dame d’Ourscamp reçoivent en donation un terrain dans l’angle formé par la rue Saint-Antoine (actuelle rue François-Miron) et la rue Geoffroy-l’Asnier à Paris.La maison est reconstruite à la fin du XVIe siècle, sans doute vers 1585.\", 'html': '<p>L\\'<b>hôtel d\\'Ourscamp</b>, dit aussi <b>maison de Marsande</b>, ou <b>maison de l\\'Ours</b>, est un bâtiment historique situé aux <abbr class=\"abbr\" title=\"numéros\">n<sup>os</sup></abbr>&nbsp;44 et 46, rue François-Miron dans le <abbr class=\"abbr\" title=\"Quatrième\">4<sup>e</sup></abbr>&nbsp;arrondissement de Paris, en France.</p><p>C’est en 1248 que les moines cisterciens de l’abbaye Notre-Dame d’Ourscamp reçoivent en donation un terrain dans l’angle formé par la rue Saint-Antoine (actuelle rue François-Miron) et la rue Geoffroy-l’Asnier à Paris.</p><p>La maison est reconstruite à la fin du <abbr class=\"abbr\" title=\"16ᵉ siècle\"><span>XVI</span><sup style=\"font-size:72%\">e</sup></abbr>&nbsp;siècle, sans doute vers 1585.</p>'}" ;
+    ns2:identifier "N8784458609" ;
+    ns2:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/https%3A%2F%2Ffr.wikipedia.org%2Fwiki%2FH%25C3%25B4tel%2520d%2527Ourscamp> ;
+    ns4:Paris "Paris" ;
+    ns3:hasName "maison d'Ourscamp" ;
+    ns3:hasOpeningHours "['Monday: 1:00\\u2009–\\u20096:00\\u202fPM', 'Tuesday: 1:00\\u2009–\\u20096:00\\u202fPM', 'Wednesday: 1:00\\u2009–\\u20096:00\\u202fPM', 'Thursday: 1:00\\u2009–\\u20096:00\\u202fPM', 'Friday: 1:00\\u2009–\\u20096:00\\u202fPM', 'Saturday: 12:00\\u2009–\\u20097:00\\u202fPM', 'Sunday: 3:00\\u2009–\\u20096:00\\u202fPM']" ;
+    ns3:hasRating 4.7 ;
+    <https://www.wikidata.org/wiki/> "Q3279210" .
+
+ns4:N910390736 a ns4:HistoricalSite ;
+    ns2:description "{'title': 'en:Conciergerie', 'text': 'The Conciergerie (French pronunciation: [kɔ̃sjɛʁʒəʁi]) is a former courthouse and prison in Paris, France, located on the west of the Île de la Cité, It was originally part of the former royal palace, the Palais de la Cité, which also included the Sainte-Chapelle. Two large medieval halls remain from the royal palace. During the French Revolution, 2,780 prisoners, including Marie-Antoinette, were imprisoned, tried and sentenced at the Concieregerie, then sent to different sites to be executed by the guillotine. It is now a national monument and museum.', 'html': '<p>The <b>Conciergerie</b> (<small>French pronunciation:&nbsp;\\u200b</small><span title=\"Representation in the International Phonetic Alphabet (IPA)\">[kɔ̃sjɛʁʒəʁi]</span>) is a former courthouse and prison in Paris, France, located on the west of the Île de la Cité, It was originally part of the former royal palace, the Palais de la Cité, which also included the Sainte-Chapelle. Two large medieval halls remain from the royal palace. During the French Revolution, 2,780 prisoners, including Marie-Antoinette, were imprisoned, tried and sentenced at the Concieregerie, then sent to different sites to be executed by the guillotine. It is now a national monument and museum.</p>'}" ;
+    ns2:identifier "N910390736" ;
+    ns2:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FConciergerie> ;
+    ns4:Paris "Paris" ;
+    ns3:hasName "Conciergerie" ;
+    ns3:hasOpeningHours "['Monday: 9:30\\u202fAM\\u2009–\\u20096:00\\u202fPM', 'Tuesday: 9:30\\u202fAM\\u2009–\\u20096:00\\u202fPM', 'Wednesday: 9:30\\u202fAM\\u2009–\\u20096:00\\u202fPM', 'Thursday: 9:30\\u202fAM\\u2009–\\u20096:00\\u202fPM', 'Friday: 9:30\\u202fAM\\u2009–\\u20096:00\\u202fPM', 'Saturday: 9:30\\u202fAM\\u2009–\\u20096:00\\u202fPM', 'Sunday: 9:30\\u202fAM\\u2009–\\u20096:00\\u202fPM']" ;
+    ns3:hasRating 4.4 ;
+    <https://www.wikidata.org/wiki/> "Q138101" .
+
+ns4:Q107011876 a ns4:HistoricalSite ;
+    ns2:description "{'title': 'it:Fontana della Regina Vittoria', 'text': \"La fontana della Regina Vittoria �� una fontana storica di Firenze, realizzata tra il 1897 e il 1900 in onore della regina Vittoria d'Inghilterra e collocata in piazza Vittorio Veneto, nei pressi dell'imbocco del parco delle Cascine.La fontana fu realizzata tra il 1897 e il 1900 (anno della sua inaugurazione ufficiale), in occasione del sessantesimo anno di regno della regina Vittoria d'Inghilterra e per ricordare le visite fatte dalla sovrana nella citt��. Promossa dalla comunit�� britannica fiorentina fu progettata dall'ingegnere Lorenzo Priuli Bon, e realizzata in marmo rosso di Verona dal laboratorio Pellegrini di Verona, quindi consegnata dal comitato promotore al Comune di Firenze.\", 'html': \"<p>La <b>fontana della Regina Vittoria</b> �� una fontana storica di Firenze, realizzata tra il 1897 e il 1900 in onore della regina Vittoria d'Inghilterra e collocata in piazza Vittorio Veneto, nei pressi dell'imbocco del parco delle Cascine.</p><p>La fontana fu realizzata tra il 1897 e il 1900 (anno della sua inaugurazione ufficiale), in occasione del sessantesimo anno di regno della regina Vittoria d'Inghilterra e per ricordare le visite fatte dalla sovrana nella citt��. Promossa dalla comunit�� britannica fiorentina fu progettata dall'ingegnere Lorenzo Priuli Bon, e realizzata in marmo rosso di Verona dal laboratorio Pellegrini di Verona, quindi consegnata dal comitato promotore al Comune di Firenze.</p>\"}" ;
+    ns2:identifier "Q107011876" ;
+    ns2:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/https%3A%2F%2Fit.wikipedia.org%2Fwiki%2FFontana%2520della%2520Regina%2520Vittoria> ;
+    ns4:Florence "Florence" ;
+    ns3:hasName "Fontana della Regina Vittoria" ;
+    ns3:hasOpeningHours "['Monday: Open 24 hours', 'Tuesday: Open 24 hours', 'Wednesday: Open 24 hours', 'Thursday: Open 24 hours', 'Friday: Open 24 hours', 'Saturday: Open 24 hours', 'Sunday: Open 24 hours']" ;
+    ns3:hasRating 4.0 ;
+    <https://www.wikidata.org/wiki/> "Q107011876" .
+
+ns4:Q24963569 a ns4:HistoricalSite ;
+    ns2:description "{'title': 'en:Statue of Hercules strangling the Nemean Lion, Piazza Ognissanti', 'text': 'The statue of Hercules Strangling the Nemean Lion is a bronze statue located in the Piazza Ognissanti, overlooking the Arno river in Florence, region of Tuscany, Italy.', 'html': '<p>The statue of <b>Hercules Strangling the Nemean Lion</b> is a bronze statue located in the Piazza Ognissanti, overlooking the Arno river in Florence, region of Tuscany, Italy.</p>'}" ;
+    ns2:identifier "Q24963569" ;
+    ns2:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FStatue%2520of%2520Hercules%2520strangling%2520the%2520Nemean%2520Lion%252C%2520Piazza%2520Ognissanti> ;
+    ns4:Florence "Florence" ;
+    ns3:hasName "Statue of Hercules strangling the Nemean Lion, Piazza Ognissanti" ;
+    ns3:hasOpeningHours "['Monday: Open 24 hours', 'Tuesday: Open 24 hours', 'Wednesday: Open 24 hours', 'Thursday: Open 24 hours', 'Friday: Open 24 hours', 'Saturday: Open 24 hours', 'Sunday: Open 24 hours']" ;
+    ns3:hasRating 4.3 ;
+    <https://www.wikidata.org/wiki/> "Q24963569" .
+
+ns4:Q3908897 a ns4:HistoricalSite ;
+    ns2:description "{'title': 'it:Porta dei Martiri', 'text': 'La Porta dei Martiri �� una delle due porte bronzee opera di Donatello della Sagrestia Vecchia nella Basilica di San Lorenzo a Firenze. Misura 235x109 cm ed ha due battenti con cinque fomelle ciascuno. Risale al 1434-1442.La Sagrestia Vecchia era la cappella funebre privata della famiglia Medici nel XV secolo, costruita da Filippo Brunelleschi tra il 1421 e il 1428 e decorata da Donatello a partire dal 1428-29. Qui il grande scultore realizz�� una serie di enormi stucchi e le due porte bronzee, le uniche che cre�� nella sua lunga carriera, nonostante gliene fossero state commissionate altre che non ebbe mai il tempo di realizzare.', 'html': '<p>La <i><b>Porta dei Martiri</b></i> �� una delle due porte bronzee opera di Donatello della Sagrestia Vecchia nella Basilica di San Lorenzo a Firenze. Misura 235x109 cm ed ha due battenti con cinque fomelle ciascuno. Risale al 1434-1442.</p><p>La Sagrestia Vecchia era la cappella funebre privata della famiglia Medici nel XV secolo, costruita da Filippo Brunelleschi tra il 1421 e il 1428 e decorata da Donatello a partire dal 1428-29. Qui il grande scultore realizz�� una serie di enormi stucchi e le due porte bronzee, le uniche che cre�� nella sua lunga carriera, nonostante gliene fossero state commissionate altre che non ebbe mai il tempo di realizzare.</p>'}" ;
+    ns2:identifier "Q3908897" ;
+    ns2:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/https%3A%2F%2Fit.wikipedia.org%2Fwiki%2FPorta%2520dei%2520Martiri> ;
+    ns4:Florence "Florence" ;
+    ns3:hasName "Porta dei Martiri" ;
+    ns3:hasOpeningHours "['Monday: Open 24 hours', 'Tuesday: Open 24 hours', 'Wednesday: Open 24 hours', 'Thursday: Open 24 hours', 'Friday: Open 24 hours', 'Saturday: Open 24 hours', 'Sunday: Open 24 hours']" ;
+    ns3:hasRating 4.7 ;
+    <https://www.wikidata.org/wiki/> "Q3908897" .
+
+ns4:Q4023993 a ns4:HistoricalSite ;
+    ns2:description "{'title': 'it:Zecca di Mediolanum', 'text': \"La zecca di Mediolanum (in latino Moneta) era l'officina governativa dove si coniavano le monete in epoca imperiale romana a Mediolanum, la moderna Milano, a partire dall'imperatore Gallieno nel 260. Si trovava a fianco del foro romano di Milano, all'incirca dove ora �� presente la moderna via Moneta (quest'ultimo toponimo �� indicativo della presenza della zecca). Attiva fino all'epoca ducale, fu sostituita nel 1474 dalla Zecca di Milano.Il primo a nominarla in modo ufficiale �� Ausonio attorno al 380-390, quando riferendosi a Mediolanum dice:\", 'html': \"<p>La <b>zecca di <i>Mediolanum</i></b> (in latino <i>Moneta</i>) era l'officina governativa dove si coniavano le monete in epoca imperiale romana a <i>Mediolanum</i>, la moderna Milano, a partire dall'imperatore Gallieno nel 260. Si trovava a fianco del foro romano di Milano, all'incirca dove ora �� presente la moderna via Moneta (quest'ultimo toponimo �� indicativo della presenza della zecca). Attiva fino all'epoca ducale, fu sostituita nel 1474 dalla Zecca di Milano.</p><p>Il primo a nominarla in modo ufficiale �� Ausonio attorno al 380-390, quando riferendosi a <i>Mediolanum</i> dice:</p>\"}" ;
+    ns2:identifier "Q4023993" ;
+    ns2:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/https%3A%2F%2Fit.wikipedia.org%2Fwiki%2FZecca%2520di%2520Mediolanum> ;
+    ns4:Milano "Milano" ;
+    ns3:hasName "Zecca di Mediolanum" ;
+    ns3:hasOpeningHours "['Monday: Open 24 hours', 'Tuesday: Open 24 hours', 'Wednesday: Open 24 hours', 'Thursday: Open 24 hours', 'Friday: Open 24 hours', 'Saturday: Open 24 hours', 'Sunday: Open 24 hours']" ;
+    ns3:hasRating 4.4 ;
+    <https://www.wikidata.org/wiki/> "Q4023993" .
+
+ns4:Q51488513 a ns4:HistoricalSite ;
+    ns2:description "{'title': 'it:Porta Romana (romana, Milano)', 'text': \"Porta Romana (lat. Porta Romana) era una delle aperture stradali ricavate nella cinta muraria romana della citt�� di Mediolanum, l'odierna Milano. Fu demolita durante l'assedio di Milano del 1162.Costruita durante il periodo repubblicano dell'epoca romana, era ricavata nella cinta delle mura romane di Milano. Venne fatta presumibilmente erigere, insieme alle mura, da Cesare dopo l'assunzione di Mediolanum al rango di municipium nell'anno 49 a.C..\", 'html': \"<p><b>Porta Romana</b> (lat. <i>Porta Romana</i>) era una delle aperture stradali ricavate nella cinta muraria romana della citt�� di <i>Mediolanum</i>, l'odierna Milano. Fu demolita durante l'assedio di Milano del 1162.</p><p>Costruita durante il periodo repubblicano dell'epoca romana, era ricavata nella cinta delle mura romane di Milano. Venne fatta presumibilmente erigere, insieme alle mura, da Cesare dopo l'assunzione di <i>Mediolanum</i> al rango di <i>municipium</i> nell'anno 49 a.C..</p>\"}" ;
+    ns2:identifier "Q51488513" ;
+    ns2:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/https%3A%2F%2Fit.wikipedia.org%2Fwiki%2FPorta%2520Romana%2520%2528romana%252C%2520Milano%2529> ;
+    ns4:Milano "Milano" ;
+    ns3:hasName "Porta Romana" ;
+    ns3:hasOpeningHours "['Monday: Closed', 'Tuesday: 11:30\\u202fAM\\u2009�C\\u20091:30\\u202fPM, 5:00\\u2009�C\\u20099:00\\u202fPM', 'Wednesday: 11:30\\u202fAM\\u2009�C\\u20091:30\\u202fPM, 5:00\\u2009�C\\u20099:00\\u202fPM', 'Thursday: 11:30\\u202fAM\\u2009�C\\u20091:30\\u202fPM, 5:00\\u2009�C\\u20099:00\\u202fPM', 'Friday: 11:30\\u202fAM\\u2009�C\\u20091:30\\u202fPM, 5:00\\u2009�C\\u20099:00\\u202fPM', 'Saturday: 5:00\\u2009�C\\u20099:00\\u202fPM', 'Sunday: 4:30\\u2009�C\\u20098:00\\u202fPM']" ;
+    ns3:hasRating 4.5 ;
+    <https://www.wikidata.org/wiki/> "Q51488513" .
+
+ns4:Q5325895 a ns4:HistoricalSite ;
+    ns2:description "{'title': 'en:Earl Haig Memorial', 'text': \"The Earl Haig Memorial is a bronze equestrian statue of the British Western Front commander Douglas Haig, 1st Earl Haig on Whitehall in Westminster, London. It was created by the sculptor Alfred Frank Hardiman and commissioned by Parliament in 1928. Eight years in the making, it aroused considerable controversy; the Field Marshal's riding position, his uniform, the horse's anatomy and its stance all drew harsh criticism. The inscription on the plinth reads 'Field Marshal Earl Haig Commander-in-Chief of the British Armies in France 1915–1918'.\", 'html': \"<p>The <b>Earl Haig Memorial</b> is a bronze equestrian statue of the British Western Front commander Douglas Haig, 1st Earl Haig on Whitehall in Westminster, London. It was created by the sculptor Alfred Frank Hardiman and commissioned by Parliament in 1928. Eight years in the making, it aroused considerable controversy; the Field Marshal's riding position, his uniform, the horse's anatomy and its stance all drew harsh criticism. The inscription on the plinth reads 'Field Marshal Earl Haig Commander-in-Chief of the British Armies in France 1915–1918'.</p>\"}" ;
+    ns2:identifier "Q5325895" ;
+    ns2:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FEarl%2520Haig%2520Memorial> ;
+    ns4:London "London" ;
+    ns3:hasName "Earl Haig Memorial" ;
+    ns3:hasOpeningHours "['Monday: Open 24 hours', 'Tuesday: Open 24 hours', 'Wednesday: Open 24 hours', 'Thursday: Open 24 hours', 'Friday: Open 24 hours', 'Saturday: Open 24 hours', 'Sunday: Open 24 hours']" ;
+    ns3:hasRating 4.3 ;
+    <https://www.wikidata.org/wiki/> "Q5325895" .
+
+ns4:Q57312417 a ns4:HistoricalSite ;
+    ns2:description "{'title': 'it:Monumento a Giulio Ricordi', 'text': \"Il monumento a Giulio Ricordi �� una scultura realizzata da Luigi Secchi e posizionata in Largo Ghiringhelli a Milano in prossimit�� del Teatro alla Scala.Dopo la morte di Giulio Ricordi, avvenuta il 6 giugno 1912, alcuni amici (tra i quali Arrigo Boito, Giacomo Puccini e Luigi Illica) si fecero promotori di un monumento in sua memoria e l'opera fu affidata a Luigi Secchi.Il monumento fu posto nell'atrio della sede della ditta Ricordi in via Berchet e inaugurato solennemente il 6 giugno 1922.Sulla base �� presente l'iscrizione a Giulio Ricordi / Amici - Estimatori.\", 'html': \"<p>Il <b>monumento a Giulio Ricordi</b> �� una scultura realizzata da Luigi Secchi e posizionata in Largo Ghiringhelli a Milano in prossimit�� del Teatro alla Scala.</p><p>Dopo la morte di Giulio Ricordi, avvenuta il 6 giugno 1912, alcuni amici (tra i quali Arrigo Boito, Giacomo Puccini e Luigi Illica) si fecero promotori di un monumento in sua memoria e l'opera fu affidata a Luigi Secchi.</p><p>Il monumento fu posto nell'atrio della sede della ditta Ricordi in via Berchet e inaugurato solennemente il 6 giugno 1922.</p><p>Sulla base �� presente l'iscrizione <span>a Giulio Ricordi / Amici - Estimatori</span>.</p>\"}" ;
+    ns2:identifier "Q57312417" ;
+    ns2:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/https%3A%2F%2Fit.wikipedia.org%2Fwiki%2FMonumento%2520a%2520Giulio%2520Ricordi> ;
+    ns4:Milano "Milano" ;
+    ns3:hasName "Monument to Giulio Ricordi" ;
+    ns3:hasOpeningHours "['Monday: Open 24 hours', 'Tuesday: Open 24 hours', 'Wednesday: Open 24 hours', 'Thursday: Open 24 hours', 'Friday: Open 24 hours', 'Saturday: Open 24 hours', 'Sunday: Open 24 hours']" ;
+    ns3:hasRating 4.5 ;
+    <https://www.wikidata.org/wiki/> "Q57312417" .
+
+ns4:Q660876 a ns4:HistoricalSite ;
+    ns2:description "{'title': 'it:Sagrestia Nuova', 'text': \"La Sagrestia Nuova �� un ambiente della basilica di San Lorenzo di Firenze, tra i capolavori di Michelangelo come architetto e come scultore. Nata come pendant alla Sagrestia Vecchia di Brunelleschi e Donatello, oggi fa parte del complesso museale delle Cappelle Medicee.La morte dei due rampolli di casa Medici, Giuliano duca di Nemours (1516) e Lorenzo duca d'Urbino (1519), aveva profondamente amareggiato papa Leone X, rispettivamente fratello e zio dei due, che si era speso per la loro carriera riuscendo a far s�� che ottenessero i primi titoli nobiliari che fregiavano la sua casata.\", 'html': \"<p>La <b>Sagrestia Nuova</b> �� un ambiente della basilica di San Lorenzo di Firenze, tra i capolavori di Michelangelo come architetto e come scultore. Nata come <i>pendant</i> alla Sagrestia Vecchia di Brunelleschi e Donatello, oggi fa parte del complesso museale delle Cappelle Medicee.</p><p>La morte dei due rampolli di casa Medici, Giuliano duca di Nemours (1516) e Lorenzo duca d'Urbino (1519), aveva profondamente amareggiato papa Leone X, rispettivamente fratello e zio dei due, che si era speso per la loro carriera riuscendo a far s�� che ottenessero i primi titoli nobiliari che fregiavano la sua casata.</p>\"}" ;
+    ns2:identifier "Q660876" ;
+    ns2:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/https%3A%2F%2Fit.wikipedia.org%2Fwiki%2FSagrestia%2520Nuova> ;
+    ns4:Florence "Florence" ;
+    ns3:hasName "New Sacristy" ;
+    ns3:hasOpeningHours "['Monday: 10:00\\u202fAM\\u2009�C\\u200912:00\\u202fAM', 'Tuesday: 10:00\\u202fAM\\u2009�C\\u200912:00\\u202fAM', 'Wednesday: 10:00\\u202fAM\\u2009�C\\u200912:00\\u202fAM', 'Thursday: 10:00\\u202fAM\\u2009�C\\u200912:00\\u202fAM', 'Friday: 10:00\\u202fAM\\u2009�C\\u200912:00\\u202fAM', 'Saturday: 10:00\\u202fAM\\u2009�C\\u200912:00\\u202fAM', 'Sunday: 10:00\\u202fAM\\u2009�C\\u200912:00\\u202fAM']" ;
+    ns3:hasRating 4.7 ;
+    <https://www.wikidata.org/wiki/> "Q660876" .
+
+ns4:Q729978 a ns4:HistoricalSite ;
+    ns2:description "{'title': 'en:Mediolanum', 'text': 'Mediolanum, the ancient city where Milan now stands, was originally an Insubrian city, but afterwards became an important Roman city in northern Italy. The city was settled by the Insubres around 600 BC, conquered by the Romans in 222 BC, and developed into a key centre of Western Christianity and informal capital of the Western Roman Empire. It declined under the ravages of the Gothic War, its capture by the Lombards in 569, and their decision to make Ticinum the capital of their Kingdom of Italy.', 'html': '<p><b>Mediolanum</b>, the ancient city where Milan now stands, was originally an Insubrian city, but afterwards became an important Roman city in northern Italy. The city was settled by the Insubres around 600 BC, conquered by the Romans in 222 BC, and developed into a key centre of Western Christianity and informal capital of the Western Roman Empire. It declined under the ravages of the Gothic War, its capture by the Lombards in 569, and their decision to make Ticinum the capital of their Kingdom of Italy.</p>'}" ;
+    ns2:identifier "Q729978" ;
+    ns2:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FMediolanum> ;
+    ns4:Milano "Milano" ;
+    ns3:hasName "Mediolanum" ;
+    ns3:hasOpeningHours "['Monday: 8:40\\u202fAM\\u2009�C\\u20091:40\\u202fPM, 3:00\\u2009�C\\u20094:00\\u202fPM', 'Tuesday: 8:40\\u202fAM\\u2009�C\\u20091:40\\u202fPM, 3:00\\u2009�C\\u20094:00\\u202fPM', 'Wednesday: 8:40\\u202fAM\\u2009�C\\u20091:40\\u202fPM, 3:00\\u2009�C\\u20094:00\\u202fPM', 'Thursday: 8:40\\u202fAM\\u2009�C\\u20091:40\\u202fPM, 3:00\\u2009�C\\u20094:00\\u202fPM', 'Friday: 8:40\\u202fAM\\u2009�C\\u20091:40\\u202fPM, 3:00\\u2009�C\\u20094:00\\u202fPM', 'Saturday: Closed', 'Sunday: Closed']" ;
+    ns3:hasRating 4.0 ;
+    <https://www.wikidata.org/wiki/> "Q729978" .
+
+ns4:Q7604481 a ns4:HistoricalSite ;
+    ns2:description "{'title': 'en:Equestrian statue of George IV, Trafalgar Square', 'text': \"The statue of George IV in Trafalgar Square, London, is a bronze equestrian statue by Sir Francis Legatt Chantrey. It depicts the King dressed in ancient Roman attire and riding bareback. The sculpture was originally designed to sit on top of the Marble Arch at the entrance to Buckingham Palace, but was placed in its current location following the King's death.\", 'html': \"<p>The <b>statue of George IV</b> in Trafalgar Square, London, is a bronze equestrian statue by Sir Francis Legatt Chantrey. It depicts the King dressed in ancient Roman attire and riding bareback. The sculpture was originally designed to sit on top of the Marble Arch at the entrance to Buckingham Palace, but was placed in its current location following the King's death.</p>\"}" ;
+    ns2:identifier "Q7604481" ;
+    ns2:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FEquestrian%2520statue%2520of%2520George%2520IV%252C%2520Trafalgar%2520Square> ;
+    ns4:London "London" ;
+    ns3:hasName "Equestrian statue of George IV" ;
+    ns3:hasOpeningHours "['Monday: Open 24 hours', 'Tuesday: Open 24 hours', 'Wednesday: Open 24 hours', 'Thursday: Open 24 hours', 'Friday: Open 24 hours', 'Saturday: Open 24 hours', 'Sunday: Open 24 hours']" ;
+    ns3:hasRating 4.5 ;
+    <https://www.wikidata.org/wiki/> "Q7604481" .
+
+ns4:R1359243 a ns4:HistoricalSite ;
+    ns2:description "{'title': 'en:Cathedral of the Archangel', 'text': 'The Cathedral of the Archangel (Russian: Архангельский собор, or Arkhangelsky sobor) is a Russian Orthodox church dedicated to the Archangel Michael. It is located in Cathedral Square of the Moscow Kremlin in Russia between the Great Kremlin Palace and the Ivan the Great Bell Tower. It was the main necropolis of the Tsars of Russia until the relocation of the capital to St. Petersburg. It was constructed between 1505 and 1508 under the supervision of an Italian architect Aloisio the New on the spot of an older cathedral, built in 1333. Now it also serves as a part of Moscow Kremlin Museums.', 'html': '<p>The <b>Cathedral of the Archangel</b> (Russian: <span lang=\"ru\">Архангельский собор</span>, or <i>Arkhangelsky sobor</i>) is a Russian Orthodox church dedicated to the Archangel Michael. It is located in Cathedral Square of the Moscow Kremlin in Russia between the Great Kremlin Palace and the Ivan the Great Bell Tower. It was the main necropolis of the Tsars of Russia until the relocation of the capital to St. Petersburg. It was constructed between 1505 and 1508 under the supervision of an Italian architect Aloisio the New on the spot of an older cathedral, built in 1333. Now it also serves as a part of Moscow Kremlin Museums.</p>'}" ;
+    ns2:identifier "R1359243" ;
+    ns2:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FCathedral%2520of%2520the%2520Archangel> ;
+    ns4:Moscow "Moscow" ;
+    ns3:hasName "Cathedral of the Archangel" ;
+    ns3:hasOpeningHours "['Monday: 10:00\\u202fAM\\u2009–\\u20095:00\\u202fPM', 'Tuesday: 10:00\\u202fAM\\u2009–\\u20095:00\\u202fPM', 'Wednesday: 10:00\\u202fAM\\u2009–\\u20095:00\\u202fPM', 'Thursday: Closed', 'Friday: 10:00\\u202fAM\\u2009–\\u20095:00\\u202fPM', 'Saturday: 10:00\\u202fAM\\u2009–\\u20095:00\\u202fPM', 'Sunday: 10:00\\u202fAM\\u2009–\\u20095:00\\u202fPM']" ;
+    ns3:hasRating 4.6 ;
+    <https://www.wikidata.org/wiki/> "Q917830" .
+
+ns4:R1359372 a ns4:HistoricalSite ;
+    ns2:description "{'title': 'ru:Никольская башня', 'text': 'Нико́льская ба́шня — проездная башня Московского Кремля, выходящая на Красную площадь. Была построена в 1491—1492 годах по проекту архитектора Пьетро Антонио Солари. До конца XV века, то есть до создания Красной площади, от Никольских ворот начиналась Никольская улица. В 1805—1806 годах башня была капитально перестроена в готическом стиле архитектором Луиджи Руска совместно с Алексеем Бакаревым. В 1816—1819 годах под руководством архитектора Осипа Бове сооружение было восстановлено в тех же формах.', 'html': '<p><b>Нико́льская ба́шня</b>&nbsp;— проездная башня Московского Кремля, выходящая на Красную площадь. Была построена в 1491—1492 годах по проекту архитектора Пьетро Антонио Солари. До конца XV века, то есть до создания Красной площади, от Никольских ворот начиналась Никольская улица. В 1805—1806 годах башня была капитально перестроена в готическом стиле архитектором Луиджи Руска совместно с Алексеем Бакаревым. В 1816—1819 годах под руководством архитектора Осипа Бове сооружение было восстановлено в тех же формах.</p>'}" ;
+    ns2:identifier "R1359372" ;
+    ns2:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/https%3A%2F%2Fru.wikipedia.org%2Fwiki%2F%25D0%259D%25D0%25B8%25D0%25BA%25D0%25BE%25D0%25BB%25D1%258C%25D1%2581%25D0%25BA%25D0%25B0%25D1%258F%2520%25D0%25B1%25D0%25B0%25D1%2588%25D0%25BD%25D1%258F> ;
+    ns4:Moscow "Moscow" ;
+    ns3:hasName "Nicholskaya Tower" ;
+    ns3:hasOpeningHours "['Monday: 10:00\\u202fAM\\u2009–\\u20096:00\\u202fPM', 'Tuesday: 10:00\\u202fAM\\u2009–\\u20096:00\\u202fPM', 'Wednesday: 10:00\\u202fAM\\u2009–\\u20096:00\\u202fPM', 'Thursday: Closed', 'Friday: 10:00\\u202fAM\\u2009–\\u20096:00\\u202fPM', 'Saturday: 10:00\\u202fAM\\u2009–\\u20096:00\\u202fPM', 'Sunday: 10:00\\u202fAM\\u2009–\\u20096:00\\u202fPM']" ;
+    ns3:hasRating 4.7 ;
+    <https://www.wikidata.org/wiki/> "Q3402912" .
+
+ns4:R1360627 a ns4:HistoricalSite ;
+    ns2:description "{'title': 'en:Troitskaya Tower', 'text': 'The Troitskaya Tower (Russian: Троицкая башня, literally Trinity Tower) is a tower with a through-passage in the center of the northwestern wall of the Moscow Kremlin, which overlooks the Alexander Garden.', 'html': '<p>The <b>Troitskaya Tower</b> (Russian: <span lang=\"ru\">Троицкая башня</span>, literally <i>Trinity Tower</i>) is a tower with a through-passage in the center of the northwestern wall of the Moscow Kremlin, which overlooks the Alexander Garden.</p>'}" ;
+    ns2:identifier "R1360627" ;
+    ns2:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FTroitskaya%2520Tower> ;
+    ns4:Moscow "Moscow" ;
+    ns3:hasName "Trinity Tower" ;
+    ns3:hasOpeningHours "['Monday: Open 24 hours', 'Tuesday: Open 24 hours', 'Wednesday: Open 24 hours', 'Thursday: Open 24 hours', 'Friday: Open 24 hours', 'Saturday: Open 24 hours', 'Sunday: Open 24 hours']" ;
+    ns3:hasRating 4.2 ;
+    <https://www.wikidata.org/wiki/> "Q2373544" .
+
+ns4:R1360641 a ns4:HistoricalSite ;
+    ns2:description "{'title': 'en:Moscow Kremlin', 'text': \"The Moscow Kremlin (Russian: Московский Кремль, tr. Moskovskiy Kreml', IPA: [mɐˈskofskʲɪj krʲemlʲ]), or simply the Kremlin, is a fortified complex in the center of Moscow founded by Russian ruling dynasty of Rurikids. It is the best known of the kremlins (Russian citadels), and includes five palaces, four cathedrals, and the enclosing Kremlin Wall with Kremlin towers. In addition, within this complex is the Grand Kremlin Palace that was formerly the Tsar's Moscow residence. The complex now serves as the official residence of the President of the Russian Federation and as a museum with almost 3 million visitors in 2017. The Kremlin overlooks the Moskva River to the south, Saint Basil's Cathedral and Red Square to the east, and the Alexander Garden to the west.\", 'html': '<p>The <b>Moscow Kremlin</b> (Russian: <span lang=\"ru\" title=\"Russian-language text\">Московский Кремль</span>, <small>tr.</small> <i lang=\"ru-Latn\" title=\"Russian-language text\">Moskovskiy Kreml\\'</i>, <small>IPA:&nbsp;</small><span title=\"Representation in the International Phonetic Alphabet (IPA)\">[mɐˈskofskʲɪj krʲemlʲ]</span>), or simply the <b>Kremlin</b>, is a fortified complex in the center of Moscow founded by Russian ruling dynasty of Rurikids. It is the best known of the kremlins (Russian citadels), and includes five palaces, four cathedrals, and the enclosing Kremlin Wall with Kremlin towers. In addition, within this complex is the Grand Kremlin Palace that was formerly the Tsar\\'s Moscow residence. The complex now serves as the official residence of the President of the Russian Federation and as a museum with almost 3 million visitors in 2017. The Kremlin overlooks the Moskva River to the south, Saint Basil\\'s Cathedral and Red Square to the east, and the Alexander Garden to the west.</p>'}" ;
+    ns2:identifier "R1360641" ;
+    ns2:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FMoscow%2520Kremlin> ;
+    ns4:Moscow "Moscow" ;
+    ns3:hasName "Moscow Kremlin" ;
+    ns3:hasOpeningHours "['Monday: 9:00\\u202fAM\\u2009–\\u20095:00\\u202fPM', 'Tuesday: 9:00\\u202fAM\\u2009–\\u20095:00\\u202fPM', 'Wednesday: 9:00\\u202fAM\\u2009–\\u20095:00\\u202fPM', 'Thursday: 9:00\\u202fAM\\u2009–\\u20095:00\\u202fPM', 'Friday: 9:00\\u202fAM\\u2009–\\u20095:00\\u202fPM', 'Saturday: 9:00\\u202fAM\\u2009–\\u20095:00\\u202fPM', 'Sunday: 9:00\\u202fAM\\u2009–\\u20095:00\\u202fPM']" ;
+    ns3:hasRating 4.8 ;
+    <https://www.wikidata.org/wiki/> "Q133274" .
+
+ns4:R3061015 a ns4:HistoricalSite ;
+    ns2:description "{'title': 'ru:Кутафья башня', 'text': 'Кута́фья ба́шня (также Предмо́стная, Отводна́я, Борисогле́бская) — единственная сохранившаяся отводная башня-стрельница Московского Кремля, составляла единый оборонительный комплекс с Троицкой башней и Троицким мостом. Датируется периодом между 1495—1516 годами, автором проекта считают итальянского архитектора Алевиза Фрязина.Башню неоднократно перестраивали и реставрировали, в результате современный облик значительно отличается от изначального. В начале XVI века башня была свыше двадцати метров высотой, не имела внутреннего свода и обильного декора фасадов. Ажурный верх добавили только в XVII веке. В стенах башни практически не осталось кирпичей оригинальной кладки.', 'html': '<p><b>Кута́фья ба́шня</b> (также <i>Предмо́стная</i>, <i>Отводна́я</i>, <i>Борисогле́бская</i>)&nbsp;— единственная сохранившаяся отводная башня-стрельница Московского Кремля, составляла единый оборонительный комплекс с Троицкой башней и Троицким мостом. Датируется периодом между 1495—1516 годами, автором проекта считают итальянского архитектора Алевиза Фрязина.</p><p>Башню неоднократно перестраивали и реставрировали, в результате современный облик значительно отличается от изначального. В начале XVI века башня была свыше двадцати метров высотой, не имела внутреннего свода и обильного декора фасадов. Ажурный верх добавили только в XVII веке. В стенах башни практически не осталось кирпичей оригинальной кладки.</p>'}" ;
+    ns2:identifier "R3061015" ;
+    ns2:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/https%3A%2F%2Fru.wikipedia.org%2Fwiki%2F%25D0%259A%25D1%2583%25D1%2582%25D0%25B0%25D1%2584%25D1%258C%25D1%258F%2520%25D0%25B1%25D0%25B0%25D1%2588%25D0%25BD%25D1%258F> ;
+    ns4:Moscow "Moscow" ;
+    ns3:hasName "Kutafya Tower" ;
+    ns3:hasOpeningHours "['Monday: 10:00\\u202fAM\\u2009–\\u20095:00\\u202fPM', 'Tuesday: 10:00\\u202fAM\\u2009–\\u20095:00\\u202fPM', 'Wednesday: 10:00\\u202fAM\\u2009–\\u20095:00\\u202fPM', 'Thursday: Closed', 'Friday: 10:00\\u202fAM\\u2009–\\u20095:00\\u202fPM', 'Saturday: 10:00\\u202fAM\\u2009–\\u20095:00\\u202fPM', 'Sunday: 10:00\\u202fAM\\u2009–\\u20095:00\\u202fPM']" ;
+    ns3:hasRating 4.7 ;
+    <https://www.wikidata.org/wiki/> "Q1981947" .
+
+ns4:R5967883 a ns4:HistoricalSite ;
+    ns2:description "{'title': 'ru:Птичья башня', 'text': 'Птичья башня — глухая башня (полубашня) Китайгородской стены, расположенная на северной стороне крепости, на берегу реки Неглинной. Построена была в 1535—1538 годах Петроком Малым Фрязиным, как и вся стена. Из всех башен Китай-города единственная сохранившаяся до настоящего времени. Как башня называлась в Средневековье, неизвестно. Также неизвестно и происхождение нынешнего названия.Это краснокирпичная с белокаменным фундаментом и цоколем низкая двухъярусная постройка с вертикальными стенами.', 'html': '<p><b>Птичья башня</b>&nbsp;— <i>глухая</i> башня (<i>полубашня</i>) Китайгородской стены, расположенная на северной стороне крепости, на берегу реки Неглинной. Построена была в 1535—1538 годах Петроком Малым Фрязиным, как и вся стена. Из всех башен Китай-города единственная сохранившаяся до настоящего времени. Как башня называлась в Средневековье, неизвестно. Также неизвестно и происхождение нынешнего названия.</p><p>Это краснокирпичная с белокаменным фундаментом и цоколем низкая двухъярусная постройка с вертикальными стенами.</p>'}" ;
+    ns2:identifier "R5967883" ;
+    ns2:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/https%3A%2F%2Fru.wikipedia.org%2Fwiki%2F%25D0%259F%25D1%2582%25D0%25B8%25D1%2587%25D1%258C%25D1%258F%2520%25D0%25B1%25D0%25B0%25D1%2588%25D0%25BD%25D1%258F> ;
+    ns4:Moscow "Moscow" ;
+    ns3:hasName "Птичья башня" ;
+    ns3:hasOpeningHours "['Monday: Open 24 hours', 'Tuesday: Open 24 hours', 'Wednesday: Open 24 hours', 'Thursday: Open 24 hours', 'Friday: Open 24 hours', 'Saturday: Open 24 hours', 'Sunday: Open 24 hours']" ;
+    ns3:hasRating 4.8 ;
+    <https://www.wikidata.org/wiki/> "Q21393993" .
+
+ns4:R9396191 a ns4:HistoricalSite ;
+    ns2:description "{'title': 'en:Mémorial des Martyrs de la Déportation', 'text': 'The Mémorial des Martyrs de la Déportation (English: \"Memorial to the Martyrs of the Deportation\") is a memorial to the 200,000 people who were deported from Vichy France to the Nazi concentration camps during World War II. It is located in Paris, France, on the site of a former morgue, underground behind Notre Dame on Île de la Cité. It was designed by French modernist architect Georges-Henri Pingusson and was inaugurated by Charles de Gaulle in 1962.', 'html': '<p>The <b>Mémorial des Martyrs de la Déportation</b> (English: <span lang=\"en\">\"Memorial to the Martyrs of the Deportation\"</span>) is a memorial to the 200,000 people who were deported from Vichy France to the Nazi concentration camps during World War II. It is located in Paris, France, on the site of a former morgue, underground behind Notre Dame on Île de la Cité. It was designed by French modernist architect Georges-Henri Pingusson and was inaugurated by Charles de Gaulle in 1962.</p>'}" ;
+    ns2:identifier "R9396191" ;
+    ns2:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FM%25C3%25A9morial%2520des%2520Martyrs%2520de%2520la%2520D%25C3%25A9portation> ;
+    ns4:Paris "Paris" ;
+    ns3:hasName "Mémorial des Martyrs de la Déportation" ;
+    ns3:hasOpeningHours "['Monday: 10:00\\u202fAM\\u2009–\\u20095:00\\u202fPM', 'Tuesday: 10:00\\u202fAM\\u2009–\\u20095:00\\u202fPM', 'Wednesday: 10:00\\u202fAM\\u2009–\\u20095:00\\u202fPM', 'Thursday: 10:00\\u202fAM\\u2009–\\u20095:00\\u202fPM', 'Friday: 10:00\\u202fAM\\u2009–\\u20095:00\\u202fPM', 'Saturday: 10:00\\u202fAM\\u2009–\\u20095:00\\u202fPM', 'Sunday: 10:00\\u202fAM\\u2009–\\u20095:00\\u202fPM']" ;
+    ns3:hasRating 4.5 ;
+    <https://www.wikidata.org/wiki/> "Q3333162" .
+
+ns4:R9734636 a ns4:HistoricalSite ;
+    ns2:description "{'title': 'en:Pátio do Colégio', 'text': 'Pátio do Colégio (in Portuguese School Yard, written in the archaic orthography Pateo do Collegio) is the name given to the historical Jesuit church and school in the city of São Paulo, Brazil. The name is also used to refer to the square in front of the church. The Pátio do Colégio marks the site where the city was founded in 1554.', 'html': '<p><b>Pátio do Colégio</b> (in Portuguese <i>School Yard</i>, written in the archaic orthography <i>Pateo do Collegio</i>) is the name given to the historical Jesuit church and school in the city of São Paulo, Brazil. The name is also used to refer to the square in front of the church. The Pátio do Colégio marks the site where the city was founded in 1554.</p>'}" ;
+    ns2:identifier "R9734636" ;
+    ns2:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FP%25C3%25A1tio%2520do%2520Col%25C3%25A9gio> ;
+    ns4:Sao%20Paulo "Sao Paulo" ;
+    ns3:hasName "Pateo do Collegio" ;
+    ns3:hasOpeningHours "['Monday: Closed', 'Tuesday: 9:00\\u202fAM\\u2009–\\u20094:45\\u202fPM', 'Wednesday: 9:00\\u202fAM\\u2009–\\u20094:45\\u202fPM', 'Thursday: 9:00\\u202fAM\\u2009–\\u20094:45\\u202fPM', 'Friday: 9:00\\u202fAM\\u2009–\\u20094:45\\u202fPM', 'Saturday: 9:00\\u202fAM\\u2009–\\u20094:45\\u202fPM', 'Sunday: Closed']" ;
+    ns3:hasRating 4.4 ;
+    <https://www.wikidata.org/wiki/> "Q2914788" .
+
+ns4:W124052479 a ns4:HistoricalSite ;
+    ns2:description "{'title': 'en:Mémorial de la Shoah', 'text': 'Mémorial de la Shoah is the Holocaust museum in Paris, France. The memorial is in the 4th arrondissement of Paris, in the Marais district, which had a large Jewish population at the beginning of World War II.The memorial was opened, by President Jacques Chirac, on 27 January 2005. This day was chosen to coincide with International Holocaust Remembrance Day and the 60th anniversary of the liberation of Auschwitz concentration camp. The memorial underwent a major renovation in 2005, creating exhibition spaces, a multimedia center, and a reading room.', 'html': '<p><b>Mémorial de la Shoah</b> is the Holocaust museum in Paris, France. The memorial is in the 4th arrondissement of Paris, in the Marais district, which had a large Jewish population at the beginning of World War II.</p><p>The memorial was opened, by President Jacques Chirac, on 27 January 2005. This day was chosen to coincide with International Holocaust Remembrance Day and the 60th anniversary of the liberation of Auschwitz concentration camp. The memorial underwent a major renovation in 2005, creating exhibition spaces, a multimedia center, and a reading room.</p>'}" ;
+    ns2:identifier "W124052479" ;
+    ns2:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FM%25C3%25A9morial%2520de%2520la%2520Shoah> ;
+    ns4:Paris "Paris" ;
+    ns3:hasName "Mémorial de la Shoah" ;
+    ns3:hasOpeningHours "['Monday: 10:00\\u202fAM\\u2009–\\u20096:00\\u202fPM', 'Tuesday: 10:00\\u202fAM\\u2009–\\u20096:00\\u202fPM', 'Wednesday: 10:00\\u202fAM\\u2009–\\u20096:00\\u202fPM', 'Thursday: 10:00\\u202fAM\\u2009–\\u200910:00\\u202fPM', 'Friday: 10:00\\u202fAM\\u2009–\\u20096:00\\u202fPM', 'Saturday: Closed', 'Sunday: 10:00\\u202fAM\\u2009–\\u20096:00\\u202fPM']" ;
+    ns3:hasRating 4.6 ;
+    <https://www.wikidata.org/wiki/> "Q479218" .
+
+ns4:W151297138 a ns4:HistoricalSite ;
+    ns2:description "{'title': 'en:Guards Memorial', 'text': 'The Guards Memorial, also known as the Guards Division War Memorial, is an outdoor war memorial located on the west side of Horse Guards Road, opposite Horse Guards Parade in London, United Kingdom. It commemorates the war dead from the Guards Division and related units during the First World War, and of the Household Division in the Second World War and other conflicts since 1918.', 'html': '<p>The <b>Guards Memorial</b>, also known as the <b>Guards Division War Memorial</b>, is an outdoor war memorial located on the west side of Horse Guards Road, opposite Horse Guards Parade in London, United Kingdom. It commemorates the war dead from the Guards Division and related units during the First World War, and of the Household Division in the Second World War and other conflicts since 1918.</p>'}" ;
+    ns2:identifier "W151297138" ;
+    ns2:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FGuards%2520Memorial> ;
+    ns4:London "London" ;
+    ns3:hasName "Guards Memorial" ;
+    ns3:hasOpeningHours "['Monday: Open 24 hours', 'Tuesday: Open 24 hours', 'Wednesday: Open 24 hours', 'Thursday: Open 24 hours', 'Friday: Open 24 hours', 'Saturday: Open 24 hours', 'Sunday: Open 24 hours']" ;
+    ns3:hasRating 4.6 ;
+    <https://www.wikidata.org/wiki/> "Q18160093" .
+
+ns4:W23813204 a ns4:HistoricalSite ;
+    ns2:description "{'title': 'en:Neptunbrunnen', 'text': 'The Neptune Fountain in Berlin was built in 1891 and was designed by Reinhold Begas. The Roman god Neptune is in the center. The four women around him represent the four main rivers of Prussia at the time the fountain was constructed: the Elbe (with the allegorical figure holding fruits and ears of corn), Rhine (fishnet and grapes), Vistula (wooden blocks, symbols of forestry), and Oder (goats and animal skins). The Vistula is now entirely in Poland, while the Oder forms the border between Germany and Poland.', 'html': '<p>The <b>Neptune Fountain</b> in Berlin was built in 1891 and was designed by Reinhold Begas. The Roman god Neptune is in the center. The four women around him represent the four main rivers of Prussia at the time the fountain was constructed: the Elbe (with the allegorical figure holding fruits and ears of corn), Rhine (fishnet and grapes), Vistula (wooden blocks, symbols of forestry), and Oder (goats and animal skins). The Vistula is now entirely in Poland, while the Oder forms the border between Germany and Poland.</p>'}" ;
+    ns2:identifier "W23813204" ;
+    ns2:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FNeptunbrunnen> ;
+    ns4:Berlin "Berlin" ;
+    ns3:hasName "Neptunbrunnen" ;
+    ns3:hasOpeningHours "['Monday: Open 24 hours', 'Tuesday: Open 24 hours', 'Wednesday: Open 24 hours', 'Thursday: Open 24 hours', 'Friday: Open 24 hours', 'Saturday: Open 24 hours', 'Sunday: Open 24 hours']" ;
+    ns3:hasRating 4.5 ;
+    <https://www.wikidata.org/wiki/> "Q650657" .
+
+ns4:W256759731 a ns4:HistoricalSite ;
+    ns2:description "{'title': 'en:South Bank Lion', 'text': \"The South Bank Lion is an 1837 sculpture in Central London. Since 1966 it has stood next to County Hall, on the South Bank of the River Thames. It is a significant depiction of a lion, along with the four that surround Nelson's Column in Trafalgar Square just across the river.\", 'html': \"<p>The <b>South Bank Lion</b> is an 1837 sculpture in Central London. Since 1966 it has stood next to County Hall, on the South Bank of the River Thames. It is a significant depiction of a lion, along with the four that surround Nelson's Column in Trafalgar Square just across the river.</p>\"}" ;
+    ns2:identifier "W256759731" ;
+    ns2:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FSouth%2520Bank%2520Lion> ;
+    ns4:London "London" ;
+    ns3:hasName "South Bank Lion" ;
+    ns3:hasOpeningHours "['Monday: 7:00\\u202fAM\\u2009–\\u200911:00\\u202fPM', 'Tuesday: 7:00\\u202fAM\\u2009–\\u200911:00\\u202fPM', 'Wednesday: 7:00\\u202fAM\\u2009–\\u200911:00\\u202fPM', 'Thursday: 7:00\\u202fAM\\u2009–\\u200911:00\\u202fPM', 'Friday: 7:00\\u202fAM\\u2009–\\u200911:00\\u202fPM', 'Saturday: Closed', 'Sunday: Closed']" ;
+    ns3:hasRating 4.6 ;
+    <https://www.wikidata.org/wiki/> "Q17552822" .
+
+ns4:W281255579 a ns4:HistoricalSite ;
+    ns2:description "{'title': 'en:Tomb of the Unknown Soldier (Moscow)', 'text': 'The Tomb of the Unknown Soldier (Russian: Могила Неизвестного Солдата, IPA: [mɐˈɡʲilə nʲɪɪˈzvʲɛsnəvə sɐlˈdatə]) is a war memorial dedicated to the Soviet soldiers killed during World War II.', 'html': '<p>The <b>Tomb of the Unknown Soldier</b> (Russian: <span lang=\"ru\" title=\"Russian-language text\">Могила Неизвестного Солдата</span>, <small>IPA:&nbsp;</small><span title=\"Representation in the International Phonetic Alphabet (IPA)\">[mɐˈɡʲilə nʲɪɪˈzvʲɛsnəvə sɐlˈdatə]</span>) is a war memorial dedicated to the Soviet soldiers killed during World War II.</p>'}" ;
+    ns2:identifier "W281255579" ;
+    ns2:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FTomb%2520of%2520the%2520Unknown%2520Soldier%2520%2528Moscow%2529> ;
+    ns4:null "null" ;
+    ns3:hasName "Tomb of the Unknown Soldier" ;
+    ns3:hasOpeningHours "['Monday: 8:00\\u202fAM\\u2009–\\u20095:00\\u202fPM', 'Tuesday: 8:00\\u202fAM\\u2009–\\u20095:00\\u202fPM', 'Wednesday: 8:00\\u202fAM\\u2009–\\u20095:00\\u202fPM', 'Thursday: 8:00\\u202fAM\\u2009–\\u20095:00\\u202fPM', 'Friday: 8:00\\u202fAM\\u2009–\\u20095:00\\u202fPM', 'Saturday: 8:00\\u202fAM\\u2009–\\u20095:00\\u202fPM', 'Sunday: 8:00\\u202fAM\\u2009–\\u20095:00\\u202fPM']" ;
+    ns3:hasRating 4.9 ;
+    <https://www.wikidata.org/wiki/> "Q2075146" .
+
+ns4:W297204228 a ns4:HistoricalSite ;
+    ns2:description "{'title': 'en:Duke of York Column', 'text': 'The Duke of York Column is a monument in London, England, to Prince Frederick, Duke of York, the second eldest son of King George III. The designer was Benjamin Dean Wyatt. It is sited where Regent Street meets The Mall, a purposefully wide endpoint of Regent Street known as Waterloo Place and Gardens, in between the two terraces of Carlton House Terrace and their tree-lined squares. The three very wide flights of steps down to The Mall adjoining are known as the Duke of York Steps. The column was completed in December 1832 and the statue of the Duke of York, by Sir Richard Westmacott, was raised on 10 April 1834.', 'html': '<p>The <b>Duke of York Column</b> is a monument in London, England, to Prince Frederick, Duke of York, the second eldest son of King George III. The designer was Benjamin Dean Wyatt. It is sited where Regent Street meets The Mall, a purposefully wide endpoint of Regent Street known as Waterloo Place and Gardens, in between the two terraces of Carlton House Terrace and their tree-lined squares. The three very wide flights of steps down to The Mall adjoining are known as the Duke of York Steps. The column was completed in December 1832 and the statue of the Duke of York, by Sir Richard Westmacott, was raised on 10 April 1834.</p>'}" ;
+    ns2:identifier "W297204228" ;
+    ns2:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FDuke%2520of%2520York%2520Column> ;
+    ns4:London "London" ;
+    ns3:hasName "Duke of York Column;Frederick, Duke of York" ;
+    ns3:hasOpeningHours "['Monday: Open 24 hours', 'Tuesday: Open 24 hours', 'Wednesday: Open 24 hours', 'Thursday: Open 24 hours', 'Friday: Open 24 hours', 'Saturday: Open 24 hours', 'Sunday: Open 24 hours']" ;
+    ns3:hasRating 4.3 ;
+    <https://www.wikidata.org/wiki/> "Q2911131" .
+
+ns4:W311085062 a ns4:HistoricalSite ;
+    ns2:description "{'title': 'en:Fontaine Saint-Michel', 'text': 'The Fontaine Saint-Michel (French pronunciation: [fɔ̃.tɛn sɛ̃.mi.ʃɛl]) is a monumental fountain located in Place Saint-Michel in the 6th arrondissement in Paris. It was constructed in 1858–1860 during the French Second Empire by the architect Gabriel Davioud. It has been listed since 1926 as a monument historique by the French Ministry of Culture.', 'html': '<p>The <b>Fontaine Saint-Michel</b> (<small>French pronunciation:&nbsp;\\u200b</small><span title=\"Representation in the International Phonetic Alphabet (IPA)\">[fɔ̃.tɛn sɛ̃.mi.ʃɛl]</span>) is a monumental fountain located in Place Saint-Michel in the 6th arrondissement in Paris. It was constructed in 1858–1860 during the French Second Empire by the architect Gabriel Davioud. It has been listed since 1926 as a <i>monument historique</i> by the French Ministry of Culture.</p>'}" ;
+    ns2:identifier "W311085062" ;
+    ns2:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFontaine%2520Saint-Michel> ;
+    ns4:Paris "Paris" ;
+    ns3:hasName "Fontaine Saint-Michel" ;
+    ns3:hasOpeningHours "['Monday: Open 24 hours', 'Tuesday: Open 24 hours', 'Wednesday: Open 24 hours', 'Thursday: Open 24 hours', 'Friday: Open 24 hours', 'Saturday: Open 24 hours', 'Sunday: Open 24 hours']" ;
+    ns3:hasRating 4.3 ;
+    <https://www.wikidata.org/wiki/> "Q692839" .
+
+ns4:W312391532 a ns4:HistoricalSite ;
+    ns2:description "{'title': 'en:Nikolaiviertel', 'text': 'Founded about 1200, the Nikolaiviertel (Nicholas\\' Quarter) of Alt-Berlin, together with nearby C?lln, jointly make up the reconstructed historical heart of the German capital of Berlin. It is located in Mitte locality (in the homonymous district), five minutes away from Alexanderplatz.Situated on the eastern shore of the river Spree, it is bounded by the streets Rathausstra?e, Spandauer Stra?e and M??hlendamm. The neighborhood itself is named for the eponymous deconsecrated Nikolaikirche (\"Saint Nicholas Church\") at its heart, i.e. Berlin\\'s oldest church.', 'html': '<p>Founded about 1200, the <span><span><span></span><b>Nikolaiviertel</b></span>&nbsp;</span> (Nicholas\\' Quarter) of Alt-Berlin, together with nearby C?lln, jointly make up the reconstructed historical heart of the German capital of Berlin. It is located in Mitte locality (in the homonymous district), five minutes away from Alexanderplatz.</p><p>Situated on the eastern shore of the river Spree, it is bounded by the streets <i>Rathausstra?e</i>, <i>Spandauer Stra?e</i> and <i>M??hlendamm</i>. The neighborhood itself is named for the eponymous deconsecrated Nikolaikirche (\"Saint Nicholas Church\") at its heart, i.e. Berlin\\'s oldest church.</p>'}" ;
+    ns2:identifier "W312391532" ;
+    ns2:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FNikolaiviertel> ;
+    ns4:Berlin "Berlin" ;
+    ns3:hasName "Nikolaiviertel" ;
+    ns3:hasOpeningHours "['Monday: Open 24 hours', 'Tuesday: Open 24 hours', 'Wednesday: Open 24 hours', 'Thursday: Open 24 hours', 'Friday: Open 24 hours', 'Saturday: Open 24 hours', 'Sunday: Open 24 hours']" ;
+    ns3:hasRating 4.6 ;
+    <https://www.wikidata.org/wiki/> "Q703927" .
+
+ns4:W314597265 a ns4:HistoricalSite ;
+    ns2:description "{'title': 'en:Melville Monument', 'text': 'The Melville Monument is a large column in St Andrew Square, Edinburgh, Scotland, constructed between 1821 and 1827 as a memorial to Henry Dundas, 1st Viscount Melville.', 'html': '<p>The <b>Melville Monument</b> is a large column in St Andrew Square, Edinburgh, Scotland, constructed between 1821 and 1827 as a memorial to Henry Dundas, 1st Viscount Melville.</p>'}" ;
+    ns2:identifier "W314597265" ;
+    ns2:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FMelville%2520Monument> ;
+    ns4:Edinburgh "Edinburgh" ;
+    ns3:hasName "Melville's Monument" ;
+    ns3:hasOpeningHours "['Monday: 7:00\\u202fAM\\u2009�C\\u20098:00\\u202fPM', 'Tuesday: 7:00\\u202fAM\\u2009�C\\u20098:00\\u202fPM', 'Wednesday: 7:00\\u202fAM\\u2009�C\\u20098:00\\u202fPM', 'Thursday: 7:00\\u202fAM\\u2009�C\\u20098:00\\u202fPM', 'Friday: 7:00\\u202fAM\\u2009�C\\u20098:00\\u202fPM', 'Saturday: 7:00\\u202fAM\\u2009�C\\u20098:00\\u202fPM', 'Sunday: 7:00\\u202fAM\\u2009�C\\u20098:00\\u202fPM']" ;
+    ns3:hasRating 4.2 ;
+    <https://www.wikidata.org/wiki/> "Q17570686" .
+
+ns4:W314600289 a ns4:HistoricalSite ;
+    ns2:description "{'title': 'en:Scottish American Memorial', 'text': 'The Scottish American Memorial, or Scots American War Memorial, is in West Princes Street Gardens in Edinburgh. It was called \"The Call 1914\", and it was erected in 1927 and shows a kilted infantryman looking towards Castle Rock. Behind the main statue is a frieze showing queues of men answering the call by following a kilted pipe band. The memorial was given by Scottish-Americans to honour Scots who had served in the first World War.It is designated a Category B listed building by Historic Scotland.', 'html': '<p>The <b>Scottish American Memorial</b>, or <b>Scots American War Memorial</b>, is in West Princes Street Gardens in Edinburgh. It was called \"The Call 1914\", and it was erected in 1927 and shows a kilted infantryman looking towards Castle Rock. Behind the main statue is a frieze showing queues of men answering the call by following a kilted pipe band. The memorial was given by Scottish-Americans to honour Scots who had served in the first World War.</p><p>It is designated a Category B listed building by Historic Scotland.</p>'}" ;
+    ns2:identifier "W314600289" ;
+    ns2:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FScottish%2520American%2520Memorial> ;
+    ns4:Edinburgh "Edinburgh" ;
+    ns3:hasName "Scottish American War Memorial" ;
+    ns3:hasOpeningHours "['Monday: Open 24 hours', 'Tuesday: Open 24 hours', 'Wednesday: Open 24 hours', 'Thursday: Open 24 hours', 'Friday: Open 24 hours', 'Saturday: Open 24 hours', 'Sunday: Open 24 hours']" ;
+    ns3:hasRating 4.6 ;
+    <https://www.wikidata.org/wiki/> "Q7435775" .
+
+ns4:W40579862 a ns4:HistoricalSite ;
+    ns2:description "{'title': 'en:Fontaine Saint-Michel', 'text': 'The Fontaine Saint-Michel (French pronunciation: [fɔ̃.tɛn sɛ̃.mi.ʃɛl]) is a monumental fountain located in Place Saint-Michel in the 6th arrondissement in Paris. It was constructed in 1858–1860 during the French Second Empire by the architect Gabriel Davioud. It has been listed since 1926 as a monument historique by the French Ministry of Culture.', 'html': '<p>The <b>Fontaine Saint-Michel</b> (<small>French pronunciation:&nbsp;\\u200b</small><span title=\"Representation in the International Phonetic Alphabet (IPA)\">[fɔ̃.tɛn sɛ̃.mi.ʃɛl]</span>) is a monumental fountain located in Place Saint-Michel in the 6th arrondissement in Paris. It was constructed in 1858–1860 during the French Second Empire by the architect Gabriel Davioud. It has been listed since 1926 as a <i>monument historique</i> by the French Ministry of Culture.</p>'}" ;
+    ns2:identifier "W40579862" ;
+    ns2:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFontaine%2520Saint-Michel> ;
+    ns4:Paris "Paris" ;
+    ns3:hasName "Fontaine Saint-Michel" ;
+    ns3:hasOpeningHours "['Monday: Open 24 hours', 'Tuesday: Open 24 hours', 'Wednesday: Open 24 hours', 'Thursday: Open 24 hours', 'Friday: Open 24 hours', 'Saturday: Open 24 hours', 'Sunday: Open 24 hours']" ;
+    ns3:hasRating 4.3 ;
+    <https://www.wikidata.org/wiki/> "Q692839" .
+
+ns4:W4301292 a ns4:HistoricalSite ;
+    ns2:description "{'title': 'en:Edinburgh Castle', 'text': \"Edinburgh Castle is a historic castle in Edinburgh, Scotland. It stands on Castle Rock, which has been occupied by humans since at least the Iron Age, although the nature of the early settlement is unclear. There has been a royal castle on the rock since at least the reign of David I in the 12th century, and the site continued at times to be a royal residence until 1633. From the 15th century, the castle's residential role declined, and by the 17th century it was principally used as military barracks with a large garrison. Its importance as a part of Scotland's national heritage was recognised increasingly from the early 19th century onwards, and various restoration programmes have been carried out over the past century and a half.\", 'html': \"<p><b>Edinburgh Castle</b> is a historic castle in Edinburgh, Scotland. It stands on Castle Rock, which has been occupied by humans since at least the Iron Age, although the nature of the early settlement is unclear. There has been a royal castle on the rock since at least the reign of David I in the 12th century, and the site continued at times to be a royal residence until 1633. From the 15th century, the castle's residential role declined, and by the 17th century it was principally used as military barracks with a large garrison. Its importance as a part of Scotland's national heritage was recognised increasingly from the early 19th century onwards, and various restoration programmes have been carried out over the past century and a half.</p>\"}" ;
+    ns2:identifier "W4301292" ;
+    ns2:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FEdinburgh%2520Castle> ;
+    ns4:Edinburgh "Edinburgh" ;
+    ns3:hasName "Edinburgh Castle" ;
+    ns3:hasOpeningHours "['Monday: 9:30\\u202fAM\\u2009�C\\u20095:00\\u202fPM', 'Tuesday: 9:30\\u202fAM\\u2009�C\\u20095:00\\u202fPM', 'Wednesday: 9:30\\u202fAM\\u2009�C\\u20095:00\\u202fPM', 'Thursday: 9:30\\u202fAM\\u2009�C\\u20095:00\\u202fPM', 'Friday: 9:30\\u202fAM\\u2009�C\\u20095:00\\u202fPM', 'Saturday: 9:30\\u202fAM\\u2009�C\\u20095:00\\u202fPM', 'Sunday: 9:30\\u202fAM\\u2009�C\\u20095:00\\u202fPM']" ;
+    ns3:hasRating 4.6 ;
+    <https://www.wikidata.org/wiki/> "Q212065" .
+
+ns4:W511343921 a ns4:HistoricalSite ;
+    ns2:description "{'title': 'en:Scottish National War Memorial', 'text': 'The Scottish National War Memorial is located in Edinburgh Castle and commemorates Scottish service personnel and civilians, and those serving with Scottish regiments, who died in the two world wars and subsequent conflicts. Its chief architect was Robert Lorimer, commissioned in 1919, and the monument was formally opened in 1927. It is housed in a redeveloped barrack block in Crown Square, at the heart of the castle, and incorporates numerous monuments.', 'html': '<p>The <b>Scottish National War Memorial</b> is located in Edinburgh Castle and commemorates Scottish service personnel and civilians, and those serving with Scottish regiments, who died in the two world wars and subsequent conflicts. Its chief architect was Robert Lorimer, commissioned in 1919, and the monument was formally opened in 1927. It is housed in a redeveloped barrack block in Crown Square, at the heart of the castle, and incorporates numerous monuments.</p>'}" ;
+    ns2:identifier "W511343921" ;
+    ns2:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FScottish%2520National%2520War%2520Memorial> ;
+    ns4:Edinburgh "Edinburgh" ;
+    ns3:hasName "Scottish National War Memorial" ;
+    ns3:hasOpeningHours "['Monday: 9:30\\u202fAM\\u2009�C\\u20095:00\\u202fPM', 'Tuesday: 9:30\\u202fAM\\u2009�C\\u20095:00\\u202fPM', 'Wednesday: 9:30\\u202fAM\\u2009�C\\u20095:00\\u202fPM', 'Thursday: 9:30\\u202fAM\\u2009�C\\u20095:00\\u202fPM', 'Friday: 9:30\\u202fAM\\u2009�C\\u20095:00\\u202fPM', 'Saturday: 9:30\\u202fAM\\u2009�C\\u20095:00\\u202fPM', 'Sunday: 9:30\\u202fAM\\u2009�C\\u20095:00\\u202fPM']" ;
+    ns3:hasRating 4.5 ;
+    <https://www.wikidata.org/wiki/> "Q7437874" .
+
+ns4:W52564405 a ns4:HistoricalSite ;
+    ns2:description "{'title': 'de:Brunnen der V?lkerfreundschaft (Berlin)', 'text': 'Der Brunnen der V?lkerfreundschaft ist ein Springbrunnen auf dem Alexanderplatz im Berliner Ortsteil Mitte. Den Brunnen entwarf Walter Womacka 1969/1970 im Rahmen der Neugestaltung des Alexanderplatzes, hergestellt wurde er unter Leitung des Metallgestalters und Kunstschmiedes Hans-Joachim Kunsch in dessen Firma. Am 7. Oktober 1970, dem 21. Gr??ndungstag der DDR, wurde die Anlage feierlich eingeweiht.', 'html': '<p>Der <b>Brunnen der V?lkerfreundschaft</b> ist ein Springbrunnen auf dem Alexanderplatz im Berliner Ortsteil Mitte. Den Brunnen entwarf Walter Womacka 1969/1970 im Rahmen der Neugestaltung des Alexanderplatzes, hergestellt wurde er unter Leitung des Metallgestalters und Kunstschmiedes Hans-Joachim Kunsch in dessen Firma. Am 7.&nbsp;Oktober 1970, dem 21.&nbsp;Gr??ndungstag der DDR, wurde die Anlage feierlich eingeweiht.</p>'}" ;
+    ns2:identifier "W52564405" ;
+    ns2:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/https%3A%2F%2Fde.wikipedia.org%2Fwiki%2FBrunnen%2520der%2520V%25C3%25B6lkerfreundschaft%2520%2528Berlin%2529> ;
+    ns4:Berlin "Berlin" ;
+    ns3:hasName "Fountain of the Peoples' Friendship" ;
+    ns3:hasOpeningHours "['Monday: Open 24 hours', 'Tuesday: Open 24 hours', 'Wednesday: Open 24 hours', 'Thursday: Open 24 hours', 'Friday: Open 24 hours', 'Saturday: Open 24 hours', 'Sunday: Open 24 hours']" ;
+    ns3:hasRating 4.0 ;
+    <https://www.wikidata.org/wiki/> "Q992755" .
+
+ns4:W55541122 a ns4:HistoricalSite ;
+    ns2:description "{'title': 'en:Hôtel de Sens', 'text': 'The Hôtel de Sens (French pronunciation: [otɛl də sɑ̃s]) or Hôtel des archevêques de Sens is a medieval hôtel particulier, or private mansion, in the Marais, in the 4th arrondissement of Paris, France. It nowadays houses the Forney art library.The hôtel was built to serve as a residence for the archbishops of Sens. Before 1622, Paris was not a specific archdiocese, and depended on the diocesan authority of Sens. The archbishop was a prominent figure of power, his residence reflecting his influence within the urban landscape.', 'html': '<p>The <b>Hôtel de Sens</b> (<small>French pronunciation:&nbsp;\\u200b</small><span title=\"Representation in the International Phonetic Alphabet (IPA)\">[otɛl də sɑ̃s]</span>) or <b>Hôtel des archevêques de Sens</b> is a medieval <i>hôtel particulier</i>, or private mansion, in the Marais, in the 4th arrondissement of Paris, France. It nowadays houses the Forney art library.</p><p>The <i>hôtel</i> was built to serve as a residence for the archbishops of Sens. Before 1622, Paris was not a specific<b> </b>archdiocese, and depended on the diocesan<b> </b>authority of Sens. The archbishop was a prominent figure of power, his residence reflecting his influence within the urban landscape.</p>'}" ;
+    ns2:identifier "W55541122" ;
+    ns2:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FH%25C3%25B4tel%2520de%2520Sens> ;
+    ns4:Paris "Paris" ;
+    ns3:hasName "Hôtel de Sens" ;
+    ns3:hasOpeningHours "['Monday: Closed', 'Tuesday: 1:00\\u2009–\\u20097:00\\u202fPM', 'Wednesday: 1:00\\u2009–\\u20097:00\\u202fPM', 'Thursday: 1:00\\u2009–\\u20097:00\\u202fPM', 'Friday: 1:00\\u2009–\\u20097:00\\u202fPM', 'Saturday: 1:00\\u2009–\\u20097:00\\u202fPM', 'Sunday: Closed']" ;
+    ns3:hasRating 4.5 ;
+    <https://www.wikidata.org/wiki/> "Q1374604" .
+
+ns4:W572758808 a ns4:HistoricalSite ;
+    ns2:description "{'title': 'en:Guards Crimean War Memorial', 'text': \"The Guards Crimean War Memorial is a Grade II listed memorial in St James's, London, that commemorates the Allied victory in the Crimean War of 1853–56. It is located on Waterloo Place, at the junction of Regent Street and Pall Mall, approximately one-quarter of the way from the Duke of York Column to Piccadilly Circus.It was unveiled in 1861 and consisted of the statues of three Guardsmen, with a female allegorical figure referred to as Honour. It was cast in bronze, with components cast from cannons melted down that had been captured at the siege of Sevastopol. The sculptor was John Bell.On the front, by the statues of the Guardsmen, are two plaques. The older one states:\", 'html': \"<p><b>The Guards Crimean War Memorial</b> is a Grade II listed memorial in St James's, London, that commemorates the Allied victory in the Crimean War of 1853–56. It is located on Waterloo Place, at the junction of Regent Street and Pall Mall, approximately one-quarter of the way from the Duke of York Column to Piccadilly Circus.</p><p>It was unveiled in 1861 and consisted of the statues of three Guardsmen, with a female allegorical figure referred to as Honour. It was cast in bronze, with components cast from cannons melted down that had been captured at the siege of Sevastopol. The sculptor was John Bell.</p><p>On the front, by the statues of the Guardsmen, are two plaques. The older one states:</p>\"}" ;
+    ns2:identifier "W572758808" ;
+    ns2:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FGuards%2520Crimean%2520War%2520Memorial> ;
+    ns4:London "London" ;
+    ns3:hasName "Crimean War Memorial" ;
+    ns3:hasOpeningHours "['Monday: Open 24 hours', 'Tuesday: Open 24 hours', 'Wednesday: Open 24 hours', 'Thursday: Open 24 hours', 'Friday: Open 24 hours', 'Saturday: Open 24 hours', 'Sunday: Open 24 hours']" ;
+    ns3:hasRating 4.5 ;
+    <https://www.wikidata.org/wiki/> "Q5185458" .
+
+ns4:W62066717 a ns4:HistoricalSite ;
+    ns2:description "{'title': 'en:Ross Fountain', 'text': 'Ross Fountain is a cast-iron structure located in West Princes Street Gardens, Edinburgh. It was installed in 1872 and restored in 2018.The Ross Fountain was produced at the iron foundry of Antoine Durenne in Sommevoire, France. It was an exhibit at the Great Exhibition of 1862.It was purchased by gunmaker Daniel Ross in 1862 for ��2,000 and subsequently gifted to the city of Edinburgh. It was transported to Leith in 1869 in 122 pieces. It was installed in its current position in 1872. It had some extensive restoration work completed in 2001.', 'html': '<p><b>Ross Fountain</b> is a cast-iron structure located in West Princes Street Gardens, Edinburgh. It was installed in 1872 and restored in 2018.</p><p>The Ross Fountain was produced at the iron foundry of Antoine Durenne in Sommevoire, France. It was an exhibit at the Great Exhibition of 1862.</p><p>It was purchased by gunmaker Daniel Ross in 1862 for ��2,000 and subsequently gifted to the city of Edinburgh. It was transported to Leith in 1869 in 122 pieces. It was installed in its current position in 1872. It had some extensive restoration work completed in 2001.</p>'}" ;
+    ns2:identifier "W62066717" ;
+    ns2:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FRoss%2520Fountain> ;
+    ns4:Edinburgh "Edinburgh" ;
+    ns3:hasName "Ross Fountain" ;
+    ns3:hasOpeningHours "['Monday: 10:00\\u202fAM\\u2009�C\\u200910:00\\u202fPM', 'Tuesday: 10:00\\u202fAM\\u2009�C\\u200910:00\\u202fPM', 'Wednesday: 10:00\\u202fAM\\u2009�C\\u200910:00\\u202fPM', 'Thursday: 10:00\\u202fAM\\u2009�C\\u200910:00\\u202fPM', 'Friday: 9:30\\u202fAM\\u2009�C\\u200911:00\\u202fPM', 'Saturday: 9:30\\u202fAM\\u2009�C\\u200911:00\\u202fPM', 'Sunday: 10:00\\u202fAM\\u2009�C\\u200910:00\\u202fPM']" ;
+    ns3:hasRating 4.0 ;
+    <https://www.wikidata.org/wiki/> "Q7369346" .
+
+ns4:W791935186 a ns4:HistoricalSite ;
+    ns2:description "{'title': 'en:Panthéon', 'text': \"The Panthéon (French: [pɑ̃.te.ɔ̃], from the Classical Greek word πάνθειον, pántheion, '[temple] to all the gods') is a monument in the 5th arrondissement of Paris, France. It stands in the Latin Quarter, atop the Montagne Sainte-Geneviève, in the centre of the Place du Panthéon, which was named after it. The edifice was built between 1758 and 1790, from designs by Jacques-Germain Soufflot, at the behest of King Louis XV of France; the king intended it as a church dedicated to Saint Genevieve, Paris' patron saint, whose relics were to be housed in the church. Neither Soufflot nor Louis XV lived to see the church completed.\", 'html': '<p>The <b>Panthéon</b> (<small>French:&nbsp;</small><span title=\"Representation in the International Phonetic Alphabet (IPA)\">[pɑ̃.te.ɔ̃]</span>, from the Classical Greek word <span lang=\"el\" title=\"Greek-language text\">πάνθειον</span>, <i lang=\"el-Latn\" title=\"Greek-language romanization\">pántheion</i>, \\'[temple] to all the gods\\') is a monument in the 5th arrondissement of Paris, France. It stands in the Latin Quarter, atop the Montagne Sainte-Geneviève, in the centre of the Place du Panthéon, which was named after it. The edifice was built between 1758 and 1790, from designs by Jacques-Germain Soufflot, at the behest of King Louis XV of France; the king intended it as a church dedicated to Saint Genevieve, Paris\\' patron saint, whose relics were to be housed in the church. Neither Soufflot nor Louis XV lived to see the church completed.</p>'}" ;
+    ns2:identifier "W791935186" ;
+    ns2:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FPanth%25C3%25A9on> ;
+    ns4:Paris "Paris" ;
+    ns3:hasName "Panthéon" ;
+    ns3:hasOpeningHours "['Monday: 9:00\\u202fAM\\u2009–\\u20096:45\\u202fPM', 'Tuesday: 9:00\\u202fAM\\u2009–\\u20096:45\\u202fPM', 'Wednesday: 9:00\\u202fAM\\u2009–\\u20096:45\\u202fPM', 'Thursday: 9:00\\u202fAM\\u2009–\\u20096:45\\u202fPM', 'Friday: 9:00\\u202fAM\\u2009–\\u20096:45\\u202fPM', 'Saturday: 9:00\\u202fAM\\u2009–\\u20096:45\\u202fPM', 'Sunday: 9:00\\u202fAM\\u2009–\\u20096:45\\u202fPM']" ;
+    ns3:hasRating 4.8 ;
+    <https://www.wikidata.org/wiki/> "Q188856" .
+
+ns4:N2020583845 a ns4:HistoricalSite ;
+    ns2:description "{'title': 'en:Porta Asinaria', 'text': 'The Porta Asinaria is a gate in the Aurelian Walls of Rome. Dominated by two protruding tower blocks and associated guard rooms, it was built between 270 and 273, at the same time as the Wall itself. It is through this gate that East Roman troops under General Belisarius entered the city in 536, reclaiming the city for the Byzantine Empire from the Ostrogoths.By the 16th century it had become overwhelmed by traffic. A new breach in the walls was made nearby to create the Porta San Giovanni. At this point, the Porta Asinaria was closed to traffic.Mauro Quercioli, Le mura e le porte di Roma. Newton Compton Ed., Rome, 1982 Laura G. Cozzi, Le porte di Roma. F.Spinosi Ed., Rome, 1968', 'html': '<p>The <b>Porta Asinaria</b> is a gate in the Aurelian Walls of Rome. Dominated by two protruding tower blocks and associated guard rooms, it was built between 270 and 273, at the same time as the Wall itself. It is through this gate that East Roman troops under General Belisarius entered the city in 536, reclaiming the city for the Byzantine Empire from the Ostrogoths.<br></p><p>By the 16th century it had become overwhelmed by traffic. A new breach in the walls was made nearby to create the Porta San Giovanni. At this point, the Porta Asinaria was closed to traffic.</p><ul><li>Mauro Quercioli, <i>Le mura e le porte di Roma</i>. Newton Compton Ed., Rome, 1982</li> \\n<li>Laura G. Cozzi, <i>Le porte di Roma</i>. F.Spinosi Ed., Rome, 1968</li></ul>'}" ;
+    ns2:identifier "N2020583845" ;
+    ns2:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FPorta%2520Asinaria> ;
+    ns4:Rome "Rome" ;
+    ns3:hasName "Porta Asinaria" ;
+    ns3:hasOpeningHours "['Monday: Open 24 hours', 'Tuesday: Open 24 hours', 'Wednesday: Open 24 hours', 'Thursday: Open 24 hours', 'Friday: Open 24 hours', 'Saturday: Open 24 hours', 'Sunday: Open 24 hours']" ;
+    ns3:hasRating 4.5 ;
+    <https://www.wikidata.org/wiki/> "Q2104854" .
+
+ns4:N376689138 a ns4:HistoricalSite ;
+    ns2:description "{'title': 'de:Granitschale im Lustgarten', 'text': 'Die Gro?e Granitschale im Lustgarten vor dem Alten Museum im Berliner Lustgarten hat einen Durchmesser von 6,91 Metern und ein Gewicht von etwa 75 Tonnen. Sie wird als Biedermeierweltwunder bezeichnet und ist mit einem Umfang von 691?7 Fu? (ca. 21,7 Meter) die weltweit gr??te aus einem einzelnen Stein gefertigte Schale.', 'html': '<p>Die Gro?e <b>Granitschale im Lustgarten</b> vor dem Alten Museum im Berliner Lustgarten hat einen Durchmesser von 6,91&nbsp;Metern und ein Gewicht von etwa 75&nbsp;Tonnen. Sie wird als <i>Biedermeierweltwunder</i> bezeichnet und ist mit einem Umfang von 69<span><sup style=\"font-size: 70%; vertical-align: 0.4em;\">1</sup>?<sub style=\"font-size: 70%; vertical-align: 0em;\">7</sub></span> Fu? (ca.&nbsp;21,7&nbsp;Meter) die weltweit gr??te aus einem einzelnen Stein gefertigte Schale.</p>'}" ;
+    ns2:identifier "N376689138" ;
+    ns2:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/https%3A%2F%2Fde.wikipedia.org%2Fwiki%2FGranitschale%2520im%2520Lustgarten> ;
+    ns4:Berlin "Berlin" ;
+    ns3:hasName "Granitschale im Lustgarten" ;
+    ns3:hasOpeningHours "['Monday: Open 24 hours', 'Tuesday: Open 24 hours', 'Wednesday: Open 24 hours', 'Thursday: Open 24 hours', 'Friday: Open 24 hours', 'Saturday: Open 24 hours', 'Sunday: Open 24 hours']" ;
+    ns3:hasRating 4.6 ;
+    <https://www.wikidata.org/wiki/> "Q1543108" .
+
+ns4:W658567961 a ns4:HistoricalSite ;
+    ns2:description "{'title': 'en:John Paul Jones Memorial', 'text': 'The John Paul Jones Memorial is a monument in West Potomac Park in Washington, D.C. The memorial honors John Paul Jones, the United States\\' first naval war hero, father of the United States Navy, the only naval officer to receive a Congressional Gold Medal during the American Revolutionary War, and whose famous quote \"I have not yet begun to fight!\" was uttered during the Battle of Flamborough Head.', 'html': '<p>The <i><b>John Paul Jones Memorial</b></i> is a monument in West Potomac Park in Washington, D.C. The memorial honors John Paul Jones, the United States\\' first naval war hero, father of the United States Navy, the only naval officer to receive a Congressional Gold Medal during the American Revolutionary War, and whose famous quote \"I have not yet begun to fight!\" was uttered during the Battle of Flamborough Head.</p>'}" ;
+    ns2:identifier "W658567961" ;
+    ns2:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FJohn%2520Paul%2520Jones%2520Memorial> ;
+    ns4:Washington "Washington" ;
+    ns3:hasName "John Paul Jones Memorial" ;
+    ns3:hasOpeningHours "['Monday: Open 24 hours', 'Tuesday: Open 24 hours', 'Wednesday: Open 24 hours', 'Thursday: Open 24 hours', 'Friday: Open 24 hours', 'Saturday: Open 24 hours', 'Sunday: Open 24 hours']" ;
+    ns3:hasRating 4.7 ;
+    <https://www.wikidata.org/wiki/> "Q6252237" .
+
+[] a ns1:TableGroup ;
+    ns1:table [ a ns1:Table ;
+            ns1:row [ a ns1:Row ;
+                    ns1:describes ns4:N3611368951 ;
+                    ns1:rownum 10 ;
+                    ns1:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/monument.csv#row=11> ],
+                [ a ns1:Row ;
+                    ns1:describes ns4:W40579862 ;
+                    ns1:rownum 3 ;
+                    ns1:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/monument.csv#row=4> ],
+                [ a ns1:Row ;
+                    ns1:describes ns4:W311085062 ;
+                    ns1:rownum 4 ;
+                    ns1:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/monument.csv#row=5> ],
+                [ a ns1:Row ;
+                    ns1:describes ns4:N1713288174 ;
+                    ns1:rownum 11 ;
+                    ns1:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/monument.csv#row=12> ],
+                [ a ns1:Row ;
+                    ns1:describes ns4:Q660876 ;
+                    ns1:rownum 12 ;
+                    ns1:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/monument.csv#row=13> ],
+                [ a ns1:Row ;
+                    ns1:describes ns4:N3123913412 ;
+                    ns1:rownum 13 ;
+                    ns1:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/monument.csv#row=14> ],
+                [ a ns1:Row ;
+                    ns1:describes ns4:Q3908897 ;
+                    ns1:rownum 14 ;
+                    ns1:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/monument.csv#row=15> ],
+                [ a ns1:Row ;
+                    ns1:describes ns4:Q24963569 ;
+                    ns1:rownum 15 ;
+                    ns1:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/monument.csv#row=16> ],
+                [ a ns1:Row ;
+                    ns1:describes ns4:N5099319932 ;
+                    ns1:rownum 16 ;
+                    ns1:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/monument.csv#row=17> ],
+                [ a ns1:Row ;
+                    ns1:describes ns4:Q107011876 ;
+                    ns1:rownum 17 ;
+                    ns1:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/monument.csv#row=18> ],
+                [ a ns1:Row ;
+                    ns1:describes ns4:N4715083290 ;
+                    ns1:rownum 18 ;
+                    ns1:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/monument.csv#row=19> ],
+                [ a ns1:Row ;
+                    ns1:describes ns4:N1336891668 ;
+                    ns1:rownum 19 ;
+                    ns1:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/monument.csv#row=20> ],
+                [ a ns1:Row ;
+                    ns1:describes ns4:N2724212840 ;
+                    ns1:rownum 20 ;
+                    ns1:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/monument.csv#row=21> ],
+                [ a ns1:Row ;
+                    ns1:describes ns4:Q57312417 ;
+                    ns1:rownum 21 ;
+                    ns1:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/monument.csv#row=22> ],
+                [ a ns1:Row ;
+                    ns1:describes ns4:N4209403195 ;
+                    ns1:rownum 22 ;
+                    ns1:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/monument.csv#row=23> ],
+                [ a ns1:Row ;
+                    ns1:describes ns4:Q4023993 ;
+                    ns1:rownum 23 ;
+                    ns1:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/monument.csv#row=24> ],
+                [ a ns1:Row ;
+                    ns1:describes ns4:N438108545 ;
+                    ns1:rownum 24 ;
+                    ns1:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/monument.csv#row=25> ],
+                [ a ns1:Row ;
+                    ns1:describes ns4:Q729978 ;
+                    ns1:rownum 25 ;
+                    ns1:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/monument.csv#row=26> ],
+                [ a ns1:Row ;
+                    ns1:describes ns4:N611066173 ;
+                    ns1:rownum 26 ;
+                    ns1:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/monument.csv#row=27> ],
+                [ a ns1:Row ;
+                    ns1:describes ns4:N4951005935 ;
+                    ns1:rownum 27 ;
+                    ns1:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/monument.csv#row=28> ],
+                [ a ns1:Row ;
+                    ns1:describes ns4:N2667068593 ;
+                    ns1:rownum 5 ;
+                    ns1:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/monument.csv#row=6> ],
+                [ a ns1:Row ;
+                    ns1:describes ns4:Q51488513 ;
+                    ns1:rownum 28 ;
+                    ns1:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/monument.csv#row=29> ],
+                [ a ns1:Row ;
+                    ns1:describes ns4:N4170002491 ;
+                    ns1:rownum 29 ;
+                    ns1:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/monument.csv#row=30> ],
+                [ a ns1:Row ;
+                    ns1:describes ns4:N3013204189 ;
+                    ns1:rownum 30 ;
+                    ns1:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/monument.csv#row=31> ],
+                [ a ns1:Row ;
+                    ns1:describes ns4:W658567961 ;
+                    ns1:rownum 31 ;
+                    ns1:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/monument.csv#row=32> ],
+                [ a ns1:Row ;
+                    ns1:describes ns4:W658567961 ;
+                    ns1:rownum 32 ;
+                    ns1:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/monument.csv#row=33> ],
+                [ a ns1:Row ;
+                    ns1:describes ns4:N2466426304 ;
+                    ns1:rownum 33 ;
+                    ns1:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/monument.csv#row=34> ],
+                [ a ns1:Row ;
+                    ns1:describes ns4:W314600289 ;
+                    ns1:rownum 34 ;
+                    ns1:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/monument.csv#row=35> ],
+                [ a ns1:Row ;
+                    ns1:describes ns4:W314597265 ;
+                    ns1:rownum 35 ;
+                    ns1:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/monument.csv#row=36> ],
+                [ a ns1:Row ;
+                    ns1:describes ns4:N1867328561 ;
+                    ns1:rownum 36 ;
+                    ns1:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/monument.csv#row=37> ],
+                [ a ns1:Row ;
+                    ns1:describes ns4:N5002102711 ;
+                    ns1:rownum 37 ;
+                    ns1:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/monument.csv#row=38> ],
+                [ a ns1:Row ;
+                    ns1:describes ns4:W124052479 ;
+                    ns1:rownum 6 ;
+                    ns1:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/monument.csv#row=7> ],
+                [ a ns1:Row ;
+                    ns1:describes ns4:W4301292 ;
+                    ns1:rownum 38 ;
+                    ns1:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/monument.csv#row=39> ],
+                [ a ns1:Row ;
+                    ns1:describes ns4:W511343921 ;
+                    ns1:rownum 39 ;
+                    ns1:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/monument.csv#row=40> ],
+                [ a ns1:Row ;
+                    ns1:describes ns4:W62066717 ;
+                    ns1:rownum 40 ;
+                    ns1:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/monument.csv#row=41> ],
+                [ a ns1:Row ;
+                    ns1:describes ns4:N2020583845 ;
+                    ns1:rownum 41 ;
+                    ns1:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/monument.csv#row=42> ],
+                [ a ns1:Row ;
+                    ns1:describes ns4:N2020583845 ;
+                    ns1:rownum 42 ;
+                    ns1:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/monument.csv#row=43> ],
+                [ a ns1:Row ;
+                    ns1:describes ns4:W52564405 ;
+                    ns1:rownum 43 ;
+                    ns1:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/monument.csv#row=44> ],
+                [ a ns1:Row ;
+                    ns1:describes ns4:W23813204 ;
+                    ns1:rownum 44 ;
+                    ns1:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/monument.csv#row=45> ],
+                [ a ns1:Row ;
+                    ns1:describes ns4:N5633810233 ;
+                    ns1:rownum 45 ;
+                    ns1:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/monument.csv#row=46> ],
+                [ a ns1:Row ;
+                    ns1:describes ns4:W312391532 ;
+                    ns1:rownum 46 ;
+                    ns1:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/monument.csv#row=47> ],
+                [ a ns1:Row ;
+                    ns1:describes ns4:N376689138 ;
+                    ns1:rownum 47 ;
+                    ns1:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/monument.csv#row=48> ],
+                [ a ns1:Row ;
+                    ns1:describes ns4:N8784458609 ;
+                    ns1:rownum 7 ;
+                    ns1:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/monument.csv#row=8> ],
+                [ a ns1:Row ;
+                    ns1:describes ns4:N376689138 ;
+                    ns1:rownum 48 ;
+                    ns1:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/monument.csv#row=49> ],
+                [ a ns1:Row ;
+                    ns1:describes ns4:Q7604481 ;
+                    ns1:rownum 49 ;
+                    ns1:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/monument.csv#row=50> ],
+                [ a ns1:Row ;
+                    ns1:describes ns4:N1571931922 ;
+                    ns1:rownum 50 ;
+                    ns1:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/monument.csv#row=51> ],
+                [ a ns1:Row ;
+                    ns1:describes ns4:N5072791242 ;
+                    ns1:rownum 51 ;
+                    ns1:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/monument.csv#row=52> ],
+                [ a ns1:Row ;
+                    ns1:describes ns4:N5072880573 ;
+                    ns1:rownum 52 ;
+                    ns1:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/monument.csv#row=53> ],
+                [ a ns1:Row ;
+                    ns1:describes ns4:Q5325895 ;
+                    ns1:rownum 53 ;
+                    ns1:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/monument.csv#row=54> ],
+                [ a ns1:Row ;
+                    ns1:describes ns4:W297204228 ;
+                    ns1:rownum 54 ;
+                    ns1:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/monument.csv#row=55> ],
+                [ a ns1:Row ;
+                    ns1:describes ns4:N5072911672 ;
+                    ns1:rownum 55 ;
+                    ns1:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/monument.csv#row=56> ],
+                [ a ns1:Row ;
+                    ns1:describes ns4:N346352061 ;
+                    ns1:rownum 56 ;
+                    ns1:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/monument.csv#row=57> ],
+                [ a ns1:Row ;
+                    ns1:describes ns4:W572758808 ;
+                    ns1:rownum 57 ;
+                    ns1:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/monument.csv#row=58> ],
+                [ a ns1:Row ;
+                    ns1:describes ns4:W791935186 ;
+                    ns1:rownum 8 ;
+                    ns1:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/monument.csv#row=9> ],
+                [ a ns1:Row ;
+                    ns1:describes ns4:W151297138 ;
+                    ns1:rownum 58 ;
+                    ns1:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/monument.csv#row=59> ],
+                [ a ns1:Row ;
+                    ns1:describes ns4:N5072928687 ;
+                    ns1:rownum 59 ;
+                    ns1:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/monument.csv#row=60> ],
+                [ a ns1:Row ;
+                    ns1:describes ns4:N25507033 ;
+                    ns1:rownum 60 ;
+                    ns1:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/monument.csv#row=61> ],
+                [ a ns1:Row ;
+                    ns1:describes ns4:N347144620 ;
+                    ns1:rownum 61 ;
+                    ns1:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/monument.csv#row=62> ],
+                [ a ns1:Row ;
+                    ns1:describes ns4:W256759731 ;
+                    ns1:rownum 62 ;
+                    ns1:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/monument.csv#row=63> ],
+                [ a ns1:Row ;
+                    ns1:describes ns4:N4743239056 ;
+                    ns1:rownum 63 ;
+                    ns1:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/monument.csv#row=64> ],
+                [ a ns1:Row ;
+                    ns1:describes ns4:R1360627 ;
+                    ns1:rownum 64 ;
+                    ns1:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/monument.csv#row=65> ],
+                [ a ns1:Row ;
+                    ns1:describes ns4:N639130340 ;
+                    ns1:rownum 65 ;
+                    ns1:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/monument.csv#row=66> ],
+                [ a ns1:Row ;
+                    ns1:describes ns4:R3061015 ;
+                    ns1:rownum 66 ;
+                    ns1:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/monument.csv#row=67> ],
+                [ a ns1:Row ;
+                    ns1:describes ns4:R1360641 ;
+                    ns1:rownum 67 ;
+                    ns1:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/monument.csv#row=68> ],
+                [ a ns1:Row ;
+                    ns1:describes ns4:W55541122 ;
+                    ns1:rownum 9 ;
+                    ns1:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/monument.csv#row=10> ],
+                [ a ns1:Row ;
+                    ns1:describes ns4:R1359243 ;
+                    ns1:rownum 68 ;
+                    ns1:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/monument.csv#row=69> ],
+                [ a ns1:Row ;
+                    ns1:describes ns4:R1359372 ;
+                    ns1:rownum 69 ;
+                    ns1:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/monument.csv#row=70> ],
+                [ a ns1:Row ;
+                    ns1:describes ns4:W281255579 ;
+                    ns1:rownum 70 ;
+                    ns1:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/monument.csv#row=71> ],
+                [ a ns1:Row ;
+                    ns1:describes ns4:N1070716586 ;
+                    ns1:rownum 71 ;
+                    ns1:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/monument.csv#row=72> ],
+                [ a ns1:Row ;
+                    ns1:describes ns4:R5967883 ;
+                    ns1:rownum 72 ;
+                    ns1:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/monument.csv#row=73> ],
+                [ a ns1:Row ;
+                    ns1:describes ns4:N253043145 ;
+                    ns1:rownum 73 ;
+                    ns1:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/monument.csv#row=74> ],
+                [ a ns1:Row ;
+                    ns1:describes ns4:N6123946495 ;
+                    ns1:rownum 74 ;
+                    ns1:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/monument.csv#row=75> ],
+                [ a ns1:Row ;
+                    ns1:describes ns4:N2330685582 ;
+                    ns1:rownum 75 ;
+                    ns1:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/monument.csv#row=76> ],
+                [ a ns1:Row ;
+                    ns1:describes ns4:R9734636 ;
+                    ns1:rownum 76 ;
+                    ns1:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/monument.csv#row=77> ],
+                [ a ns1:Row ;
+                    ns1:describes ns4:N4690414591 ;
+                    ns1:rownum 77 ;
+                    ns1:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/monument.csv#row=78> ],
+                [ a ns1:Row ;
+                    ns1:describes ns4:R9396191 ;
+                    ns1:rownum 1 ;
+                    ns1:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/monument.csv#row=2> ],
+                [ a ns1:Row ;
+                    ns1:describes ns4:N2135983920 ;
+                    ns1:rownum 78 ;
+                    ns1:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/monument.csv#row=79> ],
+                [ a ns1:Row ;
+                    ns1:describes ns4:N910390736 ;
+                    ns1:rownum 2 ;
+                    ns1:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/monument.csv#row=3> ] ;
+            ns1:url <file:/Users/Sana/Documents/GitHub/Projet-Final-Web-Semantique/csv_lifting/monument_lifting/monument.csv> ] .
+
