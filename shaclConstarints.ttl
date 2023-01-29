@@ -9,21 +9,6 @@
 @prefix sh: <http://www.w3.org/ns/shacl#>.
 
 ex:HistoricalTripProperties a sh:NodeShape;
-    sh:targetClass class:HistoricalTrip;
-    # Must have at least one hasTraveler property
-    sh:property [
-        sh:path prop:hasTraveler;
-        sh:minCount 1;
-        sh:maxCount 1;
-        sh:datatype class:Traveler;
-        sh:nodeKind sh:IRI;
-        sh:in class:Traveler;
-        sh:constraint [
-            sh:node sh:NotBlankNode;
-            sh:message "Must have at least one traveler";
-            sh:severity sh:Warning;
-        ];
-    ];
     # Must have a hasFlight property
     sh:property [
         sh:path prop:hasFlight;
@@ -62,21 +47,6 @@ ex:TravelerProperties a sh:NodeShape ;
     # We can add a nationality constraint for perspectives to know if a visa is required for a traveler
  
 
-ex:HistoricalCityProperties a sh:NodeShape;
-    sh:targetClass class:HistoricalCity ;
-    # Must have a belongTo property
-    sh:property [
-            sh:path prop:belongTo;
-            sh:datatype dbo:Country;
-            sh:minCount 1;
-            sh:maxCount 1;
-            sh:constraint [
-            sh:nodeKind sh:IRI;
-            sh:in (dbo:Country) ; 
-     ];
-    ].
-
-
 ex:HistoricalSiteProperties a sh:NodeShape ;
     sh:targetClass class:HistoricalSite ;
     # Must have a name property of type xsd:string
@@ -97,7 +67,7 @@ ex:FlightProperties a sh:NodeShape;
         sh:path prop:hasPrice;
         sh:minCount 1;
         sh:maxCount 1;
-        sh:datatype xsd:float;
+        sh:datatype xsd:decimal;
         # Price must be greater than 0 and less than 100000
         sh:constraint [
             sh:node sh:NotBlankNode;
