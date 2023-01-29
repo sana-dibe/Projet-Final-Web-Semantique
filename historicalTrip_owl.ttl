@@ -112,11 +112,11 @@ prop:hasHistoricalSite rdf:type owl:ObjectProperty;
     rdfs:domain class:HistoricalCity;
     rdfs:range class:HistoricalSite.
 
-prop:belongTo rdf:type owl:ObjectProperty;
-    rdfs:comment "The country to which it belongs."@en,"Le pays auquel elle appartient."@fr;
-    rdfs:label "belong to"@en,  "appartient à"@fr;
-    rdfs:domain class:HistoricalCity;
-    rdfs:range dbo:country.
+#prop:belongTo rdf:type owl:ObjectProperty;
+#    rdfs:comment "The country to which it belongs."@en,"Le pays auquel elle appartient."@fr;
+#    rdfs:label "belong to"@en,  "appartient à"@fr;
+#    rdfs:domain class:HistoricalCity;
+#    rdfs:range dbo:country.
 
 # For historical site
 prop:hasOpeningDays rdf:type owl:ObjectProperty;

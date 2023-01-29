@@ -101,9 +101,9 @@ concept:Accommodation
     skos:definition "An accommodation is a place where a traveler can stay."@en, "Un hébergement est un lieu où un voyageur peut rester."@fr;
     skos:inScheme concept:HistoricalTripScheme.
 
-concept:Country
-    rdf:type skos:Concept;
-    skos:prefLabel "Country"@en, "Pays"@fr;
-    skos:definition "A country is a political entity that is identified as a distinct national community and occupies a particular territory."@en, "Un pays est une entité politique qui est identifiée comme une communauté nationale distincte et occupe un territoire particulier."@fr;
-    skos:inScheme concept:HistoricalTripScheme;
-    skos:narrower concept:HistoricalCity .
+#concept:Country
+#    rdf:type skos:Concept;
+#    skos:prefLabel "Country"@en, "Pays"@fr;
+#    skos:definition "A country is a political entity that is identified as a distinct national community and occupies a particular territory."@en, "Un pays est une entité politique qui est identifiée comme une communauté nationale distincte et occupe un territoire particulier."@fr;
+#    skos:inScheme concept:HistoricalTripScheme;
+#    skos:narrower concept:HistoricalCity .

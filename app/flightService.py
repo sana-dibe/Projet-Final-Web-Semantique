@@ -53,7 +53,7 @@ class FlightService:
 
 
 if __name__ == "__main__":
-    graph = Graph()
+    graph = rdflib.Graph()
     flight_service = FlightService(graph)
     flight_service.add_city_flight()
                 
